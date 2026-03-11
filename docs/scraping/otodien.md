@@ -13,7 +13,7 @@
   - Sellers name, rating, sold cars, selling cars.
   - Sellers address.
 
-## Ibrary/framework you used for the task
+## Library/framework you used for the task
 - requests
 - BeautifulSoup from bs4
 - csv
