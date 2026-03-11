@@ -30,8 +30,8 @@ The script have 4 main function:
 ## Getting information:
 - **Getting details page url**:
   - use BeautifulSoup to find '.car-title a' and get the href for the url
-- **name of the sellers**:
-  - use BeautifulSoup.find to get the first 'h1' contains the name of the seller
+- **name of the car**:
+  - use BeautifulSoup.find to get the first 'h1' which contains the car name
 - **price, location, time**:
   - use 'col-md-4 r6o4304' to find div that contain all 3 element
   - use 'p26z2wb' for price then a condition to change name currency to numbers
@@ -47,6 +47,7 @@ The script have 4 main function:
   - use conditions to remove all unnecessary metrics(e.g. km/h, kWh,...)
   - use 'data-list-wrap cols-3 tablet-cols-3 mobile-cols-1' and 'data-list-wrap cols-2 tablet-cols-2 mobile-cols-1' for the element
 - **Sellers name, rating, sold cars, selling cars**:
+  - use 'pf9ruvz vdi4wk' div for seller name
   - use 'seller-rating' for rating
   - use the second 'bwq0cbs' for sold
   - use the third  'bwq0cbs' for selling
