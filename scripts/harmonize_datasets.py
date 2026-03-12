@@ -69,8 +69,8 @@ class DataHarmonizer:
                 df["Website"] = "unknown"
 
             return self._enforce_schema(df, filename)
-        except Exception as e:
-            logger.error(f"Failed to process {filename}: {e}")
+        except Exception:
+            logger.exception(f"Failed to process {filename}")
             return pd.DataFrame(columns=self.CORE_FEATURES)
 
     def process_otodien(self, filename: str) -> pd.DataFrame:
@@ -103,8 +103,8 @@ class DataHarmonizer:
 
             return self._enforce_schema(df, filename)
 
-        except Exception as e:
-            logger.error(f"Failed to process {filename}: {e}")
+        except Exception:
+            logger.exception(f"Failed to process {filename}")
             return pd.DataFrame(columns=self.CORE_FEATURES)
 
     def process_chotot_json(self, filename: str) -> pd.DataFrame:
@@ -140,8 +140,8 @@ class DataHarmonizer:
 
             return self._enforce_schema(df, filename)
 
-        except Exception as e:
-            logger.error(f"Failed to process {filename}: {e}")
+        except Exception:
+            logger.exception(f"Failed to process {filename}")
             return pd.DataFrame(columns=self.CORE_FEATURES)
 
     def run_pipeline(self) -> None:
