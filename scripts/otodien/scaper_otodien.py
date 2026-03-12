@@ -84,7 +84,7 @@ def extract_data(link: str):
     #ID
     row.append(link)
 
-    #name
+    #car_name
     name_tag = soup.find('h1')
     row.append(str(name_tag.text.strip().split('-')[0] if name_tag else ""))
 
@@ -109,7 +109,7 @@ def extract_data(link: str):
     text_time = raw_text_time.text.strip()
     row.append(tinh_ngay_dang(text_time))
 
-    #user
+    #user_name
     raw_user_name = soup.find('div', class_ = 'pf9ruvz vdi4wk')
     user_name = raw_user_name.text.strip()
     row.append(user_name)
