@@ -30,7 +30,7 @@ The script have 4 main function:
 ## Getting information:
 - **Getting details page url**:
   - use BeautifulSoup to find '.car-title a' and get the href for the url
-- **name of the car**:
+- **Name of the car**:
   - use BeautifulSoup.find to get the first 'h1' which contains the car name
 - **price, location, time**:
   - use 'col-md-4 r6o4304' to find div that contain all 3 element
@@ -46,7 +46,7 @@ The script have 4 main function:
 - **Vehicle specifications**:
   - use conditions to remove all unnecessary metrics(e.g. km/h, kWh,...)
   - use 'data-list-wrap cols-3 tablet-cols-3 mobile-cols-1' and 'data-list-wrap cols-2 tablet-cols-2 mobile-cols-1' for the element
-- **Sellers name, rating, sold cars, selling cars**:
+- **Seller name, rating, sold cars, selling cars**:
   - use 'pf9ruvz vdi4wk' div for seller name
   - use 'seller-rating' for rating
   - use the second 'bwq0cbs' for sold
