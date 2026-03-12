@@ -59,7 +59,7 @@ class DataHarmonizer:
         """
         filepath = self.raw_data_dir / filename
         try:
-            df = pd.read_csv(filepath)
+            df = pd.read_csv(filepath, encoding="utf-8-sig")
 
             if "bonbanh" in filename.lower():
                 df["Website"] = "bonbanh.com"
