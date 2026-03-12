@@ -121,7 +121,7 @@ class DataHarmonizer:
                 "ad.subject": "Tên xe",
                 "ad.price": "Giá",
                 "ad.account_name": "Tên người bán",
-                "ad.address": "Địa chỉ",
+                "ad_params.address.value": "Địa chỉ",
                 "ad_params.mfdate.value": "Năm sản xuất",
                 "ad_params.condition_ad.value": "Tình trạng",
                 "ad_params.mileage_v2.value": "Số Km đã đi",
@@ -166,7 +166,7 @@ class DataHarmonizer:
 if __name__ == "__main__":
     ROOT_PATH = Path.cwd().parent
     RAWD_PATH = ROOT_PATH / "data" / "raw"
-    PROC_PATH = ROOT_PATH / "data" / "processed" / "merged_raw_listings.csv"
+    PROC_PATH = ROOT_PATH / "data" / "interim" / "merged_raw_listings.csv"
 
     harmonizer = DataHarmonizer(raw_data_dir=RAWD_PATH, output_path=PROC_PATH)
     harmonizer.run_pipeline()
