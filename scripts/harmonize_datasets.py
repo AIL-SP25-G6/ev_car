@@ -148,7 +148,7 @@ class DataHarmonizer:
         """Executes the extraction, mapping, and merging process."""
         logger.info("Starting Data Harmonization Pipeline.")
 
-        df_bonbanh = self.process_standard_csv("data xe dien bonbanh.com.csv")
+        df_bonbanh = self.process_standard_csv("bonbanh.csv")
         df_vinfast = self.process_standard_csv("xevinfastluot_full.csv")
         df_otodien = self.process_otodien("data_xe_dien_web_otodien.csv")
         df_chotot = self.process_chotot_json("chotot/cars.json")
