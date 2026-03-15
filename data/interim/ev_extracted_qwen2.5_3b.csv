@@ -1,0 +1,717 @@
+﻿id,reasoning,brand,car_model,imputed_year,imputed_mileage_km,imputed_condition,battery_status,is_accident_free,has_aftermarket_mods
+0,"Màu đen lịch lãm, bản Plus full option, vận hành êm ái, pin khỏe",,,,,Đã qua sử dụng,Mua pin,,True
+1,"2026, mới 100%",,VF8 Eco,2026,0,Mới 100%,Mua pin,,True
+2,"Màu đen lịch lãm – càng nhìn càng sang, Bản Plus full option, Vận hành êm ái, pin khỏe",,VF8 Plus AWD,2023,0,Mới 100%,,,True
+3,"giảm 70 triệu khi đổi xăng sang điện, tặng 50 triệu tiền mặt, miễn phí bảo hiểm thân vỏ, không đâm đụng, không ngập nước, không bổ máy, không cẩu máy",,VF8 Eco AWD,2023,0,Mới 100%,,True,False
+4,hàng mới về,VinFast,VF5 Plus,2024,45000,Đã qua sử dụng,Mua pin,,False
+5,VF8 S - CATL - Đỏ/Đen - odo 9.968km,,,,9968,Đã qua sử dụng,Pin CATL,,False
+6,"Xe đẹp, tình trạng tốt",VinFast,VF8 Eco,2023,48950,Đã qua sử dụng,,True,False
+7,"Giảm thêm 4% khi xuất hoá đơn đến hết 2025, giảm thêm 3% cho Cán bộ, Chiến sĩ – Công an – Quân đội",,,,,Đã qua sử dụng,,,False
+8,"thuần điện, sản xuất 2023, lăn bánh 2.680 mile",Mercedes-Benz,EQS 450 Plus,2023,4000,Đã qua sử dụng,Mua pin,,False
+9,KHÔNG MUA LÀ PHÍ! | VF8 ECO 2023 – CHẠY HƠN 4 VẠN – ĐẸP LOẠI 1,VinFast,VF8 Eco,2023,40000,Đã qua sử dụng,,True,False
+10,"MÀU ĐỎ,TRẺ lịch lãm – càng nhìn càng sang",,VF8 Plus AWD,2023,47000,Đã qua sử dụng,,True,True
+11,"VinFast VF8 Plus AWD, kích thước tổng thể, chiều dài cơ sở, trang bị như bộ mâm, tay nắm cửa, gương chiếu hậu tích hợp sấy và camera, thông tin hiển thị trên HUD, điều hòa tự động, cửa gió điều hòa cho hàng ghế sau, bơm nhiệt, chức năng kiểm soát chất lượng không khí, lọc không khí cabin HEPA 1.0",,VF8 Plus AWD,2026,0,Mới 100%,,,True
+12,"đồng thời trắng ngọc trai, nội thất nâu sang trọng",,VF8 Plus AWD,2023,0,Mới 100%,,,True
+13,"xe thật ,ảnh thật, giá chuẩn",,VF8 Plus AWD,2023,0,Mới 100%,,,True
+14,giao NGAY - BÁN TOÀN QUỐC | + Tặng sạc miễn phí đến 30/6/2027 | + Miễn 100% lệ phí trước bạ,,VF3 Plus,,,Đã qua sử dụng,,,False
+15,"đẹp không lỗi, chạy mượt, pin khỏe",VinFast,VF8 Eco AWD,2023,64000,Đã qua sử dụng,Mua pin,True,True
+16,đổi xe xăng sang xe điện giảm trực tiếp tiền mặt,,VF8 Plus AWD,2023,47000,Đã qua sử dụng,Mua pin,,False
+17,Bán Vinfast VF6 Plus | Sản xuất: 2025 | Odo: 20.000km,VinFast,VF6 Plus,2025,20000,Đã qua sử dụng,,,False
+18,- Xe đã chạy 10v8 - Đã bảo hành thay động cơ mới cuối năm 2025 - Đã bảo hành thay pin mới SDI đầu năm 2026,VinFast,VF e34,2022,10800,Đã qua sử dụng,Mua pin,True,True
+19,"đẹp không lỗi, chạy mượt, pin khỏe",VinFast,VF8 Eco AWD,2022,60000,Đã qua sử dụng,Thuê pin,True,True
+20,"giảm 70 triệu khi đổi xăng sang điện, tặng 50 triệu tiền mặt, miễn phí bảo hiểm thân vỏ, không đâm đụng, không ngập nước, không bổ máy, không cẩu máy, hồ sơ chuẩn, cam kết bằng văn bản",,VF8 Eco AWD,2023,0,Mới 100%,,True,False
+21,"di chuyển linh hoạt trong nội đô, thiết kế nhỏ gọn, dễ dàng luồn lách trong phố đông, đỗ xe 'chuẩn từng milimet'",,Xiaoma,2026,0,Mới 100%,Mua pin,,False
+22,"- Khuyến mãi 100tr cho 300 khách hàng đầu tiên | - Mầu sắc: trắng, đỏ, đen, xanh | - Trả góp tối đa 85% | - Lãi suất ưu đãi chỉ từ 0.6%/ tháng, cố định trong 3 năm | - Cung cấp biển số đẹp định danh toàn quốc | - Làm biển Hà Nội cho khách tỉnh",Ford,Mustang Mach-E,2025,0,Mới 100%,Mua pin,,True
+23,giao NGAY - BÁN TOÀN QUỐC | + Tặng sạc miễn phí lên đến 3 năm | + Miễn 100% lệ phí trước bạ,VinFast,VF6 Plus,2026,,Đã qua sử dụng,,,False
+24,"mua pin, sạc free đến 6.2027, đi ~ 36.000 km, nguyên zin, không tai nạn",VinFast,VF5 Plus,2025,36000,Đã qua sử dụng,Mua pin,True,False
+25,"miễn phí 100% phí trước bạ, hỗ trợ vay 80%",,VF7 Eco,,,Đã qua sử dụng,,,False
+26,Khuyến Mãi Cực Hot Trong Tháng | Sẵn xe giao ngay | Thuế trước bạ 0% | Hỗ trợ vay 90% giá trị xe,VinFast,Limo Green,2025,0,Mới 100%,Thuê pin,,True
+27,"sản xuất 2025, mua pin đi 10800 km",VinFast,VF5 Plus,2025,10800,Đã qua sử dụng,Mua pin,,False
+28,"đại lý xe đã qua sử dụng, kiểm tra 139 hạng mục, không đâm đụng, ngập nước, hỗ trợ vay đến 90%",,VF8 Plus AWD,2023,,Đã qua sử dụng,Mua pin,True,False
+29,"sở hữu vẻ ngoài khá bắt mắt với những đường nét vuông vắn, cá tính",VinFast,VF6 Plus,2026,0,Mới 100%,,,True
+30,VinFast VF9 Eco 2026,,,,,Đã qua sử dụng,null,,True
+31,BÁN GẤP – GIÁ SỐC KHÔNG TƯỞNG (đã áp các loại km) | VF8 bản Eco – SX 2022 | Đi chuẩn 6 vạn km,VinFast,VF8 Eco,2022,60000,Đã qua sử dụng,,False,True
+32,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, tiêu chuẩn NEDC, công suất động cơ, mô men xoắn, thời gian tăng tốc",,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+33,"mình đang có sẵn, giao ngay, hỗ trợ ra biển vàng",VinFast,Limo Green,2026,0,Mới 100%,Thuê pin,,True
+34,"mua pin, tư nhân chính chủ, từ mới biển Hà Nội, đã lên cốp điện",VinFast,VF6 Plus,2024,30000,Đã qua sử dụng,Mua pin,True,True
+35,đổi xe xăng sang xe điện giảm trực tiếp tiền mặt,,VF8 Plus AWD,2023,35000,Đã qua sử dụng,Mua pin,,True
+36,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+37,VinFast VF9 Eco 2026,,,,,Đã qua sử dụng,null,,True
+38,"VinFast VF8 Plus AWD, kích thước tổng thể, chiều dài cơ sở, trang bị như bộ mâm, tay nắm cửa, gương chiếu hậu tích hợp sấy và camera, thông tin hiển thị trên HUD, điều hòa tự động, cửa gió điều hòa cho hàng ghế sau, bơm nhiệt, chức năng kiểm soát chất lượng không khí, lọc không khí cabin HEPA 1.0",,VF8 Plus AWD,2026,0,Mới 100%,,,True
+39,"dạng về, odo hơn 1v km mua đứt Pin miễn sạc hết 2028, phiên bản được biệt limited có Adas, lên thảm 6D siêu xịn xò dán fim cách nhiệt cao cấp, bao check mọi nơi theo yêu cầu",VinFast,VF7 S,2024,,Đã qua sử dụng,Mua pin,,True
+40,Ưu đãi giám giá 120 triệu + bảo hiểm thân vỏ • Giảm 70 triệu khi đổi xăng sang điện • Tặng 50 triệu tiền mặt,,VF8 Eco AWD,2023,0,Mới 100%,,True,False
+41,"+ ̵ ̃ ́ ̣̆ ̣ |Ngoại thất Đỏ, nội thất Đen | Odo: 4000 km",Mercedes Benz,EQS 450 Plus,2023,4000,Đã qua sử dụng,,,True
+42,THÔNG SỐ KỸ THUẬT CƠ BẢN Ô TÔ VAN VINFAST EC VAN,,EC Van,2026,0,Mới 100%,Mua pin,,False
+43,"Khuyến Mãi Cực Hot Trong Tháng, Sẵn xe giao ngay, Thuế trước bạ 0%",VinFast,Limo Green,2025,0,Mới 100%,,,False
+44,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+45,"Ford Mustang Mach-E Premium AWD, 550km quãng đường di chuyển, 88 kWh dung lượng pin",Ford,Mustang Mach-E,2025,0,Mới 100%,Mua pin,,False
+46,"Excellente qualité, longue autonomie, équipements haut de gamme",Mercedes-Benz,EQS 580 4Matic,2023,31000,Đã qua sử dụng,,True,True
+47,dky 2025 thuê pin đã lên gần 3 chục tiền đồ độ lăn bánh có 9000km,,VF3 Plus,2024,9000,Đã qua sử dụng,Thuê pin,,True
+48,"không chỉ là xe, mà là đẳng cấp của người dẫn đầu",VinFast,VF9 Plus,2026,0,Mới 100%,Pin catl phiên bản mới,,True
+49,bán vf3 sx 2025 siêu mới màu trắng,VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,True,False
+50,đại lý xe đã qua sử dụng | sơn zin 100% | nội thất mới 100%,VinFast,VF8 S,2024,24,Đã qua sử dụng,Mua pin,True,False
+51,THÔNG SỐ KỸ THUẬT CƠ BẢN Ô TÔ VAN VINFAST EC VAN,,EC Van,2026,0,Mới 100%,Mua pin,,False
+52,ODO 30 KM! | Nhập khẩu nguyên chiếc | Xe mới 100% chưa qua sử dụng,Mercedes-Benz,EQB 250,2023,0,Mới 100%,,True,False
+53,AUTO CHỐT HÀ NỘI MỞ BÁN | Nhập Team Nguyên Xe Mộc Hongqi E-HS9 Premium 6S sản xuất 2022 1 chủ từ đầu chạy siêu lướt 3vạn2km,Hongqi,E-HS9 Premium,2022,32000,Đã qua sử dụng,,,False
+54,"mua pin, đi được 1.5 vạn, xe độ",VinFast,VF3 Plus,2025,15000,Đã qua sử dụng,Mua pin,,True
+55,#Hongqi E-HS9 Premium 6S sản xuất 2022 1 chủ từ đầu chạy siêu lướt 3v2 km,Hongqi,E-HS9 Premium,2022,,Đã qua sử dụng,Mua pin,False,False
+56,"mua pin, odo 1v8 km, bản 7 ghế",VinFast,VF9 Plus,2025,10800,Đã qua sử dụng,Mua pin,,True
+57,"thuế trước bạ 0% tới 2027 | Xe có sẵn, giao ngay | Quảng đường di chuyên lên tới 700km. | Bảo ha̅nh 3 năm, Bâo ha̅nh pin 10 năm.",Mercedes Benz,EQS 580 4Matic,2023,,Đã qua sử dụng,Thuê pin,,False
+58,đổi xe xăng sang xe điện giảm trực tiếp tiền mặt,,VF8 Plus AWD,2023,50000,Đã qua sử dụng,Mua pin,,True
+59,"trang bị động cơ 100kw, pin dung lượng 60kwh, trọng lượng nhẹ hơn, quãng đường di chuyển tối đa 399 km",,,2026,0,Mới 100%,Mua pin,,False
+60,"GIÁO XE NGAY, ĐỦ MÀU LỰA CHỌN! | TRẢ TRƯỚC CHỈ TỪ 299 TRIỆU | FREE sạc tới 2027",,VF9,,,Đã qua sử dụng,Mua pin,False,False
+61,"sở hữu vẻ ngoài khá bắt mắt với những đường nét vuông vắn, cá tính",VinFast,VF6 Plus,2026,0,Mới 100%,,,True
+62,"AUTO CHỐT HÀ NỘI MỞ BÁN, Nhập Team Nguyên Xe Mộc Porscher Taycan sản xuất 2021",Porsche,Taycan,2021,21000,Đã qua sử dụng,,False,True
+63,xem xét thông số kỹ thuật và chính sách ưu đãi,VinFast,VF9 Eco,,0,Mới 100%,Mua pin,,True
+64,miễn phí sạc pin đến HẾT T06/2027 (Không giới hạn) – Chạy xe không lo chi phí nhiên liệu,VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,,False
+65,VF3 qua sử dụng | Xem xe tại : GF Nam Thái Bình Dương,,VF3 Plus,,,Đã qua sử dụng,Mua pin,,False
+66,GIÁ CHỈ TỪ 50 TRIỆU ? | Ưu đãi độc quyền trong tháng,VinFast,VF3 Plus,2026,0,Mới 100%,Mua pin,,True
+67,đổi xe xăng sang xe điện giảm trực tiếp tiền mặt lên đến 70tr,VinFast,VF8 Plus AWD,2023,35000,Đã qua sử dụng,Mua pin,,True
+68,"giao ngay, đủ màu lựa chọn, ưu đãi đặc biệt",VinFast,VF6,,,Đã qua sử dụng,Mua pin,,True
+69,"giảm 70 triệu khi đổi xăng sang điện, tặng 50 triệu tiền mặt, miễn phí bảo hiểm thân vỏ, không đâm đụng, không ngập nước, không bổ máy, không cẩu máy",VinFast,VF8 Eco AWD,2023,0,Mới 100%,null,True,False
+70,Full ADAS | Chính sách bán hàng ưu việt,VinFast,VF8 Eco,2023,0,Mới 100%,,,True
+71,"VinFast VF8 Plus AWD, kích thước tổng thể, chiều dài cơ sở, trang bị như bộ mâm, tay nắm cửa, gương chiếu hậu tích hợp sấy và camera, thông tin hiển thị trên HUD, điều hòa tự động, cửa gió điều hòa cho hàng ghế sau, bơm nhiệt, chức năng kiểm soát chất lượng không khí, lọc không khí cabin HEPA 1.0",,VF8 Plus AWD,2026,0,Mới 100%,,,True
+72,VF8 Eco Pin CATL 2023 | Màu đỏ | Odo : 48.000 km | Đã qua kiểm tra 139 bước Theo tiêu chuẩn GF,VinFast,VF8 Eco AWD,2023,48000,Đã qua sử dụng,Mua pin,True,False
+73,Herio Green Vin 2025. Xe mới,,,,0,Mới 100%,,,True
+74,"đánh giá cao về thiết kế, công nghệ, tiện nghi, khả năng vận hành, mô-tơ điện, hệ dẫn động 4 bánh, di chuyển quãng đường tối đa",VinFast,VF7 Plus,2026,0,Mới 100%,Mua pin,,True
+75,"Miễn phí 100% phí trước bạ, Gói quà tặng 10 triệu đồng, Hỗ trợ vay 80%",VinFast,VF3 Plus,2025,0,Mới 100%,,,False
+76,"31 VF8 PLUS ,2 cầu đi 4v1 – GIÁ CỰC NGON NHẤT THỜI ĐIỂM NÀY! | Giá trên đã kền pin, Full ưu đãi – quà tặng",,VF8 Plus AWD,2023,,Đã qua sử dụng,Mua pin,,False
+77,ODO HƠN 5 VẠN – XE ĐẸP LOẠI 1,VinFast,VF8 Eco,2023,50000,Đã qua sử dụng,,,False
+78,"màu vàng cam cực hiếm, chạy chuẩn 39.000 km",VinFast,VF8 Plus AWD,2023,39000,Đã qua sử dụng,,,False
+79,"màu Trắng QUYỀN LỰC, giá giảm 130, đi rất đầm",VinFast,VF8 Plus AWD,2023,65000,Đã qua sử dụng,,,True
+80,"sang trọng bề thế, tiện nghi cao cấp",VinFast,VF9 Plus,2025,0,Mới 100%,,,True
+81,VF8 ECO ĐỜI 2023 – TRẮNG .,VinFast,VF8 Eco,2023,0,Mới 100%,,,True
+82,LUÔN CÓ SẴN XE VÀ HỒ SƠ - GIAO NGAY,,Limo Green AT,,0,Mới 100%,Thuê pin,,True
+83,LUÔN CÓ SẴN XE VÀ HỒ SƠ - GIAO NGAY,,Limo Green AT,,0,Mới 100%,Thuê pin,,True
+84,LUÔN CÓ SẴN XE VÀ HỒ SƠ - GIAO NGAY,,Limo Green AT,,0,Mới 100%,Thuê pin,,True
+85,"sx 2024, odo 2.4vkm, an toàn 6 túi khí, ADAS, màn hình 8 inch, hỗ trợ CarPlay/Android Auto và trợ lý ảo thông minh, động cơ hộp số nguyên bản",VinFast,VF5 Plus,2024,24000,Đã qua sử dụng,,True,False
+86,"odo 1v9 km - biển tỉnh, ko dịch vụ - không thủy kích ngập nước - không tai nạn ảnh hưởng khung gầm sắt si",VinFast,VF5 Plus,2024,1900,Đã qua sử dụng,,True,False
+87,#VF9 HOẢ LONG ĐỘC BẢN ️ XÁM TITAN LUXURY ️ free sạc gần 3 năm tới 1-1-2029 | Màu Xám Titan nội thất nâu da bò cực đẹp,VinFast,VF9 Plus,2024,9000,Đã qua sử dụng,Mua pin,,True
+88,"Giảm 70 triệu khi đổi xăng sang điện, tặng 50 triệu tiền mặt, miễn phí bảo hiểm thân vỏ, không đâm đụng, không ngập nước",,VF8 Plus AWD,2023,0,Mới 100%,,True,False
+89,GIÁ CỰC NGON NHẤT THỜI ĐIỂM NÀY! | Full ưu đãi – Full khuyến mãi – Full quà tặng,VinFast,VF8 Plus AWD,2024,0,Mới 100%,null,,True
+90,"2026, mới 100%",VinFast,VF8 Eco,2026,0,Mới 100%,null,,True
+91,"sx 2023, đổi xe xăng sang điện giảm thêm, đã qua 139 bước check của GF, xe ngon có đảm bảo",VinFast,VF8 Eco,2023,,Đã qua sử dụng,Mua pin,True,False
+92,giao NGAY - BÁN TOÀN QUỐC | + Tặng sạc miễn phí lên tới 3 năm | + Miễn 100% lệ phí trước bạ,VinFast,VF3 Plus,2026,0,Mới 100%,,,True
+93,"miễn phí 100% phí trước bạ, hỗ trợ vay 80%",VinFast,VF5 Plus,,0,Mới 100%,,,True
+94,"trang bị động cơ 100kw, pin dung lượng 59,6 kWh, quãng đường di chuyển tối đa 399 km",VinFast,VF6 Eco,2026,0,Mới 100%,Mua pin,,False
+95,"sở hữu thiết kế hiện đại, trẻ trung, cá tính",VinFast,Herio Green,2026,0,Mới 100%,,,True
+96,"CƠ HỘI SỞ HỮU XE ĐIỆN CÔNG NGHỆ TƯƠNG LAI - GEELY EX5 PHIÊN BẢN MAX (CAO CẤP NHẤT) | Màu sắc: Trắng tinh khôi – Sang trọng, hiện đại. | Tình trạng: Xe mới 100%",,EX5 Max,2025,,Xe mới 100%,Mua pin,,True
+97,Khuyến Mãi Cực Hot Trong Tháng | Sẵn xe giao ngay | Thuế trước bạ 0% | Hỗ trợ vay 90% giá trị xe,VinFast,Limo Green,2025,0,Mới 100%,,,True
+98,"màu xanh, không đâm đụng, ngập nước, máy móc nguyên bản",VinFast,VF8 Plus AWD,2023,48000,Đã qua sử dụng,,True,False
+99,VinFast VF9 Eco 2026,,,2026,,,,,True
+100,THĂNG LONG CAR - THẾ GIỚI XE VINFAST LƯỚT xin kính chào quý khách hàng ! | Chúng tôi xin trân trọng giới thiệu đến quý khách hàng mẫu xe. | -Hãng xe: Vinfast | -Loại xe : Vinfast VF8 Eco 2022 thuê pin tiên phong | -Phiên bản : bản Eco | -Màu xe : Ngoại thất màu bạc- đen | - Số km: 5v km | - Năm sx :2022,VinFast,VF8 Eco,2022,5000,Đã qua sử dụng,Thuê pin,True,False
+101,"LIMO GREEN, không gian rộng rãi, tăng kết nối cả gia đình",VinFast,Limo Green,2026,0,Mới 100%,Mua pin,,True
+102,"duy nhất, sẵn hồ sơ luôn và ngay, pin mua",VinFast,VF8 Eco AWD,2024,24000,Đã qua sử dụng,Mua pin,,False
+103,cảm ứng thay thế nút bấm vật lý vô lăng D-cut bọc da tích hợp nhiều phím chức năng,VinFast,VF8 Eco,2023,5000,Đã qua sử dụng,,,True
+104,"odo 90km siêu lướt, không đâm đụng, ngập nước",,VF8 Plus AWD,2025,0,Mới 100%,,True,False
+105,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+106,#Vinfast_VF5 + Kèm Pin,VinFast,VF5 Plus,,,Đã qua sử dụng,Mua pin,,False
+107,chạy 2v8 km bản 6 ghế ngồi,Hongqi,E-HS9,2022,20000,Đã qua sử dụng,,,False
+108,"giao xe ngay, đủ màu lựa chọn",VinFast,VF9 Plus,2026,0,Mới 100%,,,True
+109,"full ADAS, mua pin SDI, miễn phí sạc đến 2027",VinFast,VF8 Plus AWD,2022,,Đã qua sử dụng,Mua pin,,True
+110,"giao xe ngay, đủ màu lựa chọn, trả trước chỉ từ 299 triệu",VinFast,VF9 Eco,2025,0,Mới 100%,"Thu xăng CŨ, ĐỔI xe điện",,False
+111,sx 2024,VinFast,VF6 Plus,2024,37000,Đã qua sử dụng,,,False
+112,"- Bảo hiệnh, bảo dưỡng, cam kết mọi tie̳u chuả̳n vè̲ xe. - Quý khả̳ch hà̳ng an tả̳m",VinFast,VF8 Plus AWD,2023,47801,Đã qua sử dụng,,False,False
+113,VinFast VF8 Plus Pin SDI - Đổi xe xăng sang xe điện giảm trực tiếp tiền mặt,VinFast,VF8 Plus AWD,2022,43000,Đã qua sử dụng,Mua pin,,False
+114,"sx 2025, full option cao cấp, bảo dưỡng định kỳ, không lỗi, thủ tục sang tên nhanh gọn",VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+115,ƯU ĐÃI LÊN ĐẾN 53 TRIỆU ĐỒNG,Volvo,EC40 Ultra,2025,0,Mới 100%,null,,False
+116,"giao xe ngay, đủ màu lựa chọn",VinFast,VF9 Plus,2026,0,Mới 100%,,,True
+117,ƯU ĐÃI GIẢM 30 TRIỆU | Tặng 100% Lệ phí trước bạ | Miễn phí sạc 2.5 năm,VinFast,Herio Green AT,2025,0,Mới 100%,Mua pin,,True
+118,"mới về, thuê pin, màu xám nội thất nâu da bò",VinFast,VF8 Plus AWD,2022,0,Mới 100%,Thuê pin,,True
+119,"kích thước tổng thể, chiều dài cơ sở, trang bị hệ thống thông tin giải trí, hệ thống điều hòa tự động",VinFast,VF9 Plus,2026,0,Mới 100%,,,True
+120,"chiếc xe điện đỉnh cao, sở hữu cực kỳ kỳ diệu",VinFast,VF6 Plus,2025,0,Mới 100%,Mua pin,,False
+121,"Giao xe ngay, đủ màu lựa chọn!",VinFast,VF9 Plus,2026,0,Mới 100%,,,True
+122,"sở hữu xe 0đ, mỗi tháng trả cố định 10tr6/tháng trong 5 năm",VinFast,VF5 Plus,2025,,Đã qua sử dụng,null,False,False
+123,"màu vàng, giảm tiền, hỗ trợ trả góp, cam kết chuẩn odo, không đâm đụng, không thuỷ kích",VinFast,VF3 Plus,2024,12000,Đã qua sử dụng,,True,False
+124,VF3 xám 2024 thuê pin odo 10000 km,VinFast,VF3 Plus,2024,10000,Đã qua sử dụng,Thuê pin,,True
+125,"zin auto chào bán, xịn 100%, chính hãng đã qua kiểm tra",VinFast,VF8 Eco AWD,2023,0,Mới 100%,,True,False
+126,"mua pin, chạy cực ít, máy móc khung gầm nguyên bản",VinFast,VF8 Plus AWD,2023,26000,Đã qua sử dụng,Mua pin,,True
+127,"mạnh liệt tinh thần Việt Nam, xăng sang điện, hỗ trợ lãi suất nh",VinFast,VF3 Plus,2025,0,Mới 100%,Thuê pin,,True
+128,VinFast VF9 Eco,,,,,Đã qua sử dụng,null,,True
+129,"mua pin, chưa qua sử dụng, mới 99.99%",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,False,True
+130,cho thuê giá ưu đãi ae đăng bài truyền thông,VinFast,Limo Green,2025,0,Mới 100%,Thuê pin,,False
+131,#Vinfast_VF3 + Kèm Pin | SẴN XE SẴN MÀU GIAO NGAY,VinFast,VF3 Plus,2025,0,Mới 100%,Thuê Pin,,True
+132,GIÁ TỐT SAU ƯU ĐÃI ️ | Xe vận hành ổn định | Áp dụng đầy đủ chính sách GF / xăng đổi điện,VinFast,VF8 Plus AWD,2023,62000,Đã qua sử dụng,Pin CATL,,False
+133,"Giao xe ngay, đủ màu lựa chọn! | Trang bị: hệ thống thông tin giải trí với màn hình cảm ứng cỡ lớn 15,6 inch, hỗ trợ kết nối điện thoại, dàn âm thanh 13 loa, cổng kết nối USB loại C, đèn trang trí nội thất đa màu... | Hệ thống điều hòa tự động 2 vùng đi kèm cửa gió điều hòa cho hàng ghế sau",VinFast,VF9 Plus,2026,0,Mới 100%,,,True
+134,"LIMO GREEN, không gian rộng rãi, tăng kết nối cả gia đình",,Limo Green,,0,Mới 100%,Mua pin,,False
+135,"Sản xuất 2023, màu xanh dương, không đâm đụng, không ngập nước",VinFast,VF8 Eco,2023,33000,Đã qua sử dụng,,True,False
+136,vui lòng liên hệ Hotline,VinFast,VF8 Eco AWD,2024,24070,Đã qua sử dụng,Mua pin,,False
+137,"mới 100%, chưa lăn bánh",VinFast,VF3 Plus,2025,0,Mới 100%,null,,False
+138,sx 2024 xe bản 7 chỗ trần thép odo 21.000 km 1 chủ mua từ mới,VinFast,VF9 Plus,2024,21000,Đã qua sử dụng,Mua pin,,False
+139,"- Bảo hiểm, bảo dưỡng, cam ke̊̂t mọi tie̲̅u chuả̳n vè̲ xe. - Quý kha̓̂ch hâ̕ng an tā̤m",VinFast,VF8 Plus AWD,2023,48506,Đã qua sử dụng,,False,False
+140,"di chuyển linh hoạt trong nội đô, thiết kế nhỏ gọn, dễ dàng luồn lách trong phố đông, đỗ xe “chuẩn từng milimet”, quãng đường lên đến 170km/lần sạc, cắm sạc buổi tối, sáng dậy có ngay ""full pin"", cực kỳ tiện lợi, bảo hành pin 5 năm hoặc 120.000km, thân vỏ 3 năm hoặc 100.000km",,Xiaoma,,0,Mới 100%,Mua pin,,False
+141,"new 100%, chính hãng",VinFast,VF9 Plus,2025,0,Mới 100%,,,True
+142,"zin Auto chào bán, xe còn rất mới, cam kết xe không đâm và không ngập nước",VinFast,VF8 Eco AWD,2023,0,Mới 100%,,True,False
+143,"chiếc xe điện đỉnh cao, lái là mê, sở hữu cực kỳ kỳ diệu",VinFast,VF6 Plus,2025,0,Mới 100%,Mua pin,,False
+144,vinfast vf8 eco pin sdi,,,2023,3500,Đã qua sử dụng,Mua pin,,False
+145,"Giao xe ngay, đủ màu lựa chọn!",,VF9 Plus,2026,0,Mới 100%,,,True
+146,"mua pin, chưa qua sử dụng, mới 99.99%",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,False,True
+147,"Cốp điện có đá cốp, Led Vinfast, Loa Treble, Dán kính luma",VinFast,VF5 Plus,2025,13000,Đã qua sử dụng,,,True
+148,VinFast VF9 Eco 2026,,,,,Đã qua sử dụng,null,,True
+149,"odo 13.000km, không đâm đụng, ngập nước",,VF7 Plus AWD,2025,13000,Đã qua sử dụng,,True,False
+150,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+151,#Vinfast_VF3 + Kèm Pin | SẴN XE SẴN MÀU GIAO NGAY,VinFast,VF3 Plus,2025,0,Mới 100%,Thuê Pin,,True
+152,Vinfast Vf8 ECO pin SDI,VinFast,VF8 Eco AWD,2023,5600,Đã qua sử dụng,Mua pin,,False
+153,Pin CATL (Nhóm 1) | Đen | Nội thất đen thể thong | Odo: 3.8 vạn km,VinFast,VF8 Eco,2023,38000,Đã qua sử dụng,Mua pin,,True
+154,"sản xuất 2025, miễn phí sạc hết 12/2027, mua đứt pin, ít việc cần tiền nên bán, nội thất còn rất mới, xe độ đèn led, gập gương điện, dán phim cách nhiệt, sàn da, cam hành trình, chắn cốp, lót cốp, rèm che nắng, hộc để cốc nước",VinFast,VF5 Plus,2025,50000,Đã qua sử dụng,Mua pin,,True
+155,"mã hàng mới về, chạy 4v full lịch sử hãng ko taxi dịch vụ",VinFast,VF6 Plus,2025,0,Mới 100%,,False,False
+156,Giảm ngay 4% giá trị xe | Giảm 15 triệu đồng đổi xe xăng sang điện,VinFast,Limo Green AT,2025,0,Mới 100%,Mua pin,,False
+157,xám nt đen mua pin odo 3v7 km,VinFast,VF6 Plus,2024,307000,Đã qua sử dụng,Mua pin,,False
+158,Xe điện mới 100%,VinFast,VF8 Eco,2026,0,Mới 100%,Mua pin,,True
+159,"Giảm ngay 4%, Mãnh Liệt Tinh Thần Việt Nam, Hỗ trợ 15 TRIỆU khi đổi xe xăng sang điện",VinFast,VF6 Plus,2025,0,Mới 100%,,,True
+160,"màu đen, odo: 5km, không đâm đụng, ngập nước, máy móc nguyên bản",,VF8 S,2024,0,Mới 100%,,True,False
+161,"siêu hot vf3 | thời gian sạc pin lên tới 70% trong chỉ 30 phút | nội thất rộng rãi cho 4 người, màn hình cảm ứng 10 inch | khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị",VinFast,VF3 Plus,2026,0,Mới 100%,Mua pin,,True
+162,"mua pin, chưa qua sử dụng, mới 99.99%",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,False,True
+163,"bán lại, chạy dịch vụ bản mua đứt pin, tiết kiệm, xe mới, chạy được 1 năm, cam kết ko tai nạn ngập nước",VinFast,VF5 Plus,2024,0,Mới 100%,Mua pin,True,False
+164,mới 99.9% chưa lăn bánh,VinFast,VF9 Plus,2024,0,Mới 100%,Mua pin,,False
+165,sx 2025,VinFast,VF5 Plus,2025,33000,Đã qua sử dụng,,,False
+166,-Đời 2025 | -màu đỏ | -Odo: 25.000 km,VinFast,VF5 Plus,2025,25000,Đã qua sử dụng,,True,True
+167,- Xuất tiên phong bảo hành Pin không giới hạn Km |- sản xuất 2026,VinFast,Limo Green AT,2026,0,Mới 100%,Mua pin,,True
+168,"mua pin, sản xuất 2025, đi 36.000 km, sơn zin còn nhiều, có BHTV, mua thêm lốp dự phòng, bệ tì tay",VinFast,VF5 Plus,2025,36000,Đã qua sử dụng,Mua pin,True,True
+169,sàn ô tô ecopark về tiếp tục | thuê pin| chạy 1v9 km không lỗi nhỏ,VinFast,VF9 Plus,2024,1090,Đã qua sử dụng,Thuê pin,,False
+170,"- Bảo hiệnh, bảo dưỡng, cam kết mọi tie̳u chuả̳n vè̲ xe. | Quỵ khạ̉ch hạ̀ng an tā̤m",VinFast,VF8 Plus AWD,2023,39783,Đã qua sử dụng,,False,False
+171,đổi xe xăng sang xe điện giảm trực tiếp tiền mặt,,VF8 Plus AWD,2022,54000,Đã qua sử dụng,Mua pin,,False
+172,giảm 5 triệu cho khách hàng đặt cọc tiên phong,,Minio Green,2025,0,Mới 100%,Mua pin,,False
+173,Vinfast VF8 2026 | Xe điện mới 100%,VinFast,VF8 Eco,2026,0,Mới 100%,Mua pin,,True
+174,"2023, màu đen, odo 4.7 vạn km",VinFast,VF8 Plus AWD,2023,47000,Đã qua sử dụng,,,True
+175,"kích thước dài rộng cao, động cơ điện, sạc điện thấp, bảo dưỡng đơn giản",,Limo Green AT,2025,0,Mới 100%,Mua pin,,False
+176,"Chính hãng với chứng chỉ Mercedes-Benz Certified, không có hư hại do tai nạn, thời gian sử dụng trước tối đa 5 năm hoặc 100.000 Km",Mercedes Benz,EQB 250,,,Đã qua sử dụng,null,True,False
+177,Dòng xe: VinFast VF5 Plus | Đời xe: 2024,,VF5 Plus,2024,66000,Đã qua sử dụng,Mua pin,,False
+178,TRẢ TRƯỚC CHỈ TỪ 45 TRIỆU LÀ CHÌA KHOÁ TRAO TAY | HỖ TRỢ VAY LÊN ĐẾN 90% GIÁ TRỊ XE,VinFast,VF3 Plus,,,Đã qua sử dụng,Mua pin,,False
+179,"năm sản xuất: 2025, xuất xứ: lắp ráp",,VF9 Plus,2025,7000,Đã qua sử dụng,Mua pin,True,True
+180,VF9 Plus- Mua pin CATL-2.000 km | Bản 7 ghế Thương Gia trần thép,VinFast,VF9 Plus,2024,2000,Đã qua sử dụng,Mua pin,,True
+181,"đầm chắc và ổn định khi xe di chuyển qua các ổ gà hay đoạn đường mấp mô, trọng lượng nhẹ hơn",VinFast,VF6 Eco,2026,0,Mới 100%,Mua pin,,False
+182,"mua pin, chưa qua sử dụng, mới 99.99%",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,False,True
+183,"Vf9 Plus 2025 8000km, mua pin 7 chỗ trần kính",VinFast,VF9 Plus,2025,8000,Đã qua sử dụng,Mua pin,,True
+184,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+185,#Vinfast_VF3 + Kèm Pin | SẴN XE SẴN MÀU GIAO NGAY,VinFast,VF3 Plus,2025,0,Mới 100%,Thuê Pin,,True
+186,"- Xe cam kết không đâm đụng, không ngập nước, bao check hãng toàn quốc. - Hỗ trợ sang tên đổi chủ, thủ tục giấy tờ pháp lý rõ ràng. - Chế độ bảo hành hậu mãi, chăm sóc xe miễn phí sau khi mua xe",VinFast,VF8 Eco AWD,2023,0,Mới 100%,,True,False
+187,odo 6.9 vạn km,VinFast,VF8 Plus AWD,2023,69000,Đã qua sử dụng,,,True
+188,Xe điện mới 100%,VinFast,VF8 Eco,2026,0,Mới 100%,Mua pin,,True
+189,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+190,"gian hàng rộng rãi, tăng kết nối cả gia đình, quãng đường di chuyển hơn 400km sau mỗi lần sạc",,Limo Green,2025,0,Mới 100%,Mua pin,,True
+191,"VF9 Plus, nhận xe chỉ với 330 TRIỆU, hỗ trợ trả góp 80%, sạc tới 2027, thuế trước bạ 0 đồng đến T3/2027",VinFast,VF9 Plus,2025,0,Mới 100%,Mua pin,,True
+192,"màu đen, nội thất nâu sang trọng, sản xuất 2023",VinFast,VF8 Plus AWD,2023,72000,Đã qua sử dụng,,,True
+193,odo 20km xe chưa lăn bánh,VinFast,VF8 S,2024,0,Mới 100%,Mua pin,,False
+194,"zin đẹp, dùng kỹ, odo chuẩn 4 vạn km, chưa từng đi lội nước",VinFast,VF5 Plus,2023,40000,Đã qua sử dụng,Mua pin,True,False
+195,đổi xe xăng sang xe điện giảm trực tiếp tiền mặt,,VF8 S,2024,0,Mới 100%,Mua pin,,False
+196,Khuyến Mãi Cực Hot Trong Tháng | Sẵn xe giao ngay | Thuế trước bạ 0% | Hỗ trợ vay 90% giá trị xe,VinFast,Limo Green,2025,0,Mới 100%,Thuê pin,,True
+197,"siêu hot vf3 | thời gian sạc pin lên tới 70% trong chỉ 30 phút | nội thất rộng rãi cho 4 người, màn hình cảm ứng 10 inch | khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2026,0,Mới 100%,null,,True
+198,sx 2024 đky 2025 odo 6v - 1 chủ từ đầu,VinFast,VF7 S,2024,6000,Đã qua sử dụng,,True,False
+199,"THĂNG LONG CAR - THẾ GIỚI XE VINFAST LƯỚT xin kính chào quý khách hàng ! | Chúng tôi xin trân trọng giới thiệu đến quý khách hàng mẫu xe. | -Hãng xe: vinfast - xe vf8 pin SDI | -Loại xe : vinfast vf8 eco mua pin | -Phiên bản : bản plus | -Màu xe : Ngoại thất màu trắng - nâu | - Số km: 6v8 | - Năm sx :2023 -2 cầu | - Sổ bảo hành:Bảo hành bảo dưỡng chính hãng full ls bảo dưỡng hãng kèm theo. | - giá yêu thương: giảm trừ 70tr khi đổi xe xăng sang xe điện! giảm 20tr ctrinh tháng. tặng 1 năm bao hiểm thân vỏ - còn 660tr | -Cam kết chất lượng bằng văn bản có giá trị pháp lý: | • Xe không đâm đụng ảnh hưởng khung gầm sắt xi. | • Xe không ngập nước, thủy kích. | • Xe không tháo cẩu máy, bổ máy. | • Hồ sơ pháp lý rõ ràng và đầy đủ, đủ điều kiện sang tên đổi biển | • Xe không phạt nguội.",VinFast,VF8 Plus AWD,2023,6800,Đã qua sử dụng,Mua pin,True,False
+200,"miễn phí 100% phí trước bạ, hỗ trợ vay 80%",VinFast,VF5 Plus,2025,0,Mới 100%,,,True
+201,mới new 2025,VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,False
+202,Vinfast VF8 2026 | Xe điện mới 100%,VinFast,VF8 Eco,2026,0,Mới 100%,Mua pin,,True
+203,"VF8 Eco trắng đen pin sdi đã mua đứt pin, chính hãng GF bảo hành",VinFast,VF8 Eco,2023,53000,Đã qua sử dụng,Mua pin,,False
+204,"- Giảm ngay 4% Giá Trị Xe | - Giảm 15TR Đổi Xe Xăng Sang Điện | - TẶNG 7,5TR VPoint ra biển HN | - Hỗ trợ Trả Góp Tối đa 90% Giá Trị xe ls ưu đãi từ 6% | - Miễn Phí SẠC đến 30/06//2027, | - Giảm 100% THUẾ trước bạ | - Hỗ trợ đăng kí Platform, Grab, Bee miễn phí !",VinFast,Limo Green AT,2025,0,Mới 100%,Mua pin,,True
+205,VinFast VF9 Eco 2026,,,,,Đã qua sử dụng,null,,True
+206,"- Bảo hiệnh, bảo dưỡng, cam ke̊̂t mő̂i tie̲̅u chuā̳n vě̲ xe. - Quý kha̓̂ch hâ̕ng an tạ̍m, lie̲̅n hê̵: - Ho̊̉ trơ̋̂ mieu thū̥c trü̧õc, trong và sau bán. - Ho̊̉ trơ̋̂ tra̲̅i gọ̍p lǎ̳i sua̓́t ǔ̦u đā̂i. - Ũ̧u đä̉i cṳ̏c to̡̊̂t ĐŐ̪̅I XĂNG SANG ĐIE̲̍N: Giǎ̗m 70 triẹ̄u. - Tã̢̈ng Ba̓̉o hiê̳nh thâ̕n vo̊̋/go̧̅p, Thu cũ xe mới, quy đổi BHTV và quà tặng theo chính sách của GF",,,,,,,,False
+207,giao NGAY - BÁN TOÀN QUỐC | + Tặng sạc miễn phí lên tới 3 năm | + Miễn 100% lệ phí trước bạ,VinFast,VF MPV 7,2026,0,Mới 100%,,,False
+208,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+209,#Vinfast_VF8 + Kèm Pin | SẴN XE SẴN MÀU GIAO NGAY | Hỗ trợ vay lên tới 80% | Hỗ trợ chứng minh thu nhập - bao hồ sơ khó | Hỗ trợ giao xe tận nhà | Cứu hộ miễn phí 24/7 | Hỗ Trợ Đăng Kí Đăng Kiểm Xe,VinFast,VF8 Eco,2025,0,Mới 100%,Mua pin,,False
+210,"- Xe cam kết không đâm đụng, không ngập nước, bao check hãng toàn quốc. - Hỗ trợ sang tên đổi chủ, thủ tục giấy tờ pháp lý rõ ràng. - Chế độ bảo hành hậu mãi, chăm sóc xe miễn phí sau khi mua xe",VinFast,VF8 Eco,2023,0,Mới 100%,Mua pin,True,False
+211,odo 3.1v km,VinFast,VF8 Eco AWD,2023,3100,Đã qua sử dụng,Mua pin,,False
+212,Xe điện mới 100%,VinFast,VF8 Eco,2026,0,Mới 100%,Mua pin,,True
+213,"Giao xe ngay, đủ màu lựa chọn! | Trang bị: hệ thống thông tin giải trí với màn hình cảm ứng cỡ lớn 15,6 inch, hỗ trợ kết nối điện thoại, dàn âm thanh 13 loa, cổng kết nối USB loại C, đèn trang trí nội thất đa màu...Trần kính toàn cảnh chỉ có trên bản PLus cao cấp. | Ngoài ra, xe còn sở hữu hệ thống điều hòa tự động 2 vùng đi kèm cửa gió điều hòa cho hàng ghế sau, bơm nhiệt, chức năng kiểm soát chất lượng không khí, lọc không khí cabin HEPA 1.0...",VinFast,VF9 Plus,2024,0,Mới 100%,,,True
+214,bán ra chỉ một phiên bản với hành trình 521 km,BYD,Han EV,,0,Mới 100%,,,True
+215,"siêu hot vf3, thời gian sạc pin lên tới 70% trong chỉ 30 phút, nội thất rộng rãi cho 4 người, màn hình cảm ứng 10 inch, khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị, đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2026,0,Mới 100%,null,,True
+216,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,0,Mới 100%,,,False
+217,"THĂNG LONG CAR - THẾ GIỚI XE VINFAST LƯỚT xin kính chào quý khách hàng ! | Chúng tôi xin trân trọng giới thiệu đến quý khách hàng mẫu xe. | -Hãng xe: vinfast - xe vf8 pin SDI | -Loại xe : vinfast vf8 plus mua pin | -Phiên bản : bản plus | -Màu xe : Ngoại thất màu bạc - nâu | - Số km: 3v km | - Năm sx :2022 -2 cầu | - Sổ bảo hành:Bảo hành bảo dưỡng chính hãng full ls bảo dưỡng hãng kèm theo. | • Xe không đâm đụng ảnh hưởng khung gầm sắt xi. | • Xe không ngập nước, thủy kích. | • Xe không tháo cẩu máy, bổ máy. | • Hồ sơ pháp lý rõ ràng và đầy đủ, đủ điều kiện sang tên đổi biển | • Xe không phạt nguội.",VinFast,VF8 Plus AWD,2022,30000,Đã qua sử dụng,Mua pin,True,False
+218,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2026,0,Mới 100%,Mua pin,,True
+219,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2026,0,Mới 100%,Mua pin,,True
+220,VF7 - Nhận xe Chỉ với 180 TRIỆU | Sẵn xe GIAO NGAY | Hỗ trợ trả góp 80% giá trị xe | THUẾ trước bạ 0 đồng đến T3/2026,VinFast,VF7,,0,Mới 100%,Mua pin,,False
+221,"zin Auto chào bán VF8 sx 2023 rât mơî, cam kê�t xe không đâm va ngập nước, keo chỉ máy số zin 100%",VinFast,VF8 Plus AWD,2023,0,Mới 100%,,True,False
+222,"sử dụng như mới, cam kết không đâm va ngập nước",VinFast,VF5 Plus,2025,0,Mới 100%,,True,False
+223,"tên cá nhân, 1 chủ từ mới, ODO 2v km, Xe Full lịch sử Hãng",VinFast,VF6 Plus,2025,2000,Đã qua sử dụng,,True,False
+224,"chạy 53000km, hệ thống ADAS, cửa sổ trời toàn cảnh Panorama, ghế da cao cấp chỉnh điện, điều hòa tự động 2 vùng độc lập, lọc không khí PM2.5, cụm đèn Full LED hiện đại, hệ thống an toàn 5 sao",VinFast,VF8 Plus AWD,2023,53000,Đã qua sử dụng,,,True
+225,"miễn phí thuế trước bạ, miễn phí bảo hiểm, miễn phí gửi xe, hỗ trợ đăng ký chạy Xanh SM",VinFast,VF5 Plus,,0,Mới 100%,,,True
+226,"- Trang bị: bộ mâm 5 chấu kép kích thước 21 inch bọc trong bộ lốp Pirelli 255/40R21, tay nắm cửa đồng màu thân xe, gương chiếu hậu tích hợp sấy và camera, các thông tin về xe sẽ được hiển thị trên kính lái HUD như: tốc độ, dung lượng pin, điều hòa tự động 2 vùng với cửa gió điều hòa cho hàng ghế sau, bơm nhiệt, chức năng kiểm soát chất lượng không khí, lọc không khí cabin HEPA 1.0, gương chống chói tràn viền, dàn âm thanh 8 loa",VinFast,VF8 Plus AWD,2024,0,Mới 100%,,True,True
+227,sx 2024,VinFast,VF6 Plus,2024,50000,Đã qua sử dụng,,,False
+228,#Vinfast_VF5 + Kèm Pin,VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,,False
+229,"- Bảo hành, bảo dưỡng, cam kết mới nhất cho xe",,VF8 S,2024,0,Mới 100%,,,False
+230,"GIÁO XE NGAY, ĐỦ MÀU LỰA CHỌN! | FREE sạc tới 2027 , FREE trước bạ",VinFast,VF9 Plus,2025,0,Mới 100%,Thuê pin,,False
+231,VINFAST VF3 MUA PIN 2024,VinFast,VF3 Plus,2024,12000,Đã qua sử dụng,Mua pin,,True
+232,GIÁ SIÊU DỄ TIẾP CẬN! | Sạc tiện lợi | Giá tốt nhất phân khúc,VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,False
+233,"kỉ nguyên mới là xe điện, chạy sướng nhất, không mất chi phí sử dụng trong 3 năm",VinFast,VF9 Plus,2025,0,Mới 100%,Mua pin,,False
+234,Vinfast VF8 2026 | Xe điện mới 100%,VinFast,VF8 Eco,2026,0,Mới 100%,Mua pin,,True
+235,sx 2023 đky 2024 màu xám nội thất ghế da bò gốc HN | Odo 14v xe 1 chủ từ đầu bảo dưỡng đều,VinFast,VF6 Plus,2023,14000,Đã qua sử dụng,,True,False
+236,"NỘI THẤT VF 6 HIỆN ĐẠI, PHÓNG KHOÁNG",VinFast,VF6 Plus,2026,0,Mới 100%,,,True
+237,"sx 2024 | Odo 2,4vkm | Động cơ, hộp số nguyên bản | Xe không đâm đụng, tai nạn, keo chỉ nguyên bản | Không ngập nước, thuỷ kích | Pháp lý rõ ràng",VinFast,VF5 Plus,2024,24000,Đã qua sử dụng,,True,False
+238,BÁN NHANH VF8 PLUS | Màu ĐEN sang trọng | Lịch sử bảo dưỡng đầy đủ,VinFast,VF8 Plus AWD,2023,0,Mới 100%,Mua pin,,False
+239,BÁN NHANH VF8 ECO | Màuđen sang trọng | Lịch sử bảo dưỡng đầy đủ,VinFast,VF8 Eco,2023,0,Mới 100%,Thuê pin,,True
+240,BÁN NHANH VF8 PLUS | Lịch sử bảo dưỡng đầy đủ | chính hãng VinFast,VinFast,VF8 Plus AWD,2023,0,Mới 100%,null,,False
+241,VF8 Plus - sx 2023 | Odo 4v1km | Pin CATL,VinFast,VF8 Plus AWD,2023,4000,Đã qua sử dụng,Mua pin,True,False
+242,"pin CATL date 2024, ODO 24110km",VinFast,VF8 S,2024,24110,Đã qua sử dụng,Mua pin,,False
+243,Odo 35.000km zin,VinFast,VF6 Plus,2025,35000,Đã qua sử dụng,,True,True
+244,- Xe chính chủ 1 chủ từ đầu biển trắng odo k taxi dịch vụ. Full lịch sử hãng sơn zin gần như cả xe.,VinFast,VF8 Eco,2023,0,Mới 100%,null,True,False
+245,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,5,,,,False
+246,"đúng chất xe mới xuất xưởng, gần như chưa lăn bánh",VinFast,VF8 Plus AWD,2024,0,Mới 100%,,True,False
+247,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2026,0,Mới 100%,Mua pin,,True
+248,chạy 44000km,VinFast,VF8 Eco,2023,44000,Đã qua sử dụng,,,True
+249,"trả trước chỉ từ 322 triệu đồng | bảo hành xe 6 năm hoặc 150.000 km, bảo hành pin 8 năm hoặc 160.000 km",BYD,Han EV,,0,Mới 100%,Mua pin,,True
+250,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",VinFast,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+251,"biển tỉnh, 7vạn, thuê pin tiên phong",VinFast,VF e34 AT,2022,70000,Đã qua sử dụng,Thuê pin,,True
+252,- Mạnh Liệt Tương Lai Xanh giảm 6% | - Quy đổi xe Vin2025 | - Hạng Vinclub Dimond,VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+253,sx 2025 | Trang bị đầy đủ các tiện ích của dòng,VinFast,VF5 Plus,2025,35000,Đã qua sử dụng,,,True
+254,"pin thuê, odo tròn 1v km, đã lên cam 360",VinFast,VF3 Plus,2024,,Đã qua sử dụng,Thuê pin,,True
+255,Pin mua | Xe đi cực lướt chỉ 25.000km | Sạc free đến 30/12/2027,VinFast,VF6 Plus,2024,25000,Đã qua sử dụng,Mua pin,,False
+256,miễn phí sạc pin đến 01/07/2027 (Không giới hạn) – Chạy xe không lo chi phí nhiên liệu,VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,,False
+257,"odo 5.2vkm, xuất hoá đơn cao, chất lượng khung gầm máy số nguyên bản, giảm 70tr đổi sang điện",VinFast,VF8 Eco AWD,2023,5200,Đã qua sử dụng,,,True
+258,- Xuất tiên phong không giới hạn bảo hành Pin theo km,VinFast,Limo Green AT,2026,0,Mới 100%,Mua pin,,False
+259,"HAIMA 7X-E – MPV ĐIỆN 7 CHỖ CAO CẤP, DẪN ĐẦU XU HƯỚNG LÁI THÔNG MINH! | Sạc siêu nhanh chỉ 11 phút (30% → 80%), sẵn sàng đồng hành ngay khi bạn cần. | Tăng tốc 0–100km/h chỉ 8,2 giây",,7X-E Premium,2026,0,Mới 100%,Mua pin,,False
+260,VF3 - Nhận xe với 0 ĐỒNG | Sẵn xe GIAO NGAY | Hỗ trợ trả góp 100% giá trị xe | FREE sạc tới 2027,VinFast,VF3 Plus,2025,0,Mới 100%,null,,False
+261,"- Bảo hiệnh, bảo dưỡng, cam kết mọi tie̳u chuả̳n vè̲ xe. | Quý kha̅̉ch hā̧ng an tā̤m, lie̦̋n hệ: | - Hỡ trö̥ mieu thū̡c trườc, trong và sau bán. | - Hỡ trö̥ tra̧̋p la̦̋i suạ̉t ṳ̂u đa̧̅i. | - Ṳ̌u đa̧̅i cṳ̄c to̡̍c ĐO̲̊I XĂNG SANG ĐIE̳̋N: Giä̧m 70 triệu. | - Ta̢̋ng Ba̧̅o hiȩ̄nh thā̧n vỏ̤ BHTV và quà tặng theo chính sách của GF",,,,,,,,False
+262,"- Trang bị: bộ mâm 5 chấu kép kích thước 20 inch bọc trong bộ lốp Pirelli 255/40R20, tay nắm cửa đồng màu thân xe, gương chiếu hậu tích hợp sấy và camera, các thông tin về xe sẽ được hiển thị trên kính lái HUD như: tốc độ, dung lượng pin, điều hòa tự động 2 vùng với cửa gió điều hòa cho hàng ghế sau, bơm nhiệt, chức năng kiểm soát chất lượng không khí, lọc không khí cabin HEPA 1.0,...",VinFast,VF8 Plus AWD,2026,0,Mới 100%,,,True
+263,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2026,0,Mới 100%,Mua pin,,True
+264,"sẵn xe, giao ngay, miễn phí lệ phí trước bạ, miễn phí sạc pin đến tháng 07/2027",,Minio Green,2025,0,Mới 100%,Mua pin,,False
+265,"không kinh doanh, tặng bảo hiểm, chuyển đổi xe",VinFast,VF8 Eco AWD,2024,0,Mới 100%,,False,False
+266,"nhận xe, giao ngay, hỗ trợ trả góp, sạc tới 2027",VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,,False
+267,Đổi xe xăng sang xe điện giảm trực tiếp tiền mặt và tặng 20 triệu tiền mặt,,VF8 Plus AWD,2024,45000,Đã qua sử dụng,Mua pin,,False
+268,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,5,,,,False
+269,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+270,"Động Cơ Mạnh Mẽ – Tận Hưởng Cảm Giác Lái Mượt Mà | Công suất 260 kW (~349 mã lực), mô-men xoắn 500 Nm – Tăng tốc nhanh, lái êm ái. | Dẫn động 4 bánh toàn thời gian(AWD) – Vận hành ổn định, tiết kiệm năng lượng. | Tầm di chuyển lên đến 471 km/lần sạc – Thoải mái di chuyển đường dài.",VinFast,VF8 Eco,2025,0,Mới 100%,,,True
+271,chạy 47000km,VinFast,VF8 Plus AWD,2023,47000,Đã qua sử dụng,,,True
+272,cực mới odo 3v zin mọi thứ,VinFast,VF5 Plus,2024,3000,Đã qua sử dụng,Mua pin,,False
+273,"mua pin, odo 9000km, trang bị gần 100T phụ kiện",VinFast,VF3 Plus,2025,9000,Đã qua sử dụng,Mua pin,,True
+274,sx 2025 | odo 2 vạn km,VinFast,VF5 Plus,2025,20000,Đã qua sử dụng,,,False
+275,"thuần điện, công suất 313 mã lực, WLTP",,Countryman SE-ALL4,2025,0,Mới 100%,Mua pin,,False
+276,"- Giảm ngay 4% Giá Trị Xe 
+- Giảm 15TR Đổi Xe Xăng Sang Điện",VinFast,Limo Green AT,2026,0,Mới 100%,Thuê pin,,True
+277,"Chào bán : VINFAST VF3 Trắng Mới 100% Mua Pin, đã gia cố càng A",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,False,True
+278,"va chạm nhẹ, mua pin, chạy ít",VinFast,VF6 Plus,2024,,Đã qua sử dụng,Mua pin,False,False
+279,"đầm chắc và ổn định khi xe di chuyển qua các ổ gà hay đoạn đường mấp mô, trọng lượng nhẹ hơn",VinFast,VF6 Eco,2025,0,Mới 100%,Mua pin,,False
+280,tương lái xe điên cao cấp,Mercedes-Benz,EQE 500 4Matic,2024,0,Mới 100%,Mua pin,,False
+281,"xám nội thất kem, cửa sổ trời, Pin mới CATL, ODO 3,1 vạn km, Hỗ trợ thu xăng đổi điện",VinFast,VF8 Plus AWD,2023,31000,Đã qua sử dụng,Mua pin,,True
+282,Full option | Nhập khẩu nguyên chiếc từ Đức,Audi,Q6 Etron,2025,0,Mới 100%,null,,True
+283,"chìa khoá thông minh, ghế da, đèn Led, màn hình giải trí, Apple Carplay, Android Auto, Camera lùi",VinFast,VF5 Plus,2025,0,Mới 100%,,,True
+284,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+285,"đầm chắc và ổn định khi di chuyển qua các ổ gà hay đoạn đường mấp mô, trọng lượng nhẹ hơn",VinFast,VF6 Eco,2025,0,Mới 100%,Mua pin,,False
+286,Mới 100% | Mua pin | Sạc free,VinFast,Limo Green AT,2025,0,Mới 100%,Mua pin,,False
+287,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,5,,,,False
+288,"siêu hot vf3, thời gian sạc pin lên tới 70% trong chỉ 30 phút, nội thất rộng rãi cho 4 người, màn hình cảm ứng 10 inch, khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị, đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2026,0,Mới 100%,,,True
+289,"xuất xưởng năm 2025, mới về, mua pin miễn phí sạc đến năm 2028",VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,,True
+290,"giá bán và thuê pin hấp dẫn, động cơ mạnh mẽ nhất phân khúc C-SUV",VinFast,VF7 Plus AWD,2025,0,Mới 100%,Mua pin,,True
+291,"VINFAST EC VAN – Xe điện chở hàng nhỏ gọn, tiết kiệm cực đỉnh!",,EC Van,2025,0,Mới 100%,Mua pin,,False
+292,"- Xe có thể tăng tốc 0-50 km/h trong khoảng 5,3 giây. - Dung lượng pin là 18,64 kWh, cho tầm hoạt động 210 km.",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+293,GF VF8 Plus 2023 | BKS: 79E-009.78 | Mua Pin SDI | Odo: 5.9v km,VinFast,VF8 Plus AWD,2023,5900,Đã qua sử dụng,Mua pin,,False
+294,"THĂNG LONG CAR, VINFAST VF8 PLUS MUA PIN, KHÔNG ĐÂM ĐỤNG, KHÔNG NGẬP NƯỚC",,VF8 Plus,2023,30000,Đã qua sử dụng,Mua pin,True,False
+295,"Cực HOT, Duy nhất 2 chiếc VF7 Plus Bản Full 2 cầu",,VF7 Plus AWD,,0,Mới 100%,,,True
+296,"odo 4000km trắng nội thất đen, từ mới cam kết nguyên bản",VinFast,VF8 Plus AWD,2025,4000,Đã qua sử dụng,,True,False
+297,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+298,"sẵn xe - giao ngay, miễn phí sạc pin đến tháng 07/2027, giảm giá ưu đãi cho KH đối tác của Vinfast",,Minio Green,2025,0,Mới 100%,Mua pin,,False
+299,VF3 qua sử dụng | Xem xe tại : GF Nam Thái Bình Dương,,VF3 Plus,2024,,Đã qua sử dụng,Mua pin,,False
+300,VF5 Đỏ Plus sản xuất 2024 | Odo :hơn 1v xe mới nhất Việt Nam,VinFast,VF5 Plus,2024,,Đã qua sử dụng,,,True
+301,"mua pin, đi 62.000km, xuất sắc, giảm 70tr vào giá xe",VinFast,VF8 Plus AWD,2023,62000,Đã qua sử dụng,Mua pin,,False
+302,"BMW iX3 M Sport, động cơ điện mạnh mẽ, nhiều công nghệ tiên tiến",BMW,iX3 M Sport,2023,0,Mới 100%,Mua pin,,True
+303,"- Xe cam kết không đâm đụng, không ngập nước, bao check hãng toàn quốc. - Hỗ trợ sang tên đổi chủ, thủ tục giấy tờ pháp lý rõ ràng. - Chế độ bảo hành hậu mãi, chăm sóc xe miễn phí sau khi mua xe",VinFast,VF8 Plus AWD,2023,0,Mới 100%,,True,False
+304,"THĂNG LONG CAR, pin mới CATL mua pin",VinFast,VF8 Eco,2023,20000,Đã qua sử dụng,Mua pin,True,False
+305,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2026,0,Mới 100%,Mua pin,,True
+306,"- Bảo hiểm, bảo dưỡng, cam ke̊̂t mọi tie̲̅u chuả̳n vè̲ xe. - Quý kha̓̂ch hâ̕ng an tā̤m, lie̲̅n hệ: - Ho̊̃ trợ mő̂i thủ̥ tǔ̦c trü̧o̓c, trong và sau bán. - Ho̊̃ trợ tra̳̅p lā̲i sua̳̅t ṳ̂u đả̱i. - Ǔ̥u đä̵i cű̧c to̪̓t ĐO̊̉I XĂNG SANG ĐIE̲̍N: Gia̳̅m 70 triệu. - Tā̤ng Bâ̕o hië̂m tha̧̋n vo̡̊, quý đổi BHTV và quà tặng theo chính sách của GF",,,,,,,,False
+307,"ko có xe xăng đổi lấy xe này cực kỳ hợp lý! đi 36.000km đẹp xuất sắc! ko đâm đụng, ngập nước!",VinFast,VF8 Eco,2022,36000,Đã qua sử dụng,Mua pin,True,False
+308,Tặng 2 năm BHTV với biển trắng và 12 triệu tiền mặt,VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,,False
+309,"- Xe trang bị full option cao cấp theo nhà sx
+- Xe bảo dưỡng định kỳ Full lịch sử hãng
+- Chúng tôi cam kết bằng văn bản xe không lỗi",VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+310,"trải nghiệm vf 8 lướt - chuẩn green future, kiểm định 139 bước nghiêm ngặt",VinFast,VF8 S,2024,0,Mới 100%,,,True
+311,"độc đáo và đầy uy quyền, lưới tản nhiệt Black Panel, mâm hợp kim kích thước lớn 22 inch, tay nắm cửa ẩn, hệ thống đèn chào mừng, nội thất chất liệu da Nappa Maybach cao cấp, ghế hành khách phía trước có thể chỉnh từ xa, hệ thống giải trí MBUX Hyperscreen",Mercedes-Benz,EQS 680 SUV,2024,0,Mới 100%,,,True
+312,Nhận xe Chỉ với 45Triệu | Sẵn xe GIAO NGAY Đa dạng lựa chọn 9 màu ngoại thất | Hỗ trợ trả góp 85% giá trị xe | FREE sạc tới 2027,VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,False
+313,sản xuất 2025 | odo 7000km,VinFast,VF6 Plus,2025,7000,Đã qua sử dụng,,,True
+314,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2026,0,Mới 100%,Mua pin,,True
+315,VF8 Eco Pin CATL | Màu đen | Odo : 37.000 km | Đã qua kiểm tra 139 bước Theo tiêu chuẩn GF,VinFast,VF8 Eco AWD,2023,37000,Đã qua sử dụng,Mua pin,True,False
+316,Chào bán: VF3 2024 Thuê Pin độ tâm huyết của chị Chủ ! Gần 70T phụ kiện,VinFast,VF3 Plus,2025,,Đã qua sử dụng,Thuê pin,,True
+317,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",VinFast,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+318,"dán kính, thảm sàn, mâm đúc kèm lốp to, apple carplay, gia cố càng A, ghế da, nước hoa, cam lùi kèm cam hành trình utour, đèn led siêu sáng",VinFast,VF3 Plus,2024,8000,Đã qua sử dụng,,,True
+319,VF8 Eco Pin SDI 2023 | Màu Trắng | không đâm đụng | không ngập nước,VinFast,VF8 Eco AWD,2023,42000,Đã qua sử dụng,,True,False
+320,"bản mua đứt pin, đã mua bảo hiểm thân vỏ đầy đủ gần 10t, đã được vào rất nhiều đồ chính hãng",VinFast,VF5 Plus,2025,,Đã qua sử dụng,Mua pin,,True
+321,Đổi xe xăng sang xe điện giảm trực tiếp tiền mặt lên đến 5tr,VinFast,VF3 Plus,2025,,Đã qua sử dụng,Mua pin,,False
+322,"tư nhân một chủ đi từ mới,zin chất tuyệt đối ko lỗi nhỏ",VinFast,VF6 S,2024,0,Mới 100%,Mua pin,True,False
+323,"tư nhân một chủ sử dụng từ mới,đăng ký lăn bánh tháng 12/2024",VinFast,VF6 S,2024,0,Mới 100%,,,False
+324,"LIMO GREEN | không gian rộng rãi, tăng kết nối cả gia đình",VinFast,Limo Green,2025,0,Mới 100%,Mua pin,,True
+325,"siêu phẩm 7 chỗ - gia đình đã tốt, dịch vụ cực phẩm",VinFast,Limo Green,2025,0,Mới 100%,,,True
+326,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",VinFast,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+327,"Nhập khẩu Đức nguyên chiếc, đăng ký và sản xuất năm 2023",Porsche,Taycan,2023,6200,Đã qua sử dụng,,,True
+328,"THĂNG LONG CAR - THẾ GIỚI XE VINFAST LƯỚT xin kính chào quý khách hàng ! | Chúng tôi xin trân trọng giới thiệu đến quý khách hàng mẫu xe. | -Hãng xe: vinfast - xe vf8 pin CATl | -Phiên bản : bản eco | -Màu xe : Ngoại thất màu xanh - đen | - Số km: 5v- Năm sx :2023 -2 cầu | - Sổ bảo hành:Bảo hành bảo dưỡng chính hãng full ls bảo dưỡng hãng kèm theo. | -Cam kết chất lượng bằng văn bản có giá trị pháp lý: | • Xe không đâm đụng ảnh hưởng khung gầm sắt xi. | • Xe không ngập nước, thủy kích. | • Xe không tháo cẩu máy, bổ máy. | • Hồ sơ pháp lý rõ ràng và đầy đủ, đủ điều kiện sang tên đổi biển | • Xe không phạt nguội. | -Quyền lợi khi mua xe tại Thăng Long Car: | 1. Bảo hành động cơ hộp số 10 năm hoặc 200.000 ( 20v km theo chính hãng) theo nhà sản xuất",VinFast,VF8 Eco,2023,0,Mới 100%,Mua pin,True,False
+329,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,0,Mới 100%,,,False
+330,thuần điện | Tặng sạc đi động và lắp đặt sạc tại nhà miễn phí,MINI,Cooper S 3 Door,2025,0,Mới 100%,Mua pin,,False
+331,"xuất 2024, màu đỏ nội thất đen, lăn bánh 4000 km",Mercedes Benz,EQS 450+,2023,4000,Đã qua sử dụng,,True,False
+332,giao NGAY - BÁN TOÀN QUỐC | + Tặng sạc miễn phí đến 30/6/2027 | + Miễn 100% lệ phí trước bạ | + Cam Kết Hỗ Trợ Dịch Vụ Chất Lượng Sau Bán Hàng,VinFast,VF3 Plus,2026,0,Mới 100%,,,False
+333,"trang bị động cơ 100kw, pin dung lượng 59,6 kWh, quãng đường di chuyển tối đa 399 km",VinFast,VF6 Eco,2026,0,Mới 100%,Mua pin,,False
+334,mới new 2025,VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,False
+335,"tư nhân 1 chủ, odo 10 vạn, full lịch sử",VinFast,VF5 Plus,2024,100000,Đã qua sử dụng,Mua pin,,False
+336,"siêu hot vf3 | thời gian sạc pin lên tới 70% trong chỉ 30 phút | nội thất rộng rãi cho 4 người, màn hình cảm ứng 10 inch | khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2026,0,Mới 100%,null,,True
+337,SIÊU PHẨM LIMO GREEN – CHÍNH THỨC CẬP BẾN,VinFast,Limo Green AT,2025,0,Mới 100%,Thu cũ đổi mới or Miễn 100% lệ phí trước bạ,,False
+338,"áp full chính sách, chỉ khoảng 159tr nhận xe, ưu đãi giảm thêm 4%, hỗ trợ đổi xe xăng sang điện giảm thêm 50tr, miễn 100% thuế trước bạ, miễn phí sạc pin 2 năm",VinFast,VF7 Plus,2025,0,Mới 100%,Mua pin,,True
+339,giao NGAY - BÁN TOÀN QUỐC | + Tặng sạc miễn phí lên đến 3 năm | + Miễn 100% lệ phí trước bạ,VinFast,VF6 Eco,2026,0,Mới 100%,,,False
+340,GIÁ CỰC NGON NHẤT THỜI ĐIỂM NÀY! | đã trừ toàn bộ ưu đãi đổi từ xe xăng sang xe điện | đã áp dụng toàn bộ khuyến mãi tháng này,VinFast,VF8 Plus AWD,2023,,Đã qua sử dụng,Mua pin,,True
+341,"GIảm ngay 4% giá xe khi kí hợp đồng, giảm 100 triệu tiền mặt, tặng voucher Vinpearl, hỗ trợ lãi suất 2%, miễn phí sạc đến hết T06/2027",VinFast,VF9 Plus,2025,0,Mới 100%,Mua pin,,False
+342,- Chào bán : VF5 Xanh lá sản xuất 2024 bản mua đứt pin .,VinFast,VF5 Plus,2024,1000,Đã qua sử dụng,Mua pin,,True
+343,sx 2024 bản mua pin- 1 chủ từ đầu odo 14v- biển trắng ko chạy grab,VinFast,VF5 Plus,2024,0,Mới 100%,Mua pin,False,True
+344,"sở hữu vẻ ngoài khá bắt mắt với những đường nét vuông vắn, cá tính",VinFast,VF6 Plus,2026,0,Mới 100%,,,True
+345,"độc lập liên kết đa điểm, hệ thông treo phụ thuộc, đầm chắc và ổn định, động cơ 100kw, sức kéo đạt 135Nm, trọng lượng nhẹ hơn",VinFast,VF6 Eco,2026,0,Mới 100%,Mua pin,,False
+346,xanh đen pin sdi đã mua đứt pin,VinFast,VF8 Eco,2023,52000,Đã qua sử dụng,Mua pin,,False
+347,TRẢ TRƯỚC CHỈ TỪ 69 TRIỆU LÀ CHÌA KHOÁ TRAO TAY | HỖ TRỢ VAY LÊN ĐẾN 90% GIÁ TRỊ XE | MIỄN THUẾ PHÁT TRIEN 100%,VinFast,VF6,2025,0,Mới 100%,null,,False
+348,odo 2 vạn 5,VinFast,VF8 Plus AWD,2025,25000,Đã qua sử dụng,,,False
+349,"- Bảo hiểm, bảo dưỡng, cam ke̊̂t mọi tie̲̅u chuả̳n vè̲ xe. - Quý kha̓̂ch hā̕ng an tâ̤m",VinFast,VF8 Plus AWD,2023,40000,Đã qua sử dụng,,False,False
+350,"odo 4v km, kiểm định nghiêm ngặt, ngoại thất như mới, vận hành êm ái",VinFast,VF8 Plus AWD,2023,40000,Đã qua sử dụng,,False,True
+351,"đầm chắc và ổn định khi xe di chuyển qua các ổ gà hay đoạn đường mấp mô, trọng lượng nhẹ hơn",VinFast,VF6 Eco,2025,0,Mới 100%,Mua pin,,False
+352,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2026,0,Mới 100%,Mua pin,,True
+353,Đổi xe xăng sang xe điện giảm trực tiếp tiền mặt,VinFast,VF8 Plus AWD,2023,19000,Đã qua sử dụng,Mua pin,,False
+354,"tiết kiệm ngay 40 triệu, trả trước 157 triệu, hỗ trợ vay ngân hàng lãi suất thấp lên đến 80%",,M6 Standard,2025,0,Mới 100%,"Trạm sạc tại nhà : 7 Kwh | Bộ sạc di động : 2,2 Kwh | Bộ V2L : Lấy điện từ xe ra sử dụng như dã ngoại, cắm trại,...",,True
+355,cảm ứng 15.6 thay thế nút bấm vật lý vô lăng D-cut bọc da tích hợp nhiều phím chức năng,VinFast,VF8 Eco AWD,2023,0,Mới 100%,,,True
+356,E34 Xanh rêu 2022 | Đi rất ít,VinFast,VF e34,2022,3500,Đã qua sử dụng,Thuê pin,,False
+357,Nhận xe Chỉ với 100 TRIỆU | Sẵn xe GIAO NGAY | Hỗ trợ trả góp 80% giá trị xe,VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,,True
+358,#Vinfast_VF8 + Kèm Pin | SẴN XE SẴN MÀU GIAO NGAY | Hỗ trợ vay lên tới 80% | Hỗ trợ chứng minh thu nhập - bao hồ sơ khó | Hỗ trợ giao xe tận nhà,VinFast,VF8 Plus AWD,2025,0,Mới 100%,Mua pin,,False
+359,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,0,Mới 100%,,,False
+360,sẵn xe giao ngay,VinFast,Limo Green AT,2025,0,Mới 100%,,,False
+361,"siêu phẩm, mới 9km, chưa đăng ký, chưa sử dụng",VinFast,VF8 Eco AWD,2024,0,Mới 100%,,True,False
+362,"đầm chắc và ổn định khi xe di chuyển qua các ổ gà hay đoạn đường mấp mô, trọng lượng nhẹ hơn",VinFast,VF6 Eco,2026,0,Mới 100%,Mua pin,,False
+363,"cam kết không đâm đụng, không ngập nước, bao check hãng toàn quốc. - hỗ trợ sang tên đổi chủ, thủ tục giấy tờ pháp lý rõ ràng. - chế độ bảo hành hậu mãi",VinFast,VF8 S,2024,15300,Đã qua sử dụng,,True,False
+364,"nhận xe, giao ngay, hỗ trợ trả góp, sạc tới 2027, thuế trước bạ 0 đồng",VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,,False
+365,"mua pin, chưa qua sử dụng - mới 99.99%, đăng ký biển Hà Nội",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,False,True
+366,VF8 Plus Pin CATL 2023 | Màu Trắng | Odo : 49.000 km,VinFast,VF8 Plus AWD,2023,49000,Đã qua sử dụng,Mua pin,True,False
+367,"mua pin, giảm tiền, hỗ trợ trả góp, chuẩn odometer, nguyên zin, không đâm đụng, không thủy kích",VinFast,VF8 Eco,2023,54000,Đã qua sử dụng,Mua pin,True,False
+368,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",VinFast,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+369,- Hỗ trợ bank 24/24,VinFast,VF5 Plus,2024,20000,Đã qua sử dụng,Mua pin,,False
+370,Pin mua | Xe đi chỉ 40.000km | Năm sx 2025,VinFast,VF5 Plus,2025,40000,Đã qua sử dụng,Mua pin,True,False
+371,- Xe gia đình đi chỉ 33000km - Xe sx : 2024,VinFast,VF6 Plus,2024,33000,Đã qua sử dụng,Mua pin,True,False
+372,Pin mua | Xe đi đi gia đình chỉ 25000km | Có giảm lộc | Có trả góp qua bank,VinFast,VF6 Plus,2024,25000,Đã qua sử dụng,Mua pin,True,False
+373,"gần mới 100%, đi ít, đầy lịch sử bảo dưỡng",VinFast,VF9 Plus,2023,30000,Đã qua sử dụng,,True,False
+374,"GIÁ CUỐI THÁNG, TẶNG FULL GÓI PHỤ KIỆN, MIỄN PHÍ BẢO HÀNH",,VF6,,0,Mới 100%,,,True
+375,Xe mới về | Mới 100% Mua Pin SX 2025,VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+376,E34 Xanh rêu/ đen | Odo: 6v km,VinFast,VF e34,2022,6000,Đã qua sử dụng,,,False
+377,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+378,"Sản xuất 2025, chạy hơn 3v KM",VinFast,VF9 Plus,2025,30000,Đã qua sử dụng,Thuê pin,True,False
+379,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,0,Mới 100%,,,False
+380,"màu xám sang trọng, form xe cực đẹp, chạy chuẩn 5 vạn km",VinFast,VF8 Plus AWD,2023,50000,Đã qua sử dụng,,True,False
+381,Ưu đãi giám giá 120 triệu + bảo hiểm thân vỏ • Giảm 70 triệu khi đổi xăng sang điện • Tặng 50 triệu tiền mặt,,VF8 Eco AWD,2023,0,Mới 100%,,True,False
+382,Xe điện mới 100%,,,,0,Mới 100%,Mua pin,,True
+383,chào bán: VF3 Vàng sản xuất 2024 | Đã trang bị hơn 80T tiền phụ kiện,VinFast,VF3 Plus,2024,0,Mới 100%,,,True
+384,"Lên Xe Limogreen , chạy lướt, sơn Zin 100% , Nội thất trong xe còn thơm mùi xe mới",VinFast,VF6 Eco,2025,13000,Đã qua sử dụng,,True,False
+385,"đầm chắc và ổn định khi xe di chuyển qua các ổ gà hay đoạn đường mấp mô, trọng lượng nhẹ hơn",VinFast,VF6 Eco,2026,0,Mới 100%,Mua pin,,False
+386,"bao hành, bảo dưỡng, cam kết mới, chuyển các dòng GF VF8",,VF8 Eco,2023,35000,Đã qua sử dụng,,,False
+387,vận chuyển thuê pin sx 2025 chạy 7.000km như mới,VinFast,VF3 Plus,2025,7000,Đã qua sử dụng,Thuê pin,,False
+388,mua xe lướt là những người tiêu dùng thông thái,VinFast,VF8 Plus AWD,2023,,Đã qua sử dụng,,,False
+389,"giảm 20tr tiền mặt, tặng 1 năm bảo hiểm, chuyển đổi xe xăng sang xe điện giảm 70tr",VinFast,VF8 Plus AWD,2023,0,Mới 100%,Mua pin,,True
+390,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",VinFast,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+391,"di chuyển linh hoạt trong nội đô, thiết kế nhỏ gọn, dễ dàng luồn lách trong phố đông, đỗ xe “chuẩn từng milimet”, quãng đường lên đến 170km/lần sạc, cắm sạc buổi tối, sáng dậy có ngay “full pin”",,Xiaoma,2026,0,Mới 100%,Mua pin,,False
+392,"Xe mới về | - VF3 Xanh Mới Mua Pin, đã gia cố càng A",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+393,"tân trang, zin full, lịch sử hãng",VinFast,VF e34,2022,60000,Đã qua sử dụng,,,True
+394,"GIảm 4% Mãnh Liệt Tinh Thần Việt Nam, Xăng qua điện giảm 15tr, tặng 15tr ví vinclub, hỗ trợ vay đến 90%, miễn phí sạc 30/6/2027",,VF6 Eco,,0,Mới 100%,,,True
+395,"- Giảm ngay 4% Giá Trị Xe 
+- Giảm 15TR Đổi Xe Xăng Sang Điện 
+- TẶNG 7,5TR VPoint ra biển HN 
+- Hỗ trợ Trả Góp Tối đa 90% Giá trị xe ls ưu đãi từ 6%",VinFast,Limo Green AT,2025,0,Mới 100%,,,True
+396,"có trần kính toàn cảnh, có hệ thống điều hòa 3 vùng độc lập",VinFast,VF9 Plus,2025,0,Mới 100%,,,True
+397,"-Chaof bán: VF3 Xám lướt 6000km , thuê pin vin 2024",VinFast,VF3 Plus,2024,6000,Đã qua sử dụng,Thuê pin,,True
+398,"bán ra thị trường Việt Nam một phiên bản, bảo hành 3 năm và không giới hạn km, tặng voucher sạc miễn phí 2 năm đầu tiên",Audi,Q6 e-tron,2025,0,Mới 100%,Mua pin,,False
+399,"Miễn phí 100% phí trước bạ, Gói quà tặng 15 triệu đồng, Hỗ trợ vay 80%",VinFast,VF5 Plus,,0,Mới 100%,,,True
+400,"chào bán : | Gần 60tr Phụ kiện : | + Film cách nhiệt loại xịn 8Tr | + Ghế da Napa full 4 ghế mềm như e bé 8Tr | + Camera lùi chính hãng 3,5Tr | + Dán tem Labubu 1Tr | + Thảm sàn 6D 2Tr | + Đăng kiểm 3 năm | + Loa sub, loa tress cánh, gầm ghế 25Tr | + Độ chống ồn xe, đã gia cố càng A, ốp lazang, … và nhiều đồ chơi khác…vv",VinFast,VF3 Plus,2024,0,Mới 100%,Thuê pin,,True
+401,"điện đàng cá̂p, dẫn đàng xu hướng! | cong nghệ pin blade tiên tiến - an toàn, bè̉n bỉ! | tặng tốc mạnh mẽ, cam giác lái mượt mà! | thiết kế hiện đại, noi thất sang trọng!",,,,,,,,False
+402,"sản xuất 2025 odo 7000km thuê pin 900k đã lên dán kính , thảm sàn",VinFast,VF3 Plus,2025,7000,Đã qua sử dụng,Thuê pin,,True
+403,"- Tặng 2 năm bảo hiểm thân vỏ hoặc quy đổi 6,5tr triệu",VinFast,VF3 Plus,2026,0,Mới 100%,Mua pin,,True
+404,Tặng 2 năm BHTV với biển trắng và 12 triệu tiền mặt,VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,,False
+405,Pin SDI | Đỏ | Nội thất xanh độc bản,VinFast,VF8 Plus AWD,2023,54000,Đã qua sử dụng,Mua pin,True,True
+406,hệ thống an toàn & Smart Service hàng đầu,VinFast,VF5 S,2024,0,Mới 100%,,,True
+407,chuyển trả trước chỉ từ 75 triệu là chìa khóa tay | ưu đãi gói phụ kiện chính hãng cao cấp | hỗ trợ vay lên đến 90% giá trị xe | hỗ trợ lãi suất 3% trong 3 năm,VinFast,Limo Green,2025,0,Mới 100%,null,,True
+408,"sản xuất 2022 | Xe 7v km zin lốp theo xe , full lịch sử hãng sơn zin 90% đẹp xuất sắc",VinFast,VF e34,2022,7000,Đã qua sử dụng,,False,True
+409,"VINFATS VF3 - ÔNG HOÀNG ĐÔ THỊ, giá chỉ ngang xe máy SH, bảo vệ sức khỏe khỏi ô nhiễm khói bụi",,VF3 Plus,2025,0,Mới 100%,Mua pin,,False
+410,mới 100%,VinFast,Limo Green AT,2025,0,Mới 100%,Mua pin,,False
+411,"BÀY SHOWROOM, GIAO NGAY, FULL KHUYẾN MẠI",VinFast,VF5 Plus,2025,0,Mới 100%,,,True
+412,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",VinFast,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+413,"mua pin, máy móc khung gầm nguyên bản pin đẹp",VinFast,VF8 Plus AWD,2023,33000,Đã qua sử dụng,Mua pin,,True
+414,"NỘI THẤT VF 6 HIỆN ĐẠI, PHÓNG KHOÁNG",,VF6 Plus,,0,Mới 100%,,,False
+415,"chạy 5.5 vạn, rất mới, cam kết xe xịn 100% chính hãng",VinFast,VF8 Eco AWD,2023,55000,Đã qua sử dụng,,True,False
+416,"mua pin, chưa qua sử dụng - mới 99.99%, đăng ký biển Hà Nội",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,False,True
+417,"hàng mới về, vf8 plus tráng nội thất kem 2023 chạy hơn 4v km máy số keo chỉ zin",VinFast,VF8 Plus AWD,2023,4000,Đã qua sử dụng,,,True
+418,"#Vinfast_VF8 + Kèm Pin | SẴN XE SẴN MÀU GIAO NGAY | Hỗ trợ lái thử tận nhà, giao xe trên toàn quốc. | Hỗ trợ vay lên tới 80% | Hỗ trợ chứng minh thu nhập - bao hồ sơ khó",VinFast,VF8 Plus AWD,2025,0,Mới 100%,Mua pin,,False
+419,Odo: 33.000km,,VF8 Plus AWD,2023,33000,Đã qua sử dụng,,,False
+420,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",VinFast,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+421,"chuẩn bị, trắng, như mới, dán phim xịn, thảm sàn, không đâm đụng, ngập nước",VinFast,VF6 Plus,2025,0,Mới 100%,,True,False
+422,"- Bảo hiểm, bảo dưỡng, cam ke̊̂t mọi tie̲̅u chuả̳n vè̲ xe. | Quý kha̓̄ch hā̕ng an ta̓̄m",VinFast,VF8 Eco,2023,50000,Đã qua sử dụng,,False,False
+423,"NỘI THẤT VF 6 HIỆN ĐẠI, PHÓNG KHOÁNG",VinFast,VF6 Plus,2026,0,Mới 100%,,,True
+424,"CHÀO BÁN, Pin công nghệ mới LFP, sạc nhanh tại trạm chỉ 15p đi được 180km, Tính năng thông minh điều khiển bằng giọng nói, Đèn pha, đèn hậu LED, gương chiếu hậu gập điện, gạt mưa tự động, 6 túi khí, Cảnh báo điểm mù, cam 360, cảnh báo lệch làn, Khả năng tăng tốc cực nhanh",VinFast,VF e34,2023,0,Mới 100%,Mua pin,,True
+425,"Chuyên cơ mặt đất, đẳng cấp xe điện siêu sang mới nhất của MAYBACH",Mercedes-Benz,EQS 680 Maybach SUV,2025,0,Mới 100%,Mua pin,,True
+426,"cửa sổ trời, ghế có chức năng sưởi, mãnh liệt tinh thần Việt Nam",VinFast,VF6 Plus,2025,0,Mới 100%,,,True
+427,- Chào bán : VF3 màu Đỏ mua pin sx 2025 | ODO 9000km,VinFast,VF3 Plus,2025,9000,Đã qua sử dụng,Mua pin,,True
+428,- GIÁ XE VINFAST VF7 ĐIỀU CHỈNH - THỜI ĐIỂM CHỐT XE TỐT NHẤT | - Miễn 100% Thuế Trước Bạ | - Miễn phí sạc pin đến T7/2027,VinFast,VF7,,,Đã qua sử dụng,Mua pin,,True
+429,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",VinFast,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+430,- Mạnh Liệt Tương Lai Xanh giảm 6% | - Quy đổi xe Vin2025 | - Hạng Vinclub Dimond,VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+431,"zin auto chào bán, chạy 56 vạn rất mới",VinFast,VF8 Eco AWD,2023,56000,Đã qua sử dụng,,True,False
+432,"ĐK 08.25. Đi 9000 km. Còn xạc không giới hạn đến 06.27, xạc có giới hạn thêm 1 năm",VinFast,VF6 Plus,2025,9000,Đã qua sử dụng,Mua pin,,False
+433,nhận xe Chỉ với 100 TRIỆU | hỗ trợ trả góp 100% giá trị xe | sạc tới 2027,VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,,False
+434,mua Pin CATL đi 25.000km,VinFast,VF8 Eco AWD,2023,25000,Đã qua sử dụng,Mua pin,,False
+435,"nâng cấp càng A, thêm tấm chắn gầm bảo vệ pin, odo dưới 50km xe mới 99.9%",VinFast,VF3 Plus,2025,0,Mới 100%,,False,False
+436,"mạnh nhất phân khúc, không gian nội thất rộng rãi, trang bị nhiều tính năng an toàn vượt trội",VinFast,VF5 Plus,2024,0,Mới 100%,,,False
+437,"NỘI THẤT VF 6 HIỆN ĐẠI, PHÓNG KHOÁNG",VinFast,VF6 Plus,2026,0,Mới 100%,,,True
+438,- Xe rất đẹp! - Hỗ Trợ trả góp 75-60% giá trị xe 7năm,VinFast,VF5 Plus,2024,0,Mới 100%,,True,False
+439,"Chuyên mua bán trao đổi xe oto đã qua sử dụng, mua nhanh, bán nhanh, giá tốt nhất thị trường !",VinFast,VF e34,2023,,Đã qua sử dụng,Mua pin,,True
+440,"LUÔN CÓ SẴN XE VÀ HỒ SƠ GIAO NGAY | BAO NỢ XUẤT THƯỜNG NHÓM 5, DUYỆT VAY CHỈ SAU 5 PHÚT | HỖ TRỢ GIAO XE TẬN NHÀ",,,,0,Mới 100%,,,True
+441,"LUÔN CÓ SẴN XE VÀ HỒ SƠ GIAO NGAY, BAO NỢ XUẤT TÁCH, MIỄN PHÍ SẮC PIN",,VF6 Plus,2026,0,Mới 100%,null,,True
+442,LUÔN CÓ SẴN XE VÀ HỒ SƠ GIAO NGAY | - Miễn phí 100% thuế trước bạ | - Ưu đãi 6% giá xe | - Ưu đãi thêm trực tiếp tiền mặt/ quà tặng | - Miễn phí sạc pin 10/02/2029 | - Lái thử tận nhà – Tư vấn tận tâm | - Hỗ trợ giao xe tận nhà,,VF6 Eco,,0,Mới 100%,,,True
+443,"hàng mới về, vf8 plus tráng nội thất nâu da bò (cực hiếm), máy số keo chỉ zin, sơn zin 99%, thu xăng đổi điện giảm 70tr",VinFast,VF8 Plus AWD,2024,4000,Đã qua sử dụng,,,True
+444,"#Vinfast_VF8 + Kèm Pin | SẴN XE SẴN MÀU GIAO NGAY | Hỗ trợ lái thử tận nhà, giao xe trên toàn quốc. | Hỗ trợ vay lên tới 80% | Hỗ trợ chứng minh thu nhập - bao hồ sơ khó",VinFast,VF8 Eco,2025,0,Mới 100%,Mua pin,,False
+445,"Odo: 46.000km, V002664",VinFast,VF8 Plus AWD,2023,46000,Đã qua sử dụng,,,False
+446,"nhỏ gọn, hiện đại, phong cách sống xanh, thông tin chi tiết, bảo hành chính hãng VinFast",VinFast,VF3 Plus,2025,11000,Đã qua sử dụng,,,True
+447,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",VinFast,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+448,Chào bán: VF3 màu Trắng mua pin sx 2025 | ODO 5000 Km,VinFast,VF3 Plus,2025,5000,Đã qua sử dụng,Mua pin,,True
+449,Nhận xe Chỉ với 45 triệu | Sẵn xe GIAO NGAY Đa dạng lựa chọn màu ngoại thất,VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,False
+450,be 3 sx 2024 xe đẹp,VinFast,VF3 Plus,2024,0,Mới 100%,,,False
+451,"- Chào bán: Vinfast VF3 màu Xanh siêu lướt 2000km , miễn phí sạc đến 01/2028 | - Xe trang bị hơn 50 T tiền Phụ kiện",VinFast,VF3 Plus,2024,2000,Đã qua sử dụng,,,True
+452,"độc lập liên kết đa điểm, hệ thông treo phụ thuộc, động cơ 100kw, sức kéo đạt 135Nm, pack pin có dung lượng gần 60kwh",VinFast,VF6 Eco,2025,0,Mới 100%,Mua pin,,False
+453,tinh thần Việt Nam 4% | Xăng Sang Điện | Hỗ trợ lãi suất NH,VinFast,VF9 Plus 7S,2025,0,Mới 100%,null,,False
+454,Đổi xe xăng sang xe điện giảm trực tiếp tiền mặt,,VF8 Plus AWD,2023,37000,Đã qua sử dụng,Mua pin,,True
+455,"Chào bán mẫu xe sedan điện đẳng cấp của nhà Mercedes, đầy đủ lịch sử bảo dưỡng hãng",Mercedes-Benz,EQS 580 4Matic,2023,3000,Đã qua sử dụng,,True,False
+456,"- Bảo hiểm, bảo dưỡng, cam ke̊̂t mọi tie̲̅u chuả̳n vè̲ xe. | Quý kha̓̄ch hā̕ng an ta̓̄m",VinFast,VF8 Eco,2023,40000,Đã qua sử dụng,,False,False
+457,Full ADAS | Màu xanh rêu siêu hiếm,VinFast,VF8 Eco,2023,50000,Đã qua sử dụng,,,True
+458,Carpla Tân Phú mới về Vinfast VF5 Plus 2025 Pin mua,VinFast,VF5 Plus,2025,23000,Đã qua sử dụng,Mua pin,,True
+459,"- Chào bán: VF3 Vàng lướt 9000km Zin , thuê pin",VinFast,VF3 Plus,2024,9000,Đã qua sử dụng,Thuê pin,,True
+460,zin auto chào bán vf8 sx 2024 mới 100%,VinFast,VF8 S,2024,0,Mới 100%,,,False
+461,"mảnh ghép cuối cùng trong chuỗi sản phẩm ô tô điện, thiết kế theo ngôn ngữ “Vũ trụ phi đối xứng” (Asymmetric Aerospace), công nghệ đỉnh cao, khả năng vận hành vượt trội",VinFast,VF7 Eco,2026,0,Mới 100%,,,False
+462,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",VinFast,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+463,BÁN LIMO GREEN 2025 – XE 7 CHỖ MỚI 100% – GIÁ ĐÃ TRỪ TOÀN BỘ ƯU ĐÃI KHỦNG!,VinFast,Limo Green,2025,0,Mới 100%,,,False
+464,"mới quá, thuê pin, đi 2000km",VinFast,VF3 Plus,2025,2000,Đã qua sử dụng,Thuê pin,,True
+465,"330km/lần sạc, sạc nhanh tiết kiệm thời gian, sạc chậm tiện lợi tại nhà",Wuling,Bingo,2026,0,Mới 100%,Mua pin,,False
+466,"miễn phí 100% thuế trước bạ, miễn phí sạc pin đến 01/07/2027 (không giới hạn), hỗ trợ đăng ký, đăng kiểm nhanh chóng, hỗ trợ đăng ký chạy dịch vụ Platform, Grab hoàn toàn miễn phí, hỗ trợ đăng ký Hợp tác xã cho khách hàng kinh doanh vận tải",,VF5 Plus,,,Đã qua sử dụng,Mua pin,,False
+467,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+468,"xuất sắc, full ls bảo hành hãng, zin toàn bộ không va chạm thủy kích",VinFast,VF3 Plus,2025,0,Mới 100%,,True,False
+469,màu Xám sản xuất 2025 Xe mua pin,VinFast,VF6 Plus,2025,2000,Đã qua sử dụng,Mua pin,,True
+470,"dung lượng pin 82.56kwh, sạc nhanh (DC ) 30%-80% trong 30 phút, quãng đường 1 lần sạc đầy là 520km ( WLTC ), hệ thống an toàn kể hết mỏi mồm",BYD,Seal Performance,2025,0,Mới 100%,Mua pin,,True
+471,THĂNG LONG CAR - THẾ GIỚI XE VINFAST LƯỚT xin kính chào quý khách hàng ! | Chúng tôi xin trân trọng giới thiệu đến quý khách hàng mẫu xe. | -Hãng xe: vinfast | -Loại xe : vinfast vf8 bản eco 2023 pin mơi CATL- hỗ trợ xe xăng trừ 70tr. còn 680tr. sẵn hồ sơ cầm tay sang tên trong ngày..!,VinFast,VF8 Eco,2023,30000,Đã qua sử dụng,Mua pin,True,False
+472,"triết khấu trực tiếp 4%, giảm thêm 15 triệu, tặng 7.500 điểm vpoint tương đương 7tr500, tri chuat len den 1,5%",VinFast,Limo Green,2025,0,Mới 100%,Mua pin,,False
+473,phiên bản màu đặc biệt với những tính năng nổi trội so với xe cùng phân khúc,VinFast,VF3 Plus,2025,0,Mới 100%,null,,True
+474,#VinFast_VF8 Plus + Kèm Pin | SẴN XE SẴN MÀU GIAO NGAY | Hỗ trợ vay lên tới 80% | Hỗ trợ chứng minh thu nhập - bao hồ sơ khó | Hỗ trợ giao xe tận nhà,VinFast,VF8 Plus AWD,2025,0,Mới 100%,Mua pin,,False
+475,"Nhập khẩu Đức nguyên chiếc, đăng ký và sản xuất năm 2023",Porsche,Taycan,2023,6200,Đã qua sử dụng,,,True
+476,"odo 3vkm siêu mới, miễn phí sạc đến hết năm 2027, phim cách nhiệt cao cấp, thảm sàn nhựa đúc, sơn Zin 99%, không tai nạn, không ngập nước, máy móc và Pin còn bảo hành",VinFast,VF6 Plus,2024,3000,Đã qua sử dụng,Mua pin,True,True
+477,"màu vàng sa mạc, một màu mới của năm 2026",Volvo,EC40 Ultra,2025,0,Mới 100%,,,True
+478,SUV ĐIỆN TOÀN CẦU GEELY EX5 – PHIÊN BẢN MAX CAO CẤP NHẤT | Màu sắc: Xanh Dương,Geely,EX5 Max,2025,0,Mới 100%,Mua pin,,True
+479,tinh thần Việt Nam 4% | Xăng Sang Điện | Sài Gòn và Thủ Đô Xanh (TPHCM & HÀ NỘI) | Hỗ trợ lãi suất NH 3%,VinFast,VF5 Plus,2025,0,Mới 100%,,,True
+480,mua pin catl đi 50.000km đẹp xuất sắc,VinFast,VF8 Eco AWD,2023,50000,Đã qua sử dụng,Mua pin,,False
+481,"mua pin, máy móc khung gầm nguyên bản",VinFast,VF8 Plus AWD,2023,47000,Đã qua sử dụng,Mua pin,,True
+482,"xuất hiện ngoại hình nhỏ gọn, trọng lượng không tải, dung lượng pin, tiêu chuẩn NEDC, công suất động cơ, mô men xoắn, thời gian tăng tốc",VinFast,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+483,"sở hữu xe 0đ, mỗi tháng trả cố định 10tr6/tháng trong 5 năm",VinFast,VF5 Plus,2025,,Đã qua sử dụng,Mua pin,False,False
+484,"mới, giá cựu ưu đãi tháng 12",VinFast,VF8 Eco,2025,0,Mới 100%,,,True
+485,giá tốt nhất | hỗ trợ vay bank | vận hành cho thuê miễn phí,,Limo Green,2025,0,Mới 100%,Mua pin,,False
+486,"mảnh ghép cuối cùng trong chuỗi sản phẩm ô tô điện, thiết kế theo ngôn ngữ “Vũ trụ phi đối xứng” (Asymmetric Aerospace), công nghệ đỉnh cao, khả năng vận hành vượt trội",VinFast,VF7 Eco,2026,0,Mới 100%,,,False
+487,"chào bán, xe mới vừa dắt hãng ra đăng ký, mua pin miễn phí sạc tới 2027",VinFast,VF5 Plus,,2000,Đã qua sử dụng,Mua pin,,True
+488,xám nt đen mua pin odo 3v7 km,VinFast,VF6 Plus,2024,30700,Đã qua sử dụng,Mua pin,,True
+489,"giá bán và thuê pin hấp dẫn, động cơ mạnh mẽ nhất phân khúc C-SUV",VinFast,VF7 Plus AWD,2024,0,Mới 100%,Mua pin,,True
+490,"zin auto chào bán, chạy 5km mới 100%",VinFast,VF8 S,2024,0,Mới 100%,,True,False
+491,"nhận xe, giao ngay, hỗ trợ trả góp, sạc tới 2027, thuế trước bạ 0 đồng",VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,,False
+492,"mua dc 2 tháng, sx 2025 bản mua đứt pin",VinFast,VF7 Eco,2025,0,Mới 100%,Mua pin,,False
+493,"tư nhân, từ mới, lăn bánh tháng 6/2025, đã lộp phí đường bộ đến tháng 6/2028",VinFast,Herio Green AT,2025,0,Mới 100%,Mua pin,,False
+494,chạy 3v1 km bản 6 ghế ngồi có lối đi giữa thoải mái rộng rãi,Hongqi,E-HS9,2022,3000,Đã qua sử dụng,,,True
+495,siêu phẩm như mới | đã mua đứt pin SDI | odo 2v ( xe siêu mới zin đét cả xe như mới không lỗi nhỏ) | Xe đã lên Phim 3M Mỹ hạng thương gia,VinFast,VF9 Plus,2023,20000,Đã qua sử dụng,Mua pin,True,False
+496,VinFast VF8 Eco Pin Catl - Đổi xe xăng sang xe điện giảm trực tiếp tiền mặt,VinFast,VF8 Eco AWD,2023,38000,Đã qua sử dụng,Mua pin,,False
+497,"miễn phí 100% phí trước bạ, hỗ trợ vay 80%",VinFast,VF7 Plus AWD,2025,0,Mới 100%,,,True
+498,"odo 4,8 vạn km | giảm 20tr tiền mặt | tặng 1 năm bảo hiểm | chuyển đổi xe xăng sang xe điện giảm 70tr",VinFast,VF8 Eco,2023,48000,Đã qua sử dụng,,,True
+499,"- Bảo hiệnh, bảo dưỡng, cam ke̊̂t mo̓i tie̲̅u chuả̳n vè̲ xe. - Quý kha̋̂ch hā̵ng an tạ̍m, lie̲̅n hë̲̉: - Ho̊̃ trợ mo̓i thǔ̳c trû̧c trû̧c tű̡c, trong và sau bán. - Ho̊̃ trợ trả go̊̂p lā̵i sua̲̅t u̓̈u đǎ̳i. - U̍̕u đa̧̋i cű̡c tő̢t ĐÕ̩̂I XĂNG SANG ĐIẸ̄N: Giảm 70 trie̲̅u. - Tǎ̳ng Bä̵o hie̲̍nh tha̧̋n vo̓̈, BHTV và quà tặng theo chính sách của GF",,,,,,,,False
+500,VinFast VF8 Eco Pin Sdi sx năm 2023 đổi xe xăng sang điện giảm thêm 70TRIỆU,VinFast,VF8 Eco AWD,2023,50000,Đã qua sử dụng,Mua pin,,False
+501,tứ quý auto hiện đang bán xe vinfast vf3 eco 2025 trắng,VinFast,VF3 Plus,2025,0,Mới 100%,,True,True
+502,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+503,nội thất nâu odo 4v pin sdi | vận hành êm ái | kiểm định 139 bước nghiêm ngặt,VinFast,VF8 Plus AWD,2023,0,Mới 100%,Mua pin,,True
+504,"giá bán và thuê pin hấp dẫn, động cơ mạnh mẽ nhất phân khúc C-SUV",VinFast,VF7 Plus AWD,2026,0,Mới 100%,Mua pin,,True
+505,"LIMO GREEN – XE GIA ĐÌNH, XE CỦA NHÀ MÌNH! | không gian rộng rãi, tăng kết nối cả gia đình",VinFast,Limo Green,2026,0,Mới 100%,null,,False
+506,"đèn led định vị chữ 'V ', mâm 19 inch hợp kim, gương chiếu hậu gập điện, ghế da nhân tạo, màn hình 10.1 inch có Apple CarPlay/Android Auto, cần số điện tử sau vô-lăng, chế độ lái Sport & Cruise Control, camera lùi & cảm biến hỗ trợ đỗ xe",VinFast,VF MPV 7,2026,0,Mới 100%,,,True
+507,XẢ TỒN KHO CUỐI 2025 | Xe mới 100%,VinFast,VF5 Plus,,0,Mới 100%,,,False
+508,XẢ TỒN KHO CUỐI 2025 | Xe mới 100%,VinFast,Limo Green,,0,Mới 100%,,,False
+509,XẢ TỒN KHO CUỐI 2025,VinFast,VF3 Plus,,0,Mới 100%,,,False
+510,"hệ dẫn động 4 bánh, chung thông số động cơ",,,,,Đã qua sử dụng,null,,False
+511,"mới 4v, gia đình, biển trắng giữ kỹ",VinFast,VF8 Plus AWD,2022,0,Mới 100%,Full pin,True,False
+512,thuần điện sx2022 bản 6 ghế ngồi,Hongqi,E-HS9,2022,0,Mới 100%,Mua pin,,False
+513,"mua đứt pin, bảo hiểm thân vỏ đầy đủ, hỗ trợ bank lên đến 80%",VinFast,VF5 Plus,2024,0,Mới 100%,Mua pin,False,False
+514,"trả trước chỉ từ 322 triệu đồng | edan cỡ E Han cũng kèm chế độ bảo hành xe 6 năm hoặc 150.000 km, bảo hành pin 8 năm hoặc 160.000 km",BYD,Han EV,,0,Mới 100%,Mua pin,,True
+515,"Chuyên bán xe đã qua sử dụng chính hãng với chứng chỉ Mercedes-Benz Certified, bạn hoàn toàn có thể yên tâm | Kiểm tra kỹ thuật toàn diện | Lịch sử xe minh bạch, không có hư hại do tai nạn",Mercedes Benz,EQS 580 4Matic,,,Đã qua sử dụng,,True,False
+516,"pin thuê, xe đẹp, cam kết chất lượng nguyên bản",VinFast,VF3 Plus,2024,0,Mới 100%,Pin thuê,,False
+517,THĂNG LONG CAR - THẾ GIỚI XE VINFAST LƯỚT xin kính chào quý khách hàng ! | Chúng tôi xin trân trọng giới thiệu đến quý khách hàng mẫu xe. | -Hãng xe: vinfast | -Loại xe : vinfast vf8 eco 2023 mua pin | -Phiên bản : bản eco | -Màu xe : Ngoại thất màu trắng- đen. | - Số km: 5v km | - Năm sx :2023 - pin SDI | - Sổ bảo hành:Bảo hành bảo dưỡng chính hãng full ls bảo dưỡng hãng kèm theo.,VinFast,VF8 Eco,2023,5000,Đã qua sử dụng,Mua pin,,False
+518,"mạnh liệt tinh thần Việt Nam, xăng sang điện, hỗ trợ lãi suất nh",VinFast,VF6 Eco,2025,0,Mới 100%,Mua pin,,True
+519,Tặng 2 năm BHTV với biển trắng và 12 triệu tiền mặt,VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,,False
+520,"xe demo công ty, lợt cuả hàng, sư dung rât ky, tiêt kiêm hơn so voi mua xe mơi",Mercedes-Benz,EQE 500 4Matic,2023,,Đã qua sử dụng,,True,False
+521,"màu vàng Lamborghini Urus đặc biệt, thuê pin tiên phong",VinFast,VF e34,2022,55000,Đã qua sử dụng,Thuê pin,,True
+522,"VINFATS VF3 - ÔNG HOÀNG ĐÔ THỊ | Giá chỉ ngang xe máy SH nhưng lại là 4 bánh điều hoà mát lịm tim, an toàn tuyệt đối và bảo vệ sức khoẻ khỏi ô nhiễm khói bụi lên đến 99% | Màn hình cảm ứng 10inch | Quảng đường di chuyển 210km/1 lần sạc. | Chỉ mất 24 phút cho quá trình sạc pin nhanh 10% - 70 %",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+523,BÁN LIMO GREEN 2025 – XE 7 CHỖ MỚI 100% – GIÁ ĐÃ TRỪ TOÀN BỘ ƯU ĐÃI KHỦNG!,VinFast,Limo Green,2025,0,Mới 100%,,,False
+524,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+525,- Xe rất đẹp! - Hỗ Trợ trả góp 75-60% giá trị xe 7năm,VinFast,VF5 Plus,2024,0,Mới 100%,,True,False
+526,"mảnh ghép cuối cùng trong chuỗi sản phẩm ô tô điện, thiết kế theo ngôn ngữ “Vũ trụ phi đối xứng” (Asymmetric Aerospace), công nghệ đỉnh cao, khả năng vận hành vượt trội",VinFast,VF7 Eco,2026,0,Mới 100%,,,False
+527,"sản xuất 2025, chạy 5km",VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+528,#Vinfast_VF3 + Kèm Pin | SẴN XE SẴN MÀU GIAO NGAY,VinFast,VF3 Plus,2025,0,Mới 100%,Thuê Pin,,True
+529,"xuất xưởng 2022, odo:2vkm, nhiều phụ kiện",VinFast,VF e34,2022,2000,Đã qua sử dụng,Mua pin,,True
+530,"mua Pin CATL đi 38.000km, hoá đơn, miễn phí sạc Pin đến 7/2027, giảm 70tr vào giá xe",VinFast,VF8 Eco AWD,2023,38000,Đã qua sử dụng,Mua pin,,True
+531,Nhận xe Chỉ với 45 triệu | Sẵn xe GIAO NGAY Đa dạng lựa chọn màu ngoại thất,VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,False
+532,"xuất hiện ngoại hình nhỏ gọn, trọng lượng không tải, dung lượng pin, tiêu chuẩn NEDC, công suất động cơ, mô men xoắn, thời gian tăng tốc",VinFast,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+533,"mạnh nhất phân khúc, không gian nội thất rộng rãi, trang bị nhiều tính năng an toàn vượt trội, chi phí sử dụng cực thấp phù hợp với các gia đình",VinFast,VF5 Plus,2024,0,Mới 100%,,,False
+534,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+535,THÔNG SỐ KỸ THUẬT CƠ BẢN Ô TÔ VAN VINFAST EC VAN,,EC Van,2026,0,Mới 100%,Mua pin,,False
+536,"miễn phí sạc đến 7/2027, triết khấu lên đến 15tr, ưu đãi lãi suất trả góp, hỗ trợ đăng ký biển xe ca nhân",VinFast,VF5 Plus,2025,0,Mới 100%,,,True
+537,"xem xe : 273 , hoàng quốc việt , cầu giấy , hà nội",VinFast,VF5 Plus,2024,0,Mới 100%,,,True
+538,"sẵn giao ngay, giảm thêm 12 triệu, đúng 1 giá, hỗ trợ vay vốn 90%",,Limo Green AT,,0,Mới 100%,null,,False
+539,"Sản xuất: 2023, Odo: 2-3vạn8 km, Pin CATL – Mua pin",VinFast,VF8 Eco,2023,0,Mới 100%,Mua pin,,False
+540,"Sản xuất: 2023, Odo: 5vạn km, Pin CATL – Mua pin",VinFast,VF8 Plus AWD,2023,50000,Đã qua sử dụng,Mua pin,,False
+541,"Sản xuất: 2023, Odo: Hơn 4vạn km, Pin CATL – Mua pin",VinFast,VF8 Eco AWD,2023,40000,Đã qua sử dụng,Mua pin,,False
+542,"Sản xuất: 2023, Odo: 4vạn1 km, Pin CATL – Mua pin",VinFast,VF8 Eco AWD,2023,41000,Đã qua sử dụng,Mua pin,,False
+543,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+544,-Chào bán: Vinfast Vf6 plus màu trắng sản xuất SX 2024 đăng ký 2025 Bản Plus Mua pin,VinFast,VF6 Plus,2025,5000,Đã qua sử dụng,Mua pin,,True
+545,"mảnh ghép cuối cùng trong chuỗi sản phẩm ô tô điện, thiết kế theo ngôn ngữ “Vũ trụ phi đối xứng” (Asymmetric Aerospace), công nghệ đỉnh cao, khả năng vận hành vượt trội",VinFast,VF7 Eco,2026,0,Mới 100%,,,False
+546,THĂNG LONG CAR - THẾ GIỚI XE VINFAST LƯỚT xin kính chào quý khách hàng ! | Chúng tôi xin trân trọng giới thiệu đến quý khách hàng mẫu xe. | -Hãng xe: vinfast | -xe vf8 pin SDI | -Loại xe : vinfast vf8 eco mua pin | -Phiên bản : bản eco | -Màu xe : Ngoại thất màu đỏ - đen | - Số km: 4v km | - Năm sx :2023 -2 cầu | - Sổ bảo hành:Bảo hành bảo dưỡng chính hãng full ls bảo dưỡng hãng kèm theo. | -Cam kết chất lượng bằng văn bản có giá trị pháp lý,VinFast,VF8 Eco,2023,4000,Đã qua sử dụng,Mua pin,True,False
+547,- Bản Plus chỉ 740tr |- Cuối năm lễ tết tây tết ta x2 x3 giá cước |- Bảo hành lên đến 7 năm |- Miễn phí sạc đến 30/7/2027 chạy cước mà không tốn xu nào,VinFast,VF6 Plus,,0,Mới 100%,,,False
+548,"Miễn phí 100% phí trước bạ, Hỗ trợ vay 80%",VinFast,VF6 Plus,2025,0,Mới 100%,,,True
+549,"mạnh liệt tinh thần việt nam, xăng sang điện, hỗ trợ lãi suất nh",VinFast,Limo Green AT,2025,0,Mới 100%,Mua pin,,True
+550,"vay đến 90%, bảo hành lên đến 7 năm, miễn phí sạc đến 30/7/2027",VinFast,VF5 Plus,,0,Mới 100%,,,False
+551,thuê pin tiên phong miễn phí sạc tới t7/2027 sx 2022,VinFast,VF8 Plus AWD,2022,0,Mới 100%,Thuê pin,,True
+552,"mua pin, đã vào full option, odometer siêu lùi chỉ 4.000km",VinFast,VF3 Plus,2025,4000,Đã qua sử dụng,Mua pin,,True
+553,"xuất hiện ngoại hình nhỏ gọn, kích thước, trọng lượng không tải, dung lượng pin, công suất động cơ, mô men xoắn, thời gian tăng tốc",VinFast,VF5 Plus,2026,0,Mới 100%,Mua pin,,False
+554,Xe E đã Spa nhẹ xong sẵn sàng giao dịch | Vf5 Sx 2025 bản Plus ( Mua pin ) Xe chạy 40.000km zin full hãng,VinFast,VF5 Plus,2025,40000,Đã qua sử dụng,Mua pin,,True
+555,odo 61.000 km dòng 2 máy vẫn có cam 360 HUD kính full adas,VinFast,VF8 Eco AWD,2023,61000,Đã qua sử dụng,,,True
+556,DUY NHẤT 1 CHIẾC VF6 PLUS MÀU XANH DƯƠNG – AI NHANH HƠN SẼ CÓ! | GIẢM 4% TRỪ THẲNG VÀO GIÁ NIÊM YẾT | MIỄN PHÍ SẠCH PIN ĐẾN HẾT THÁNG 06/2027,VinFast,VF6 Plus,2025,0,Mới 100%,Thu cũ đổi mới,,False
+557,sản xuất 2023 đăng ký 2025 bảo hành 2028 lướt 4000 km màu đỏ nội thất đen trang bị full option,Mercedes Benz,EQS 450 Plus,2023,0,Mới 100%,,True,True
+558,"- Bảo hiệnh, bảo dưỡng, cam kết mọi tiêu chuẩn ve̊̀ xe. - Quý khạ̉ch hạ̉ng an tạ̅̄m, liện hệ: - Hỗ trợ mọi thu̥ tu̥c trước, trong và sau bạ̅̄n. - Hỗ trợ trả go̊̋p lậ̂u suạ̍t u̥u đâ̤i. - U̥u đâ̤i cu̥̅̄c to̥̓̈̀i ĐỌ̉I XĂNG SANG ĐIẸ̌N: Gia̧̋m 70 trie̩̍̃u. - Tâ̤̂ng Bạ̅̄o hiệnh thạ̄n vỏ̥ BHTV và quà tặng theo chính sách của GF",,,,,,,,False
+559,"Siêu phẩm MPV7 đầu đã về tới, Giảm 6% giá trị xe, Giảm 5% KH Công An-Quân Đội, Tặng 2 năm bảo hiểm hãng / Quy đổi 15 triệu",VinFast,VF MPV 7,2026,0,Mới 100%,,,True
+560,odo 3v | km | Xe thuê pin tiên phong,VinFast,VF8 Plus AWD,2022,,Đã qua sử dụng,Mua pin,,True
+561,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+562,#Vinfast_VF6 + Kèm Pin | SẴN XE SẴN MÀU GIAO NGAY,,VF6 Plus,,0,Mới 100%,Mua pin,,True
+563,"giá bán và thuê pin hấp dẫn, động cơ mạnh mẽ nhất phân khúc C-SUV",VinFast,VF7 Plus AWD,2026,0,Mới 100%,Mua pin,,True
+564,"giá bán và thuê pin hấp dẫn, động cơ mạnh mẽ nhất phân khúc C-SUV",VinFast,VF7 Plus AWD,2026,0,Mới 100%,Mua pin,,True
+565,"đánh giá cao về thiết kế, công nghệ, tiện nghi và khả năng vận hành",VinFast,VF7 Eco,2025,0,Mới 100%,,,True
+566,"đầm chắc và ổn định khi xe di chuyển qua các ổ gà hay đoạn đường mấp mô, trọng lượng nhẹ hơn",VinFast,VF6 Eco,2025,0,Mới 100%,Mua pin,,False
+567,"zin Auto chào bán VinFast VF 5 Plus, sản xuất năm 2024, chạy 2,8 vạn km, không đâm đụng, không ngập nước, keo chỉ – máy số zin 100%",VinFast,VF5 Plus,2024,28000,Đã qua sử dụng,,True,False
+568,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+569,"mua pin, đi 4v km, đến 6/2026 mới bắt miễn sạc",VinFast,VF8 S,2024,4000,Đã qua sử dụng,Mua pin,,False
+570,"giá bán và thuê pin hấp dẫn, động cơ mạnh mẽ nhất phân khúc C-SUV",VinFast,VF7 Plus AWD,2026,0,Mới 100%,Mua pin,,True
+571,"tầm hoạt động 380 km, công suất 174 mã lực, hệ thống ADAS",BYD,Atto 2,2025,0,Mới 100%,Mua pin,,False
+572,"sẵn xe giao ngay, VinFast VF 5 PLUS 2025",VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,,False
+573,XE MỚI VỀ – VF6 PLUS 2024 (BẢN MUA PIN) | Sản xuất: 2024 | Phiên bản: Plus,VinFast,VF6 Plus,2024,19000,Đã qua sử dụng,Mua pin,True,False
+574,- Ưu đãi Sạc miễn phí 2 năm | -  Tặng 2 năm bảo hiểm thân vỏ xe | - Ưu đãi lên đến 150 Triệu | - Trả góp lãi suất ưu đãi,VinFast,VF9,2025,0,Mới 100%,,,False
+575,trắng nt nâu da bò | Odo: 2v km,VinFast,VF8 Plus AWD,2022,20000,Đã qua sử dụng,Thuê pin,,True
+576,"đánh giá cao về thiết kế cũng như công nghệ, tiện nghi, khả năng vận hành, mức công suất mạnh nhất phân khúc",VinFast,VF7 Plus,2026,0,Mới 100%,null,,True
+577,"giá bán và thuê pin hấp dẫn, động cơ mạnh mẽ nhất phân khúc C-SUV",VinFast,VF7 Plus AWD,2026,0,Mới 100%,Mua pin,,True
+578,- Chào bán:VF3 màu Trắng ODO 6000 Km,VinFast,VF3 Plus,2025,6000,Đã qua sử dụng,,,True
+579,chiếc xe điện giá rẻ của người Tiên Phong - Vinfast VF3. năm sx 2025 odo : 24.000 km pin thuê 900k / tháng,VinFast,VF3 Plus,2025,24000,Đã qua sử dụng,Pin thuê,True,False
+580,"mới 1 chủ, biển trắng, không dịch vụ",VinFast,VF8 Plus AWD,2022,0,Mới 100%,Mua pin,False,True
+581,#Vinfast_VF6 + Kèm Pin,,VF6 Eco,2025,0,Mới 100%,Thuê pin,,False
+582,"- CHÀO BÁN: VINFAST Vf3 giá bán đã kèm pin theo xe! 
+- Xe sẵn showroom ,giao ngay trong ngày ! 
+- Áp dụng gói pin tiên phong miễn phí sạc đến tháng 1/2028 .",VinFast,VF3 Plus,,0,Mới 100%,Mua pin,,False
+583,"- Bảo hiểm, bảo dưỡng, cam ke̊̂t mọi tie̲̅u chuả̳n vè̲ xe. | Quý kha̋̂ch ha̋̂n an ta̋̂m, lie̋̂n he̋̂: | - Hő̂ trő̂ mő̂i thű̂c trű̀c trű̀c tű̀c, trong va̋̀u ba̋́n. | - Hő̂ trő̂ tra̋̂ gõ̋̂p la̋̂i sua̋̂t ű̂u đa̋̂i. | - Ű̂u đa̋̂i cű̂c tő̀c ĐŐ̂I XĂNG SANG ĐIE̋̂N: Gia̋̂m 70 trie̋̂u. | - Ta̋̂ng Ba̋̂o hie̋̂m tha̋̂n vő̂, quy đổi BHTV và quà tặng theo chính sách của GF",,,,,,,,False
+584,"mới về, sản xuất 2021, chất lượng xe hoàn hảo",Porsche,Taycan,2021,19000,Đã qua sử dụng,,True,False
+585,"mua pin, đi 65.000km, xuất sắc, hoá đơn, miễn phí sạc Pin đến 7/2027",VinFast,VF8 Plus AWD,2023,65000,Đã qua sử dụng,Mua pin,,False
+586,"mới về, gần như mới, chưa lăn bánh, sx 2025",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+587,"Nhận xe Chỉ với 110 triệu | Sẵn xe GIAO NGAY Đa dạng lựa chọn màu ngoại thất | Hỗ trợ đăng ký Platfrom Miễn phí, chia sẻ doanh thu 85% | Hỗ trợ trả góp 80% giá trị xe | FREE sạc tới 2027",VinFast,VF5 Plus,,0,Mới 100%,Mua pin,,False
+588,"mua pin trắng kem, máy móc khung gầm nguyên bản pin đẹp",VinFast,VF8 Plus AWD,2023,52000,Đã qua sử dụng,Mua pin,,True
+589,"giá bán và thuê pin hấp dẫn, động cơ mạnh mẽ nhất phân khúc C-SUV",VinFast,VF7 Plus AWD,2026,0,Mới 100%,Mua pin,,True
+590,mạnh liệt tương lai xanh giảm 6%| quy đổi xe vin2025,VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+591,Vinfast VF8 | Xe điện mới 100%,VinFast,VF8 Eco,2026,0,Mới 100%,Mua pin,,True
+592,"- CHÀO BÁN: VINFAST Vf3 giá bán đã kèm pin theo xe! 
+- Xe sẵn showroom ,giao ngay trong ngày ! 
+- Áp dụng gói pin tiên phong miễn phí sạc đến tháng 1/2028 .",VinFast,VF3 Plus,,0,Mới 100%,Mua pin,,False
+593,new or xe mới nguyên nilon,VinFast,VF3 Plus,2025,0,Mới 100%,,False,False
+594,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+595,GIÁ CHỈ TỪ 50 TRIỆU | Ưu đãi độc quyền trong tháng,VinFast,VF3 Plus,2026,0,Mới 100%,,,True
+596,- Chào bán vinf Vf3 sx 2025 Xe đã được chủ xe chịu chơi độ gần trăm triệu tiền đồ chơi! - Xe mới quá thiếu mỗi cái hộp,VinFast,VF3 Plus,2025,0,Mới 100%,Thuê pin,,True
+597,"1 chủ từ mới, odo 3 vạnkm, cam kết xe, không đâm đụng, ngập nước, máy móc nguyên bản",VinFast,VF8 S,2024,30000,Đã qua sử dụng,,True,False
+598,"giá bán và thuê pin hấp dẫn, động cơ mạnh mẽ nhất phân khúc C-SUV",VinFast,VF7 Plus AWD,2026,0,Mới 100%,Mua pin,,True
+599,"sản xuất 2025, odo 7000km",VinFast,VF6 Plus,2025,7000,Đã qua sử dụng,,,True
+600,"Miễn phí 100% phí trước bạ, Gói quà tặng 10 triệu đồng, Hỗ trợ vay 80%",,VF3 Plus,2025,0,Mới 100%,,,False
+601,#Vinfast_VF7 + Kèm Pin | SẴN XE SẴN MÀU GIAO NGAY,,VF7 Plus AWD,2025,0,Mới 100%,Mua pin,,True
+602,"GIÁ QUÁ TỐT SAU ƯU ĐÃI ️ | • Phiên bản Eco – pin CATL | • Màu xanh ngoại thất – nội thất đen | • Odo 6,6 vạn km",VinFast,VF8 Eco,2023,66000,Đã qua sử dụng,Mua pin,True,False
+603,Vinfast VF8 | Xe điện mới 100%,VinFast,VF8,2026,0,Mới 100%,Mua pin,,True
+604,"sẵn xe giao ngay, pin 75,3 kWh",VinFast,VF7 Plus,2026,0,Mới 100%,Mua pin,,True
+605,"sx 2024 (Mua Pin) | Odo 49.000 Km - 1 chủ từ mới, sơn zin | Hỗ trợ vay bank",VinFast,VF6 S,2024,49000,Đã qua sử dụng,Mua pin,True,False
+606,chào bán: VF3 màu Trắng miễn phí sạc đến 1/2028,VinFast,VF3 Plus,2025,1000,Đã qua sử dụng,Mua pin,,True
+607,lo ngại về lịch sử tín dụng,VinFast,VF5 Plus,,,Đã qua sử dụng,,,False
+608,"xuất xế kẹo, mua pin, bảo hiểm thân vỏ, đồ chính hãng, phim cách nhiệt, bệ tỳ tay, loa JBL, bảo hành hãng",VinFast,VF5 Plus,2024,0,Mới 100%,Mua pin,False,True
+609,"xe được cam kết, không có va chạm làm ảnh hưởng tới kết cấu xe, máy móc, hộp số nguyên bản, hệ thống điện và các chức năng hoạt động bình thường, hồ sơ pháp lý minh bạch không có tranh chấp kiện tụng, hỗ trợ ngân hàng lên đến 70% giá trị xe, chế độ bảo hành hậu mãi",VinFast,VF e34 AT,2022,0,Mới 100%,,True,False
+610,"xe thuê pin tiên phong, không có va chạm, máy móc và hộp số nguyên bản",VinFast,VF e34,2022,0,Mới 100%,Thuê pin,True,False
+611,"mua pin CATL, màu xanh, nội thất đen, đi 2,3 vạn",VinFast,VF9 Plus,2024,23000,Đã qua sử dụng,Mua pin,,True
+612,"cọc tiên phong, giảm ngay 15 triệu, giảm thêm 6% giá xe",VinFast,VF MPV 7,2026,0,Mới 100%,,,False
+613,"đi 2,9v | nguyên zin | đã dán phim 3M, thảm sàn",VinFast,VF8 Plus AWD,2023,29000,Đã qua sử dụng,Mua pin,False,True
+614,"cân, xịn",VinFast,VF8 Eco,2024,30000,Đã qua sử dụng,Mua pin,,False
+615,THỜI ĐIỂM MUA XE ĐIỆN CAO CẤP TỐT NHẤT TRONG NĂM! | Nhận Ngay Hỗ Trước Bạ Từ Chính Phû Cùng Nhiều Quà Tặng Chính Hãng Cao Cấp Từ Mercedes Phu My hung. | Công suất sạc AC tiêu chuẩn (2) : 11 kW (điện 3 pha),Mercedes-Benz,EQS 500 4MATIC,2024,0,Mới 100%,Thuế Trước Bạ Từ Chính Phû Cùng Nhiều Quà Tặng Chính Hãng Cao Cấp,,True
+616,"mua pin, đẹp đã qua tuyển chọn",VinFast,VF8 Plus AWD,2023,3700,Đã qua sử dụng,Mua pin,,True
+617,Tặng 2 năm BHTV với biển trắng và 12 triệu tiền mặt,VinFast,VF5 Plus,,0,Mới 100%,Mua pin,,False
+618,"Hỗ trợ giảm, hỗ trợ trả góp, miễn phí lệ phí trước bạ, sạc pin miễn phí",VinFast,VF5 Plus,,0,Mới 100%,null,,False
+619,"odo 4,4 vạn. Pin catl",VinFast,VF8 Plus AWD,2023,44000,Đã qua sử dụng,Mua pin,,True
+620,"- Bảo hiểm, bảo dưỡng, cam ke̊̂t mő̂i tiệu chuẩn vè̡ xe. - Quý kha̅̉ch hẳng an tā̤m, lië̲n hệ: - Hơ̋ trợ mő̂i thũ̥ tũ̥c trư̌ờc, trong và sau bán. - Hơ̋ trợ trả go̊̂p lä̲i sua̅̄t û̧u đâ̳i. - Ǔ̦u đã̱i cṳ̍c tồ̡t ĐŐ̪̉I XĂNG SANG ĐIË̲̅N: Giā̧m 70 triệu. - Tā̢ng Bã̄o hiě̳m thā̤n vő̂t, quý Anh chi!",,,,,,,,False
+621,"xuất xưởng mới, chào bán, dán phim cách nhiệt, camera lùi chính hãng, ghế da Napa full, thảm 6D, ốp lazang, đã gia cố càng A, độ chống ồn",VinFast,VF3 Plus,2024,0,Mới 100%,,,True
+622,Xe GF | VF8 Plus Đen / nội thất Đen 2022 Mua Pin SDI,VinFast,VF8 Plus AWD,2022,,Đã qua sử dụng,Mua pin,,True
+623,"mới về, odo: 6v km, thuê pin tiên phong",VinFast,VF e34 AT,2022,0,Mới 100%,Thuê pin,,False
+624,E34 Xanh Rêu / Be 2022 | Đi rất ít,VinFast,VF e34,2022,3500,Đã qua sử dụng,Thuê pin,,False
+625,Xe GF | VF8 Plus Trắng / nội thất Kem 2023 Mua Pin SDI Odo 4v4 km Xe đẹp đã qua tuyển chọn,,VF8 Plus,2023,4000,Đã qua sử dụng,Mua pin,,False
+626,"- Trả góp lãi suất ưu đãi, trả trước chỉ 75tr tiền xe, vay 90% giá trị xe | - Hỗ trợ lãi suất 3% trong 3 năm. | - Miễn thuế trước bạ 100% | - Liên hệ nhân viên tư vấn để được hỗ trợ tốt nhất !",,Limo Green,,0,Mới 100%,null,,False
+627,"mảnh ghép cuối cùng trong chuỗi sản phẩm ô tô điện, thiết kế theo ngôn ngữ “Vũ trụ phi đối xứng” (Asymmetric Aerospace), công nghệ đỉnh cao, khả năng vận hành vượt trội",VinFast,VF7 Eco,2026,0,Mới 100%,,,False
+628,Nhận xe Chỉ với 45 triệu | Sẵn xe GIAO NGAY Đa dạng lựa chọn màu ngoại thất,VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,False
+629,VF8 GF | Năm sản xuất: 2023 | Tình trạng: Xe có va chạm - đã cân chỉnh khung xương két nước + thay lắp Capo và sơn quây,VinFast,VF8 Eco,2023,35042,Đã qua sử dụng,Mua pin,False,True
+630,"sx 2022, odo: 60.000km zin, full lịch sử bảo dưỡng hãng",VinFast,VF8 Plus AWD,2022,60000,Đã qua sử dụng,,True,False
+631,"- Chào bán: VF6 Plus 2024 Mua Pin, xe chạy lướt 
+- Xe Model cũ full option",VinFast,VF6 Plus,2024,0,Mới 100%,Mua pin,,True
+632,"CHỐT DEAL NGAY, ưu đãi 38 triệu, miễn phí bảo dưỡng",BYD,ATTO 3 Dynamic,,0,Mới 100%,,,True
+633,"giảm 70 triệu khi đổi xăng sang điện, tặng 50 triệu tiền mặt, miễn phí bảo hiểm thân vỏ, không đâm đụng, không ngập nước, không bổ máy, không cẩu máy",VinFast,VF8 Eco AWD,2023,0,Mới 100%,,True,False
+634,"Chào bán : VINFAST VF3 Trắng Mới 100% Mua Pin, đã gia cố càng A",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+635,"new ae, không đâm đụng, không ngập nước, bao check hãng",VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,True,False
+636,Vinfast VF8 | Xe điện mới 100%,VinFast,VF8 Eco,2026,0,Mới 100%,Mua pin,,True
+637,"THĂNG LONG CAR, VINFAST VF8 ECO MUA PIN",,VF8 Eco,2023,4000,Đã qua sử dụng,Mua pin,True,False
+638,"Gia đình không sử dụng , em xin phép chào bán | #Vinfast #VF8 Plus sx 2023 | Pin Catl ( mua pin ) | Odo : 4,5 v km full lịch sử bảo dưỡng hãng",VinFast,VF8 Plus AWD,2023,45000,Đã qua sử dụng,Mua pin,True,False
+639,"- Chào bans: VF3 màu Vàng, Xe miễn phí sạc đến 1/2028",VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+640,đổi xe xăng sang xe điện giảm trực tiếp tiền mặt,VinFast,VF8 Eco AWD,2023,37000,Đã qua sử dụng,Mua pin,,False
+641,"mảnh ghép cuối cùng trong chuỗi sản phẩm ô tô điện, thiết kế theo ngôn ngữ “Vũ trụ phi đối xứng” (Asymmetric Aerospace), công nghệ đỉnh cao, khả năng vận hành vượt trội",VinFast,VF7 Eco,2026,0,Mới 100%,,,False
+642,"pin CATL, odo: 22.000km, chính hãng GF",VinFast,VF8 Eco,2023,22000,Đã qua sử dụng,Mua pin,,False
+643,"giá đã áp dụng chương trình xăng đổi điện, bảo hành chính hãng 10 năm hoặc 200.000 km, bảo hành pin trọn đời",VinFast,VF9 Plus,2025,0,Mới 100%,Thu cũ đổi mới,,False
+644,"sở hữu xe 0đ, mỗi tháng trả cố định 10tr6/tháng trong 5 năm",VinFast,VF5 Plus,2025,,Đã qua sử dụng,null,,False
+645,"Thuê pin, miễn phí sạc 2 năm, không va chạm, không ngập nước",VinFast,VF3 Plus,2025,12000,Đã qua sử dụng,Thuê pin,True,False
+646,#Vinfast_VF6 + Kèm Pin,,VF6 Eco,,,Đã qua sử dụng,Mua pin or Thuê pin,,False
+647,"- Màu trắng nội thất nâu 
+- Màn hình trung tâm 15.6 inch với giao diện thân thiện, hỗ trợ tiếng Việt. 
+- Trợ lý ảo thông minck, hỗ trợ điều khiển bằng giọng nói. 
+- Cập nhật phần mềm từ xa (OTA) giúp xe luôn trong trạng thái tối ưu. 
+- Hệ thống an toàn ADAS hỗ trợ lái xe tự động cấp độ 2+",VinFast,VF8 Plus AWD,2025,0,Mới 100%,Mua pin,,False
+648,"- Trang bị: bộ mâm 5 chấu kép kích thước 21 inch bọc trong bộ lốp Pirelli 255/40R21, tay nắm cửa đồng màu thân xe, gương chiếu hậu tích hợp sấy và camera",VinFast,VF8 Plus AWD,2024,0,Mới 100%,,,True
+649,"linh hoạt, điều chỉnh không gian nội thất, động cơ điện mạnh mẽ, tiết kiệm nhiên liệu, bảo trì, phạm vi hoạt động",BYD,M6,2025,0,Mới 100%,Mua pin,,False
+650,hàng cực hot cực Hiếm. VF6 Plus xanh rêu,VinFast,VF6 Plus,2025,0,Mới 100%,,,False
+651,"Đã Qua Sử Dụng Chính Hãng | Đăng ký 10/2024 | không đâm đụng, ngập nước. | lịch sử minh bạch, pháp lý rõ ràng. | chất lượng bằng văn bản",Mercedes-Benz,EQB 250,,79,Đã qua sử dụng,,True,False
+652,- Chào bán: Vinfast VF3 màu Vàng Thuê pin sx 2024,VinFast,VF3 Plus,2024,0,Mới 100%,Thuê pin,,True
+653,"mảnh ghép cuối cùng trong chuỗi sản phẩm ô tô điện, thiết kế theo ngôn ngữ “Vũ trụ phi đối xứng” (Asymmetric Aerospace), công nghệ đỉnh cao, khả năng vận hành vượt trội",VinFast,VF7 Eco,2026,0,Mới 100%,,,False
+654,Vinfast VF8 | Xe điện mới 100%,VinFast,VF8 Eco,2026,0,Mới 100%,Mua pin,,True
+655,hàng về | VFe34 vin 2023 | Đã Mua pin LFP mới | Odo 1.7v km,VinFast,VF e34,2023,17000,Đã qua sử dụng,Mua pin,,True
+656,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+657,"động cơ mạnh mẽ, 620Nm mô-men xoắn – tăng tốc bứt phá",VinFast,VF8 Plus AWD,2023,0,Mới 100%,,,True
+658,"odo: 80000 km, kiểm định 139 bước nghiêm ngặt",VinFast,VF8 Eco,2023,80000,Đã qua sử dụng,,,True
+659,VinFast VF9 Eco 2025 | Kích thước tổng thể (DxRxC) (mm): 4.750 x 1.934 x 1.667 | Chiều dài cơ sở (mm): 2.950,,VF9 Eco,2025,0,Mới 100%,,,True
+660,"sở hữu vẻ ngoài khá bắt mắt, công suất tối đa 150kW = 201hp, quãng đường đi được 400km",VinFast,VF6 Plus,2026,0,Mới 100%,,,True
+661,"- Bảo hiệnh, bảo dưỡng, cam kết mọi tie̳u chuả̳n vè̲ xe. | Quý khả̳ch hà̳ng an tả̳m",VinFast,VF8 Plus AWD,2023,39783,Đã qua sử dụng,,False,False
+662,"mảnh ghép cuối cùng trong chuỗi sản phẩm ô tô điện, thiết kế theo ngôn ngữ “Vũ trụ phi đối xứng” (Asymmetric Aerospace), công nghệ đỉnh cao, khả năng vận hành vượt trội",VinFast,VF7 Eco,2026,0,Mới 100%,,,False
+663,"- Sẵn xe giao ngay 
+- Nhận ngay giảm 4% vào giá xe 
+- Thuế trước bạ 0% 
+- Hỗ trợ vay 90% giá trị xe ưu đãi lãi suất hỗ trợ giảm 3% chỉ với 90 triệu có xe để vận doanh. 
+- Miễn phí sạc 30/06/2027.",VinFast,Limo Green,2025,0,Mới 100%,,,False
+664,"hàng xuất sắc cho ae đi Tết, đăng ký lần đầu 2024 siêu lướt 16.000km, bản 7 ghế - Trần Kính, miễn phí sạc Pin 7/2027",VinFast,VF9 Plus,2023,0,Mới 100%,Mua pin,,True
+665,#Vinfast_VF6 + Kèm Pin,,VF6 Eco,2025,0,Mới 100%,Thuê pin,,False
+666,"- Trang bị: bộ mâm 5 chấu kép kích thước 21 inch bọc trong bộ lốp Pirelli 255/40R21, tay nắm cửa đồng màu thân xe, gương chiếu hậu tích hợp sấy và camera",,VF8 Plus AWD,2026,0,Mới 100%,,,True
+667,THĂNG LONG CAR - THẾ GIỚI XE VINFAST LƯỚT xin kính chào quý khách hàng ! | Chúng tôi xin trân trọng giới thiệu đến quý khách hàng mẫu xe. | -Hãng xe: vinfast | -Loại xe : vinfast vf8 bản plus 2023 pin mơi CATL - hỗ trợ xe xăng trừ 70tr. còn 780trsẵn hồ sơ cầm tay sang tên trong ngày..!,VinFast,VF8 Plus AWD,2023,30000,Đã qua sử dụng,,True,False
+668,"- Trả góp lãi suất ưu đãi, trả trước chỉ 75tr tiền xe, vay 90% giá trị xe | - Hỗ trợ lãi suất 3% trong 3 năm. | - Miễn thuế trước bạ 100% | - Miễn phí sạc pin đến hết T06/2027",VinFast,Limo Green,2025,0,Mới 100%,null,,False
+669,"nhận xe chỉ với 150 triệu, hỗ trợ trả góp 80%, sạc tới 2027, thuế trước bạ 0 đồng",VinFast,VF7 Plus AWD,2025,0,Mới 100%,Mua pin,,False
+670,"- Odo 3v full lịch sử hãng, máy móc khung gầm keo chỉ nguyên bản bao check test mọi nơi theo yêu cầu. - xe đã lên thảm sàn fim cách nhiệc cao cấp, cam hành trình",VinFast,VF6 Plus,2025,0,Mới 100%,,,True
+671,"mảnh ghép cuối cùng trong chuỗi sản phẩm ô tô điện, thiết kế theo ngôn ngữ “Vũ trụ phi đối xứng” (Asymmetric Aerospace), công nghệ đỉnh cao, khả năng vận hành vượt trội",VinFast,VF7 Eco,2026,0,Mới 100%,,,False
+672,"xám nội thất nâu da bò, mã màu hot nhất duy nhất 1 xe",VinFast,VF8 Plus AWD,2024,0,Mới 100%,Mua pin,,True
+673,"mua đứt pin, đã mua bảo hiểm thân vỏ đầy đủ, đã được vào rất nhiều đồ chính hãng",VinFast,VF5 Plus,2024,0,Mới 100%,Mua pin,False,True
+674,"NỘI THẤT VF 6 HIỆN ĐẠI, PHÓNG KHOÁNG",,VF6 Plus,,0,Mới 100%,,,False
+675,". Thời gạc sạc pin lên tới 70% trong chỉ 30 phút | . Khoảng sáng gầm tới 191 mm, xe nhỏ gọn thuận lợi di chuyển trong đô thị | . Đa dạng lựa chọn 9 màu ngoại thất",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,True
+676,"- Trang bị: bộ mâm 5 chấu kép kích thước 21 inch bọc trong bộ lốp Pirelli 255/40R21, tay nắm cửa đồng màu thân xe, gương chiếu hậu tích hợp sấy và camera",VinFast,VF8 Plus AWD,2026,0,Mới 100%,,,True
+677,"đăng ký và lăn bánh, siêu mới, cá nhân, 1 chủ, biển HN, xe mua pin, miễn phí sạc đến hết năm 2027",VinFast,VF6 S,2024,0,Mới 100%,Mua pin,True,True
+678,THĂNG LONG CAR - THẾ GIỚI XE VINFAST LƯỚT xin kính chào quý khách hàng ! | Chúng tôi xin trân trọng giới thiệu đến quý khách hàng mẫu xe. | -Hãng xe: vinfast | -Loại xe : vinfast vf8 bản plus 2023 pin mơi CATL hỗ trợ xe xăng trừ 70tr. còn 790tr. sẵn hồ sơ cầm tay sang tên trong ngày..!,VinFast,VF8 Plus AWD,2023,40000,Đã qua sử dụng,,True,False
+679,Mạnh Liệt Tương Lai Xanh giảm 6% | Quy đổi xe Vin 2025 | Hạng Vinclub Dimond,VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+680,"- CHÍNH SÁCH VF3 GIÁ CỰC TỐT CHỈ CÓ TẠI MYCAR - EV | - VF3 SX 2025 Xe mới 100% mua pin. | - Kèm theo chính sách miễn phí sạc 7/2027 , bảo hành hãng lên đến 8 năm ",VinFast,VF3 Plus,2025,0,Mới 100%,Mua pin,,False
+681,"- Bảo hiệnh, bảo dưỡng, cam ke̊̂t mő̂i tie̲̅u chuā̳n vě̲ xe. - Quý kha̓̂ch hà̕ng an tạ̍m, lie̲̅n hẻ̂: - Ho̊̋ trợ mő̂i thū̳c trü̧õc, trong va̓̂ sau bà̕n. - Ho̊̋ trợ trả go̊̋p la̓̋i sua̓́t ű̗u đā̅i. - Ű̗u đã̌i cű̗t tô̍c ĐÖ̲̂I XĂNG SANG ĐIẺ̳N: Gia̓̋m 70 triẹ̄u. - Tà̕ng Ba̓̂o hie̊̌nh thã̅n vő̗, quy đổi BHTV và quà tặng theo chính sách của GF",,,,,,,,False
+682,"đầm chắc và ổn định khi xe di chuyển qua các ổ gà hay đoạn đường mấp mô, trọng lượng nhẹ hơn",VinFast,VF6 Eco,2026,0,Mới 100%,Mua pin,,False
+683,"- Trang bị: bộ mâm 5 chấu kép kích thước 21 inch bọc trong bộ lốp Pirelli 255/40R21, tay nắm cửa đồng màu thân xe, gương chiếu hậu tích hợp sấy và camera",VinFast,VF8 Plus AWD,2026,0,Mới 100%,,,True
+684,"VF8 2024, sang trọng, form xe cực đẹp, chạy chuẩn 2,8 vạn km, chất lượng còn rất mới",VinFast,VF8 Plus AWD,2024,28000,Đã qua sử dụng,,True,False
+685,"miễn phí sạc đến 07/2027, hỗ trợ thủ tục đăng ký đăng kiểm, hỗ trợ lãi suất ưu đãi",VinFast,VF3 Plus,2025,0,Mới 100%,,,True
+686,"THĂNG LONG CAR, VINFAST VF8 ECO, pin mới SDI, hỗ trợ xăng",VinFast,VF8 Eco AWD,2023,50000,Đã qua sử dụng,Mua pin,True,False
+687,#Vinfast_VF6 + Kèm Pin,,VF6 Eco,,,Đã qua sử dụng,Mua pin,,False
+688,"mới tinh, chạy it, chưa khai thác, nội ngoại thất còn nguyên mùi mới",VinFast,Limo Green,2025,0,Mới 100%,,,False
+689,"đầm chắc và ổn định khi xe di chuyển qua các ổ gà hay đoạn đường mấp mô, trọng lượng nhẹ hơn",VinFast,VF6 Eco,2026,0,Mới 100%,Mua pin,,False
+690,"Vinfast Herio Green mới, hỗ trợ mua xe trả góp, cứu hộ miễn phí",VinFast,Herio Green,2025,0,Mới 100%,,,False
+691,"NỘI THẤT VF 6 HIỆN ĐẠI, PHÓNG KHOÁNG",,VF6 Plus,,0,Mới 100%,,,True
+692,HỖ TRỢ VAY 80% | Tặng ngay 10 Triệu | Mua đứt pin với giá ưu đãi 80triệu,VinFast,VF5 Plus,2025,0,Mới 100%,Mua pin,,False
+693,"chào bán, miễn phí sạc đến 07/2027",VinFast,VF3 Plus,2024,0,Mới 100%,,,True
+694,"- Trang bị: bộ mâm 5 chấu kép kích thước 21 inch bọc trong bộ lốp Pirelli 255/40R21, tay nắm cửa đồng màu thân xe, gương chiếu hậu tích hợp sấy và camera",VinFast,VF8 Plus AWD,2026,0,Mới 100%,,,True
+695,"* Phú Quý rất hân hạnh được phục vụ Quý Khách! -- 
+- Phú Quý Auto: Sứ mệnh phục vụ",VinFast,VF8 Eco AWD,2024,2400,Đã qua sử dụng,Mua pin,,False
