@@ -564,3 +564,6 @@ cython_debug/
 
 !scripts/chotot/logs/*.log
 !docs/report_assets/*.log
+
+# Claude
+.claude
