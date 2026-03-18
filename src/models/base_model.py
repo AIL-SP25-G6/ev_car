@@ -12,7 +12,7 @@ from sklearn.model_selection import GridSearchCV
 
 from .config import RANDOM_STATE, CV_FOLDS, PARAM_GRIDS, BENCHMARK_DIR
 from .data_loader import load_data, load_raw_test_target
-from .evaluation import compute_metrics, bootstrap_ci
+from .evaluation import compute_metrics, bootstrap_ci, compute_segment_metrics
 
 
 class BaseModel(ABC):
@@ -47,10 +47,10 @@ class BaseModel(ABC):
     # ── Training ─────────────────────────────────────────────────────────────
 
     def train(
-        self,
-        X_train: pd.DataFrame,
-        y_train: np.ndarray,
-        sample_weights: np.ndarray | None = None,
+            self,
+            X_train: pd.DataFrame,
+            y_train: np.ndarray,
+            sample_weights: np.ndarray | None = None,
     ) -> "BaseModel":
         """
         Run GridSearchCV and store the best estimator.
@@ -69,7 +69,7 @@ class BaseModel(ABC):
                 return_train_score=True,
             )
         else:
-            # No grid, just wrap in a single-param GridSearch
+            # No grid → just wrap in a single-param GridSearch
             grid = GridSearchCV(
                 estimator=base_estimator,
                 param_grid={},
@@ -84,10 +84,10 @@ class BaseModel(ABC):
         if sample_weights is not None:
             fit_params["sample_weight"] = sample_weights
 
-        print(f"\n{'='*60}")
+        print(f"\n{'=' * 60}")
         print(f"Training {self.name} with GridSearchCV ({CV_FOLDS}-fold)")
         print(f"Parameter grid: {param_grid}")
-        print(f"{'='*60}")
+        print(f"{'=' * 60}")
 
         start = time.time()
         grid.fit(X_train, y_train, **fit_params)
@@ -117,9 +117,9 @@ class BaseModel(ABC):
     # ── Evaluation ───────────────────────────────────────────────────────────
 
     def evaluate(
-        self,
-        X_test: pd.DataFrame,
-        y_test_raw: np.ndarray,
+            self,
+            X_test: pd.DataFrame,
+            y_test_raw: np.ndarray,
     ) -> dict:
         """
         Predict and compute all metrics in original VND scale.
@@ -136,17 +136,21 @@ class BaseModel(ABC):
         metrics["train_time_s"] = self.train_time_
         metrics["best_params"] = str(self.best_params_)
 
-        print(f"\n{'-'*60}")
+        # Segment-specific metrics
+        seg_metrics = compute_segment_metrics(y_test_raw, y_pred)
+        metrics.update(seg_metrics)
+
+        print(f"\n{'-' * 60}")
         print(f"  {self.name} -- Test-set metrics (VND scale)")
-        print(f"{'-'*60}")
+        print(f"{'-' * 60}")
         for k, v in metrics.items():
-            if k == "best_params":
+            if k == "best_params" or k.startswith("n_"):
                 continue
             if isinstance(v, float):
-                print(f"  {k:>20s}: {v:>18,.4f}")
+                print(f"  {k:>30s}: {v:>18,.4f}")
             else:
-                print(f"  {k:>20s}: {v}")
-        print(f"{'-'*60}")
+                print(f"  {k:>30s}: {v}")
+        print(f"{'-' * 60}")
 
         return metrics
 

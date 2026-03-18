@@ -1,12 +1,8 @@
 """
-XGBoost Regression — stub for teammate implementation.
+XGBoost Regression model.
 
-Uses unscaled features + raw VND target.
+Uses unscaled features + raw VND target (tree-based models are scale-invariant).
 GridSearchCV tunes n_estimators, max_depth, learning_rate, subsample, colsample_bytree.
-
-TODO: Implement full training pipeline. The BaseModel.run() method handles
-      data loading, training, evaluation, and plot generation automatically.
-      Just ensure create_model() returns the correct estimator.
 """
 
 from xgboost import XGBRegressor
@@ -26,8 +22,3 @@ class XGBoostModel(BaseModel):
             n_jobs=-1,
             verbosity=0,
         )
-
-    # TODO: Override train() if custom logic is needed.
-    # TODO: Consider early stopping with eval_set.
-    # TODO: Override get_param_grid() to adjust the search space if needed.
-    # The default grid is in config.py under PARAM_GRIDS["xgboost"].

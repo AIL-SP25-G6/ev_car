@@ -15,9 +15,9 @@ from .config import RANDOM_STATE
 
 
 def compute_metrics(
-    y_true: np.ndarray,
-    y_pred: np.ndarray,
-    n_features: int,
+        y_true: np.ndarray,
+        y_pred: np.ndarray,
+        n_features: int,
 ) -> dict:
     """
     Compute a comprehensive set of regression metrics.
@@ -62,10 +62,10 @@ def compute_metrics(
 
 
 def bootstrap_ci(
-    y_true: np.ndarray,
-    y_pred: np.ndarray,
-    n_bootstrap: int = 1000,
-    ci: float = 0.95,
+        y_true: np.ndarray,
+        y_pred: np.ndarray,
+        n_bootstrap: int = 1000,
+        ci: float = 0.95,
 ) -> tuple[float, float]:
     """
     Bootstrap 95 % confidence interval on RMSE.
@@ -86,3 +86,34 @@ def bootstrap_ci(
     lower = np.percentile(rmse_samples, alpha * 100)
     upper = np.percentile(rmse_samples, (1 - alpha) * 100)
     return float(lower), float(upper)
+
+
+PRICE_SEGMENTS = [
+    (0, 5e8, "budget_lt_500M"),
+    (5e8, 1.2e9, "mid_500M_1.2B"),
+    (1.2e9, 5e9, "premium_1.2B_5B"),
+    (5e9, float("inf"), "luxury_gt_5B"),
+]
+
+
+def compute_segment_metrics(
+        y_true: np.ndarray,
+        y_pred: np.ndarray,
+) -> dict:
+    """
+    Compute RMSE per price segment.
+
+    Returns dict like {"rmse_budget_lt_500M": ..., "n_budget_lt_500M": ...}
+    """
+    result = {}
+    for lo, hi, label in PRICE_SEGMENTS:
+        mask = (y_true >= lo) & (y_true < hi)
+        n = mask.sum()
+        result[f"n_{label}"] = int(n)
+        if n > 0:
+            result[f"rmse_{label}"] = float(np.sqrt(mean_squared_error(y_true[mask], y_pred[mask])))
+            result[f"mae_{label}"] = float(mean_absolute_error(y_true[mask], y_pred[mask]))
+        else:
+            result[f"rmse_{label}"] = np.nan
+            result[f"mae_{label}"] = np.nan
+    return result

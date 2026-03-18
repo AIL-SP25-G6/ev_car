@@ -17,25 +17,27 @@ CV_FOLDS = 5
 # ── Hyperparameter grids ────────────────────────────────────────────────────
 PARAM_GRIDS = {
     "linear_regression": {
-        "alpha": [0.01, 0.1, 1.0, 10.0, 100.0],
+        "alpha": [0.001, 0.01, 0.1, 1.0, 10.0, 100.0],
     },
     "svr": {
-        "C": [0.1, 1.0, 10.0, 100.0],
-        "epsilon": [0.01, 0.1, 0.5],
+        "C": [1.0, 10.0, 100.0, 1000.0],
+        "epsilon": [0.001, 0.01, 0.1],
         "gamma": ["scale", "auto"],
     },
     "random_forest": {
-        "n_estimators": [100, 300, 500],
-        "max_depth": [10, 20, 30, None],
-        "min_samples_split": [2, 5, 10],
-        "min_samples_leaf": [1, 2, 4],
+        "n_estimators": [300, 600],
+        "max_depth": [10, 20, None],
+        "max_features": ["sqrt", 0.5, 0.8],
+        "min_samples_split": [2, 5],
+        "min_samples_leaf": [2, 4],
     },
     "xgboost": {
-        "n_estimators": [100, 300, 500],
-        "max_depth": [3, 6, 10],
+        "n_estimators": [300, 600],
+        "max_depth": [4, 8, 12],
         "learning_rate": [0.01, 0.05, 0.1],
         "subsample": [0.8, 1.0],
         "colsample_bytree": [0.8, 1.0],
+        "min_child_weight": [3, 5],
     },
 }
 
