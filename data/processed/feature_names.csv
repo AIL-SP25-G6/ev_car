@@ -3,11 +3,24 @@ has_aftermarket_mods
 car_age
 is_new
 log_mileage
-brand_BYD
+battery_kwh
+range_km
+power_hp
+model_mode_enc
+model_year_enc
+brand_Mercedes-Benz
+brand_Other
+brand_Porsche
 brand_VinFast
+brand_Wuling
+base_model_EC Van
 base_model_Herio Green
+base_model_Limo
 base_model_Limo Green
-base_model_Other_Model
+base_model_Minio Green
+base_model_Other
+base_model_Taycan
+base_model_VF MPV 7
 base_model_VF e34
 base_model_VF3
 base_model_VF5
@@ -15,8 +28,10 @@ base_model_VF6
 base_model_VF7
 base_model_VF8
 base_model_VF9
+body_type_Coupe
 body_type_Hatchback
 body_type_MPV
+body_type_Other
 body_type_SUV
 body_type_Sedan
 drivetrain_AWD
@@ -25,23 +40,3 @@ drivetrain_RWD
 origin_Domestic
 origin_Imported
 origin_Unknown
-exterior_color_Black
-exterior_color_Blue
-exterior_color_Gray
-exterior_color_Green
-exterior_color_Other
-exterior_color_Pink
-exterior_color_Red
-exterior_color_Silver
-exterior_color_Unknown
-exterior_color_White
-exterior_color_Yellow
-city_Can Tho
-city_Da Nang
-city_Dong Nai
-city_HCMC
-city_Hai Phong
-city_Hanoi
-city_Other
-price_segment_Luxury
-price_segment_Mid
