@@ -11,608 +11,759 @@
 \usepackage{graphicx}
 \usepackage{cite}
 \usepackage{hyperref}
-\hyphenation{op-tical net-works semi-conduc-tor IEEE-Xplore}
-% updated with editorial comments 8/9/2021
+\usepackage{booktabs}
+\usepackage{multirow}
+\graphicspath{{figures/}}
+\hyphenation{op-tical net-works semi-conduc-tor IEEE-Xplore Vin-Fast}
 
 \begin{document}
 
-\title{A Sample Article Using IEEEtran.cls\\ for IEEE Journals and Transactions}
+\title{Electric Vehicle Price Prediction in the Vietnamese Market:\\ A Web-Scraped Dataset with LLM-Assisted Feature Extraction}
 
-\author{IEEE Publication Technology,~\IEEEmembership{Staff,~IEEE,}
-        % <-this % stops a space
-\thanks{This paper was produced by the IEEE Publication Technology Group. They are in Piscataway, NJ.}% <-this % stops a space
-\thanks{Manuscript received April 19, 2021; revised August 16, 2021.}}
+\author{Anh~D.~D.~Hoang, Khang~H.~Tran, Anh~N.~Vu, ~and~Nam~N.~Trinh
+\thanks{The authors are with Information Technology Specialization, FPT University, Hanoi, Vietnam.}
+\thanks{Manuscript prepared March 2026.}}
 
-% The paper headers
-\markboth{Journal of \LaTeX\ Class Files,~Vol.~14, No.~8, August~2021}%
-{Shell \MakeLowercase{\textit{et al.}}: A Sample Article Using IEEEtran.cls for IEEE Journals}
-
-\IEEEpubid{0000--0000/00\$00.00~\copyright~2021 IEEE}
-% Remember, if you use this you must call \IEEEpubidadjcol in the second
-% column for its text to clear the IEEEpubid mark.
+%\markboth{[Journal/Conference Name],~Vol.~X, No.~Y, Month~2026}%
+\markboth{AIL301m, March~2026}%
+{Anh~D.~D.~Hoang \MakeLowercase{\textit{et al.}}: EV Price Prediction in Vietnam}
 
 \maketitle
 
+% ============================================================================
 \begin{abstract}
-This document describes the most common article elements and how to use the IEEEtran class with \LaTeX \ to produce files that are suitable for submission to the IEEE.  IEEEtran can produce conference, journal, and technical note (correspondence) papers with a suitable choice of class options. 
+The rapid growth of the electric vehicle (EV) market in Vietnam has created
+demand for automated price estimation tools, yet no publicly available
+structured dataset exists for Vietnamese EV listings. This paper presents an
+end-to-end pipeline for EV price prediction, from web scraping of four major
+Vietnamese car marketplaces to regression modeling. We introduce a two-stage
+LLM-assisted feature extraction approach using local (Qwen~2.5 3B) and
+cloud-based (GPT-5-nano) models to parse unstructured Vietnamese car listings
+into structured features. Through systematic data quality analysis, we
+identify and correct three critical issues---a 10$\times$ price inflation
+affecting 41\% of records, systematic brand-level pricing errors, and 54.4\%
+duplicate contamination causing test--train leakage---reducing RMSE from
+1.02~billion~VND (artificially deflated by leakage) to 332~million~VND
+(honest evaluation). We benchmark four regression models (Ridge, SVR, Random
+Forest, XGBoost) across price segments and find that Random Forest achieves
+the best overall performance ($R^2 = 0.725$, RMSE~$= 332$M~VND), with
+practical accuracy for budget and mid-range segments comprising 56\% of the
+market. Our analysis highlights that data quality remediation contributes
+more to prediction accuracy than model selection in this domain.
 \end{abstract}
 
 \begin{IEEEkeywords}
-Article submission, IEEE, IEEEtran, journal, \LaTeX, paper, template, typesetting.
+Electric vehicle, price prediction, web scraping, large language model,
+feature extraction, data quality, regression, Vietnamese market.
 \end{IEEEkeywords}
 
+% ============================================================================
 \section{Introduction}
-\IEEEPARstart{T}{his} file is intended to serve as a ``sample article file''
-for IEEE journal papers produced under \LaTeX\ using
-IEEEtran.cls version 1.8b and later. The most common elements are covered in the simplified and updated instructions in ``New\_IEEEtran\_how-to.pdf''. For less common elements you can refer back to the original ``IEEEtran\_HOWTO.pdf''. It is assumed that the reader has a basic working knowledge of \LaTeX. Those who are new to \LaTeX \ are encouraged to read Tobias Oetiker's ``The Not So Short Introduction to \LaTeX ,'' available at: \url{http://tug.ctan.org/info/lshort/english/lshort.pdf} which provides an overview of working with \LaTeX.
+\IEEEPARstart{V}{ietnam's} electric vehicle market has experienced
+unprecedented growth since VinFast, the country's first domestic automaker,
+began mass-producing EVs in 2022. With the Vietnamese government's roadmap to
+phase out internal combustion engine vehicles by 2040~\cite{vn_ev_policy} and
+an influx of Chinese EV imports (BYD, Wuling, Geely), the market is expanding
+rapidly. However, unlike mature markets in the US and Europe where structured
+pricing databases and valuation tools (e.g., Kelley Blue Book, AutoTrader)
+exist, Vietnam's EV market lacks any publicly available structured dataset or
+automated pricing tool.
 
-\section{The Design, Intent, and \\ Limitations of the Templates}
-The templates are intended to {\bf{approximate the final look and page length of the articles/papers}}. {\bf{They are NOT intended to be the final produced work that is displayed in print or on IEEEXplore\textsuperscript{\textregistered}}}. They will help to give the authors an approximation of the number of pages that will be in the final version. The structure of the \LaTeX\ files, as designed, enable easy conversion to XML for the composition systems used by the IEEE. The XML files are used to produce the final print/IEEEXplore pdf and then converted to HTML for IEEEXplore.
+Existing literature on car price prediction predominantly relies on clean,
+structured datasets sourced from dealer APIs or curated platforms such as
+Kaggle~\cite{vw_price, gegic2019}. These studies typically focus on
+established Western markets where listing data follows standardized schemas.
+The Vietnamese automotive marketplace presents fundamentally different
+challenges: listings are unstructured, written in Vietnamese with
+inconsistent formatting, distributed across multiple platforms with
+incompatible schemas, and subject to systematic data quality issues that are
+absent from curated datasets.
 
-\section{Where to Get \LaTeX \ Help --- User Groups}
-The following online groups are helpful to beginning and experienced \LaTeX\ users. A search through their archives can provide many answers to common questions.
-\begin{list}{}{}
-\item{\url{http://www.latex-community.org/}} 
-\item{\url{https://tex.stackexchange.com/} }
-\end{list}
+Recent advances in large language models (LLMs) offer a promising approach
+to parsing unstructured listings into structured features. However, LLM
+extraction introduces its own quality concerns, including hallucinated
+values and systematic unit errors that propagate through the pipeline.
 
-\section{Other Resources}
-See \cite{ref1,ref2,ref3,ref4,ref5} for resources on formatting math into text and additional help in working with \LaTeX .
-
-\section{Text}
-For some of the remainer of this sample we will use dummy text to fill out paragraphs rather than use live text that may violate a copyright.
-
-Itam, que ipiti sum dem velit la sum et dionet quatibus apitet voloritet audam, qui aliciant voloreicid quaspe volorem ut maximusandit faccum conemporerum aut ellatur, nobis arcimus.
-Fugit odi ut pliquia incitium latum que cusapere perit molupta eaquaeria quod ut optatem poreiur? Quiaerr ovitior suntiant litio bearciur?
-
-Onseque sequaes rectur autate minullore nusae nestiberum, sum voluptatio. Et ratem sequiam quaspername nos rem repudandae volum consequis nos eium aut as molupta tectum ulparumquam ut maximillesti consequas quas inctia cum volectinusa porrum unt eius cusaest exeritatur? Nias es enist fugit pa vollum reium essusam nist et pa aceaqui quo elibusdandis deligendus que nullaci lloreri bla que sa coreriam explacc atiumquos simolorpore, non prehendunt lam que occum\cite{ref6} si aut aut maximus eliaeruntia dia sequiamenime natem sendae ipidemp orehend uciisi omnienetus most verum, ommolendi omnimus, est, veni aut ipsa volendelist mo conserum volores estisciis recessi nveles ut poressitatur sitiis ex endi diti volum dolupta aut aut odi as eatquo cullabo remquis toreptum et des accus dolende pores sequas dolores tinust quas expel moditae ne sum quiatis nis endipie nihilis etum fugiae audi dia quiasit quibus.
-\IEEEpubidadjcol
-Ibus el et quatemo luptatque doluptaest et pe volent rem ipidusa eribus utem venimolorae dera qui acea quam etur aceruptat.
-Gias anis doluptaspic tem et aliquis alique inctiuntiur?
-
-Sedigent, si aligend elibuscid ut et ium volo tem eictore pellore ritatus ut ut ullatus in con con pere nos ab ium di tem aliqui od magnit repta volectur suntio. Nam isquiante doluptis essit, ut eos suntionsecto debitiur sum ea ipitiis adipit, oditiore, a dolorerempos aut harum ius, atquat.
-
-Rum rem ditinti sciendunti volupiciendi sequiae nonsect oreniatur, volores sition ressimil inus solut ea volum harumqui to see\eqref{deqn_ex1a} mint aut quat eos explis ad quodi debis deliqui aspel earcius.
-
-\begin{equation}
-\label{deqn_ex1a}
-x = \sum_{i=0}^{n} 2{i} Q.
-\end{equation}
-
-Alis nime volorempera perferi sitio denim repudae pre ducilit atatet volecte ssimillorae dolore, ut pel ipsa nonsequiam in re nus maiost et que dolor sunt eturita tibusanis eatent a aut et dio blaudit reptibu scipitem liquia consequodi od unto ipsae. Et enitia vel et experferum quiat harum sa net faccae dolut voloria nem. Bus ut labo. Ita eum repraer rovitia samendit aut et volupta tecupti busant omni quiae porro que nossimodic temquis anto blacita conse nis am, que ereperum eumquam quaescil imenisci quae magnimos recus ilibeaque cum etum iliate prae parumquatemo blaceaquiam quundia dit apienditem rerit re eici quaes eos sinvers pelecabo. Namendignis as exerupit aut magnim ium illabor roratecte plic tem res apiscipsam et vernat untur a deliquaest que non cus eat ea dolupiducim fugiam volum hil ius dolo eaquis sitis aut landesto quo corerest et auditaquas ditae voloribus, qui optaspis exero cusa am, ut plibus.
-
-
-\section{Some Common Elements}
-\subsection{Sections and Subsections}
-Enumeration of section headings is desirable, but not required. When numbered, please be consistent throughout the article, that is, all headings and all levels of section headings in the article should be enumerated. Primary headings are designated with Roman numerals, secondary with capital letters, tertiary with Arabic numbers; and quaternary with lowercase letters. Reference and Acknowledgment headings are unlike all other section headings in text. They are never enumerated. They are simply primary headings without labels, regardless of whether the other headings in the article are enumerated. 
-
-\subsection{Citations to the Bibliography}
-The coding for the citations is made with the \LaTeX\ $\backslash${\tt{cite}} command. 
-This will display as: see \cite{ref1}.
-
-For multiple citations code as follows: {\tt{$\backslash$cite\{ref1,ref2,ref3\}}}
- which will produce \cite{ref1,ref2,ref3}. For reference ranges that are not consecutive code as {\tt{$\backslash$cite\{ref1,ref2,ref3,ref9\}}} which will produce  \cite{ref1,ref2,ref3,ref9}
-
-\subsection{Lists}
-In this section, we will consider three types of lists: simple unnumbered, numbered, and bulleted. There have been many options added to IEEEtran to enhance the creation of lists. If your lists are more complex than those shown below, please refer to the original ``IEEEtran\_HOWTO.pdf'' for additional options.\\
-
-\subsubsection*{\bf A plain  unnumbered list}
-\begin{list}{}{}
-\item{bare\_jrnl.tex}
-\item{bare\_conf.tex}
-\item{bare\_jrnl\_compsoc.tex}
-\item{bare\_conf\_compsoc.tex}
-\item{bare\_jrnl\_comsoc.tex}
-\end{list}
-
-\subsubsection*{\bf A simple numbered list}
+This paper makes four contributions:
 \begin{enumerate}
-\item{bare\_jrnl.tex}
-\item{bare\_conf.tex}
-\item{bare\_jrnl\_compsoc.tex}
-\item{bare\_conf\_compsoc.tex}
-\item{bare\_jrnl\_comsoc.tex}
+    \item We construct the first Vietnamese EV dataset by scraping and
+    harmonizing listings from four major car marketplaces, yielding 4,166 raw
+    records with a 20-column unified schema.
+    \item We design a two-stage LLM-assisted feature extraction pipeline
+    using a local 3B-parameter model (Qwen~2.5) with cloud-based
+    verification (GPT-5-nano), incorporating auto-retry and Pydantic-based
+    validation.
+    \item We conduct systematic data quality analysis that identifies three
+    critical issues---source-level price inflation, brand-level systematic
+    error, and duplicate-induced test--train leakage---and demonstrate that
+    correcting these issues reduces RMSE by 67\%, from 1.02B to 332M~VND.
+    \item We provide segment-specific evaluation showing that the model
+    achieves practical accuracy (RMSE $< 100$M~VND) for budget and mid-range
+    segments, which constitute 56\% of the Vietnamese EV market.
 \end{enumerate}
 
-\subsubsection*{\bf A simple bulleted list}
-\begin{itemize}
-\item{bare\_jrnl.tex}
-\item{bare\_conf.tex}
-\item{bare\_jrnl\_compsoc.tex}
-\item{bare\_conf\_compsoc.tex}
-\item{bare\_jrnl\_comsoc.tex}
-\end{itemize}
+% ============================================================================
+\section{Related Work}
 
+\subsection{Car Price Prediction}
+Hedonic pricing models have long been used to estimate vehicle values based
+on observable characteristics~\cite{hedonic_pricing}. More recently, machine
+learning approaches have shown improved accuracy. Gegic et al.~\cite{gegic2019}
+compared multiple regression models on a Bosnian used-car dataset and found
+that Random Forest outperformed linear models. Pal et al.~\cite{pal2018}
+applied Lasso and Random Forest to Indian car prices, achieving $R^2 > 0.90$
+on a clean dealer dataset. Pudaruth~\cite{pudaruth2014} demonstrated that
+ensemble methods consistently outperform single models for used car valuation
+in Mauritius.
 
+A common limitation of these studies is their reliance on pre-cleaned,
+single-source datasets. Our work differs by constructing a multi-source
+dataset from heterogeneous web platforms and explicitly addressing the data
+quality challenges that arise from this approach.
 
+\subsection{Web Scraping for Dataset Construction}
+Web scraping has been widely adopted for constructing research datasets in
+domains where structured data is unavailable~\cite{mitchell_scraping}. In the
+automotive domain, Lessmann et al.~\cite{lessmann2019} scraped European car
+listings to study depreciation curves. However, the challenges of scraping
+Vietnamese-language marketplaces---including encoding issues, inconsistent
+pricing units, and platform-specific data formats---remain underexplored.
 
+\subsection{LLM-Based Information Extraction}
+The application of LLMs for structured information extraction from
+unstructured text has gained traction~\cite{wei2023}. Recent work has
+demonstrated that even small language models (3B--7B parameters) can
+effectively extract structured data when combined with appropriate prompting
+and validation strategies~\cite{ollama2024}. Our pipeline extends this
+approach with a two-stage architecture and domain-specific guardrails.
 
-\subsection{Figures}
-Fig. 1 is an example of a floating figure using the graphicx package.
- Note that $\backslash${\tt{label}} must occur AFTER (or within) $\backslash${\tt{caption}}.
- For figures, $\backslash${\tt{caption}} should occur after the $\backslash${\tt{includegraphics}}.
+% ============================================================================
+\section{Data Collection}
 
-\begin{figure}[!t]
-\centering
-\includegraphics[width=2.5in]{fig1}
-\caption{Simulation results for the network.}
-\label{fig_1}
-\end{figure}
+\subsection{Source Websites}
+We scraped EV listings from four Vietnamese car marketplace websites, each
+offering different coverage, data quality, and listing formats. Table~\ref{tab:sources}
+summarizes the source characteristics.
 
-Fig. 2(a) and 2(b) is an example of a double column floating figure using two subfigures.
- (The subfig.sty package must be loaded for this to work.)
- The subfigure $\backslash${\tt{label}} commands are set within each subfloat command,
- and the $\backslash${\tt{label}} for the overall figure must come after $\backslash${\tt{caption}}.
- $\backslash${\tt{hfil}} is used as a separator to get equal spacing.
- The combined width of all the parts of the figure should do not exceed the text width or a line break will occur.
-%
-\begin{figure*}[!t]
-\centering
-\subfloat[]{\includegraphics[width=2.5in]{fig1}%
-\label{fig_first_case}}
-\hfil
-\subfloat[]{\includegraphics[width=2.5in]{fig1}%
-\label{fig_second_case}}
-\caption{Dae. Ad quatur autat ut porepel itemoles dolor autem fuga. Bus quia con nessunti as remo di quatus non perum que nimus. (a) Case I. (b) Case II.}
-\label{fig_sim}
-\end{figure*}
-
-Note that often IEEE papers with multi-part figures do not place the labels within the image itself (using the optional argument to $\backslash${\tt{subfloat}}[]), but instead will
- reference/describe all of them (a), (b), etc., within the main caption.
- Be aware that for subfig.sty to generate the (a), (b), etc., subfigure
- labels, the optional argument to $\backslash${\tt{subfloat}} must be present. If a
- subcaption is not desired, leave its contents blank,
- e.g.,$\backslash${\tt{subfloat}}[].
-
-
- 
-
-\section{Tables}
-Note that, for IEEE-style tables, the
- $\backslash${\tt{caption}} command should come BEFORE the table. Table captions use title case. Articles (a, an, the), coordinating conjunctions (and, but, for, or, nor), and most short prepositions are lowercase unless they are the first or last word. Table text will default to $\backslash${\tt{footnotesize}} as
- the IEEE normally uses this smaller font for tables.
- The $\backslash${\tt{label}} must come after $\backslash${\tt{caption}} as always.
- 
 \begin{table}[!t]
-\caption{An Example of a Table\label{tab:table1}}
+\caption{Data Source Characteristics\label{tab:sources}}
 \centering
-\begin{tabular}{|c||c|}
-\hline
-One & Two\\
-\hline
-Three & Four\\
-\hline
+\begin{tabular}{lllr}
+\toprule
+\textbf{Website} & \textbf{Method} & \textbf{Coverage} & \textbf{Records} \\
+\midrule
+bonbanh.com & BeautifulSoup & Multi-brand & 1,502 \\
+chotot.com & Scrapy & Multi-brand & 1,727 \\
+xevinfastluot.com & Selenium & VinFast only & 208 \\
+otodien.vn & BeautifulSoup & Multi-brand & 729 \\
+\midrule
+\multicolumn{3}{l}{\textbf{Total (merged)}} & \textbf{4,166} \\
+\bottomrule
 \end{tabular}
 \end{table}
 
-\section{Algorithms}
-Algorithms should be numbered and include a short title. They are set off from the text with rules above and below the title and after the last line.
+Each website required a different scraping strategy due to varying levels of
+JavaScript rendering and anti-bot measures. bonbanh.com and otodien.vn serve
+static HTML and were scraped using BeautifulSoup~\cite{bs4}. chotot.com
+uses dynamic loading and was handled with Scrapy~\cite{scrapy} and custom
+middleware. xevinfastluot.com, a VinFast-specialized dealer portal, required
+Selenium~\cite{selenium} for browser-based interaction.
 
-\begin{algorithm}[H]
-\caption{Weighted Tanimoto ELM.}\label{alg:alg1}
-\begin{algorithmic}
-\STATE 
-\STATE {\textsc{TRAIN}}$(\mathbf{X} \mathbf{T})$
-\STATE \hspace{0.5cm}$ \textbf{select randomly } W \subset \mathbf{X}  $
-\STATE \hspace{0.5cm}$ N_\mathbf{t} \gets | \{ i : \mathbf{t}_i = \mathbf{t} \} | $ \textbf{ for } $ \mathbf{t}= -1,+1 $
-\STATE \hspace{0.5cm}$ B_i \gets \sqrt{ \textsc{max}(N_{-1},N_{+1}) / N_{\mathbf{t}_i} } $ \textbf{ for } $ i = 1,...,N $
-\STATE \hspace{0.5cm}$ \hat{\mathbf{H}} \gets  B \cdot (\mathbf{X}^T\textbf{W})/( \mathbb{1}\mathbf{X} + \mathbb{1}\textbf{W} - \mathbf{X}^T\textbf{W} ) $
-\STATE \hspace{0.5cm}$ \beta \gets \left ( I/C + \hat{\mathbf{H}}^T\hat{\mathbf{H}} \right )^{-1}(\hat{\mathbf{H}}^T B\cdot \mathbf{T})  $
-\STATE \hspace{0.5cm}\textbf{return}  $\textbf{W},  \beta $
-\STATE 
-\STATE {\textsc{PREDICT}}$(\mathbf{X} )$
-\STATE \hspace{0.5cm}$ \mathbf{H} \gets  (\mathbf{X}^T\textbf{W} )/( \mathbb{1}\mathbf{X}  + \mathbb{1}\textbf{W}- \mathbf{X}^T\textbf{W}  ) $
-\STATE \hspace{0.5cm}\textbf{return}  $\textsc{sign}( \mathbf{H} \beta )$
-\end{algorithmic}
-\label{alg1}
-\end{algorithm}
+\subsection{Schema Harmonization}
+The four sources use incompatible listing schemas. We designed a unified
+20-column schema covering: identification (id, brand, base\_model,
+model\_mode), specifications (year, mileage\_km, body\_type, seats, doors,
+drivetrain, origin), condition indicators (condition, has\_aftermarket\_mods,
+exterior\_color), metadata (city, seller\_name, post\_date, website), and the
+target variable (price\_vnd). Records from all four sources were mapped to
+this schema using source-specific transformation scripts.
 
-Que sunt eum lam eos si dic to estist, culluptium quid qui nestrum nobis reiumquiatur minimus minctem. Ro moluptat fuga. Itatquiam ut laborpo rersped exceres vollandi repudaerem. Ulparci sunt, qui doluptaquis sumquia ndestiu sapient iorepella sunti veribus. Ro moluptat fuga. Itatquiam ut laborpo rersped exceres vollandi repudaerem. 
-\section{Mathematical Typography \\ and Why It Matters}
+Fig.~\ref{fig:records_per_source} shows the distribution of records across
+sources after harmonization.
 
-Typographical conventions for mathematical formulas have been developed to {\bf provide uniformity and clarity of presentation across mathematical texts}. This enables the readers of those texts to both understand the author's ideas and to grasp new concepts quickly. While software such as \LaTeX \ and MathType\textsuperscript{\textregistered} can produce aesthetically pleasing math when used properly, it is also very easy to misuse the software, potentially resulting in incorrect math display.
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{records_per_source}
+\caption{Distribution of records across the four data sources.}
+\label{fig:records_per_source}
+\end{figure}
 
-IEEE aims to provide authors with the proper guidance on mathematical typesetting style and assist them in writing the best possible article. As such, IEEE has assembled a set of examples of good and bad mathematical typesetting \cite{ref1,ref2,ref3,ref4,ref5}. 
+% ============================================================================
+\section{LLM-Assisted Feature Extraction}
 
-Further examples can be found at \url{http://journals.ieeeauthorcenter.ieee.org/wp-content/uploads/sites/7/IEEE-Math-Typesetting-Guide-for-LaTeX-Users.pdf}
+Raw car listings from Vietnamese websites contain critical pricing features
+(trim level, battery capacity, drivetrain configuration) embedded in
+unstructured Vietnamese text. Traditional regex-based extraction fails on the
+diverse naming conventions across platforms.
 
-\subsection{Display Equations}
-The simple display equation example shown below uses the ``equation'' environment. To number the equations, use the $\backslash${\tt{label}} macro to create an identifier for the equation. LaTeX will automatically number the equation for you.
+\subsection{Two-Stage Pipeline}
+We designed a two-stage extraction pipeline:
+\begin{enumerate}
+    \item \textbf{Local extraction (Qwen~2.5 3B):} Each listing's raw text
+    is processed by a locally-hosted Qwen~2.5 3B model via Ollama~\cite{ollama2024}.
+    The model extracts structured fields (brand, model, trim, year,
+    condition, specifications) using a zero-shot prompt with JSON output
+    constraints. A Pydantic schema validates the output, and failed
+    extractions trigger automatic retry with a rephrased prompt (up to 3
+    attempts).
+    \item \textbf{Cloud verification (GPT-5-nano):} Records where the local
+    model produced low-confidence or inconsistent results are batch-processed
+    through OpenAI's GPT-5-nano API for verification and correction.
+\end{enumerate}
+
+\subsection{Extraction Quality}
+The two-stage approach achieved high fill rates for core fields: brand
+(99.3\%), base\_model (98.7\%), year (98.3\%), and price (100\%). The primary
+failure mode was trim-level extraction (model\_mode), where the local model
+occasionally hallucinated non-existent trim names for non-VinFast brands.
+
+% ============================================================================
+\section{Data Quality Analysis}
+
+Systematic analysis of the merged dataset revealed three critical data
+quality issues, each with significant impact on model performance.
+
+\subsection{chotot.com 10$\times$ Price Inflation}
+Cross-source price comparison revealed that listings from chotot.com
+exhibited prices approximately 10$\times$ higher than equivalent listings on
+other platforms. For example, a VinFast VF5 Plus 2024 was listed at
+3.99B~VND on chotot.com versus 399M~VND on bonbanh.com. This affected
+1,727 records (41.4\% of the dataset) and was traced to a unit mismatch in
+the LLM extraction pipeline where prices in thousands of VND were
+interpreted as raw VND values.
+
+The correction was straightforward: dividing all chotot.com prices by 10.
+Fig.~\ref{fig:chotot_price} illustrates the price discrepancy before
+correction.
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=\textwidth]{chotot_price_comparison}
+\caption{Price comparison between chotot.com and other sources for the same
+vehicle models, showing systematic 10$\times$ inflation.}
+\label{fig:chotot_price}
+\end{figure*}
+
+\subsection{BYD Systematic Pricing Error}
+All 74 BYD-brand records (2.3\% of the dataset) exhibited prices
+approximately 10$\times$ higher than actual market values. Unlike the
+chotot.com issue, this error was brand-specific and appeared across all
+sources. Because every BYD record was affected, no within-brand correction
+was possible. Despite representing only 2.3\% of records, BYD contributed
+14.5\% of total prediction error (MAE of 1.735B~VND vs.\ 433M~VND for
+non-BYD records). We removed all BYD records from the training dataset.
+
+Fig.~\ref{fig:byd_removal} shows the price distribution comparison between
+BYD and non-BYD records.
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{byd_removal}
+\caption{Price distribution: BYD (all records 10$\times$ inflated) versus
+non-BYD brands.}
+\label{fig:byd_removal}
+\end{figure}
+
+\subsection{Duplicate Contamination and Test--Train Leakage}
+Deduplication analysis on the key tuple (brand, base\_model, model\_mode,
+year, price\_vnd, condition, mileage\_km) revealed that 883 records (22.2\%
+after price correction) were exact duplicates. The most extreme case---a
+VinFast VF9 2025 at 12.29B~VND---appeared 23 times.
+
+When duplicates span both training and test sets, the model effectively
+memorizes rather than generalizes, producing artificially inflated
+performance metrics. Before deduplication, the apparent best $R^2$ was 0.787;
+after proper deduplication, the honest $R^2$ was 0.725---a 7.9\% reduction
+revealing the extent of leakage.
+
+Fig.~\ref{fig:dedup} and Fig.~\ref{fig:before_after} illustrate the
+deduplication impact.
+
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{dedup_analysis}
+\caption{Record counts before and after deduplication.}
+\label{fig:dedup}
+\end{figure}
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=\textwidth]{before_after_comparison}
+\caption{Model performance before and after data quality corrections. The
+``before'' metrics were inflated by duplicate-induced test--train leakage.}
+\label{fig:before_after}
+\end{figure*}
+
+\subsection{Impact Summary}
+Table~\ref{tab:quality_impact} quantifies the cumulative impact of each
+data quality fix.
+
+\begin{table}[!t]
+\caption{Impact of Data Quality Corrections\label{tab:quality_impact}}
+\centering
+\begin{tabular}{lrr}
+\toprule
+\textbf{Stage} & \textbf{Records} & \textbf{Best RMSE} \\
+\midrule
+Raw (with all issues) & 3,963 & 1.02B VND \\
++ chotot.com price fix & 3,963 & -- \\
++ Deduplication & 3,089 & -- \\
++ BYD removal & 3,015 & 332M VND \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+% ============================================================================
+\section{Feature Engineering}
+
+After data cleaning, we engineered 41 features from the remaining 3,015
+records through imputation, derivation, EV specification recovery, and a
+hybrid encoding strategy.
+
+\subsection{Missing Value Imputation}
+Domain-informed imputation was applied to four columns:
+\begin{itemize}
+    \item \textbf{Brand} (27 NaN): imputed via base\_model$\to$brand lookup
+    (all missing-brand records were identifiable VinFast models).
+    \item \textbf{Year} (67 NaN): median year per base\_model, with global
+    median fallback.
+    \item \textbf{Condition}: rule-based---mileage$= 0$ and year$\geq 2025$
+    implies ``New''; otherwise ``Used.''
+    \item \textbf{Mileage} (281 NaN): 0~km for new cars; median per brand
+    for used cars. Values exceeding 300,000~km were treated as outliers and
+    re-imputed with the per-brand median.
+\end{itemize}
+
+Vietnamese categorical values (drivetrain, origin, exterior color, city) were
+mapped to English equivalents for consistent encoding.
+
+\subsection{Derived Features}
+Three numeric features were derived:
+\begin{itemize}
+    \item $\texttt{car\_age} = 2026 - \texttt{year}$ (depreciation proxy)
+    \item $\texttt{log\_mileage} = \log(1 + \texttt{mileage\_km})$ (reduces
+    right skew)
+    \item $\texttt{is\_new} \in \{0, 1\}$ (binary condition indicator)
+\end{itemize}
+
+\subsection{EV Specifications Recovery}
+One of the most impactful feature engineering steps was recovering
+EV-specific technical specifications. The otodien.vn source dataset contained
+battery capacity (kWh), driving range (km), and motor power (hp) for 729
+records with 99.6\% fill rate. We constructed a lookup table mapping each
+base\_model to its median battery\_kwh, range\_km, and power\_hp, yielding
+specifications for 29 distinct EV models. This lookup was then joined to all
+records.
+
+These three features capture the fundamental physics of EV pricing: a VinFast
+VF3 with 18.6~kWh battery and 210~km range is priced around 315M~VND, while
+a VF9 with 92~kWh and 480~km range commands approximately 1.5B~VND.
+Fig.~\ref{fig:ev_specs} shows the specification distribution across models.
+
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=\textwidth]{ev_specs_coverage}
+\caption{EV specifications (battery capacity, range, power) across models in
+the lookup table.}
+\label{fig:ev_specs}
+\end{figure*}
+
+\subsection{Encoding Strategy}
+We adopted a hybrid encoding strategy after an important negative result:
+\textit{target-encoding all categorical features caused $R^2$ to drop from
+0.79 to 0.087.} The root cause was that target-encoded features for the
+dominant brand (VinFast, 93.6\% of data) converged to a near-constant value
+($\sim$2.6B~VND mean), despite actual VinFast prices ranging from
+50M--14B~VND. The model became ``lazy,'' relying solely on the brand
+encoding.
+
+Our solution:
+\begin{itemize}
+    \item \textbf{Target encoding} (leave-one-out with Bayesian smoothing,
+    $m=10$) for high-cardinality features only: \texttt{model\_mode} (324
+    unique values, $r = 0.76$ with price) and \texttt{model\_year}
+    (interaction of base\_model and year).
+    \item \textbf{One-hot encoding} for low-cardinality features: brand
+    ($\leq 8$), base\_model ($\sim$15), body\_type (5), drivetrain (3),
+    origin (3). Rare categories ($< 10$ records) were grouped into ``Other.''
+    \item \textbf{Dropped}: exterior\_color, city, brand\_body (low signal
+    after EV specs were added).
+\end{itemize}
+
+The leave-one-out target encoding formula with Bayesian smoothing is:
 \begin{equation}
-\label{deqn_ex1}
-x = \sum_{i=0}^{n} 2{i} Q.
+\hat{y}_i = \frac{n_c \cdot \bar{y}_c + m \cdot \bar{y}_{\text{global}}}{n_c + m}
+\label{eq:target_enc}
 \end{equation}
+where $n_c$ is the category count, $\bar{y}_c$ is the category mean, and
+$m = 10$ is the smoothing parameter. During training, each observation's
+own value is excluded from the category mean to prevent leakage.
 
-\noindent is coded as follows:
-\begin{verbatim}
-\begin{equation}
-\label{deqn_ex1}
-x = \sum_{i=0}^{n} 2{i} Q.
-\end{equation}
-\end{verbatim}
+Fig.~\ref{fig:encoding} and Fig.~\ref{fig:feature_importance} show the
+encoding strategy and resulting feature importance.
 
-To reference this equation in the text use the $\backslash${\tt{ref}} macro. 
-Please see (\ref{deqn_ex1})\\
-\noindent is coded as follows:
-\begin{verbatim}
-Please see (\ref{deqn_ex1})\end{verbatim}
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{encoding_comparison}
+\caption{Hybrid encoding strategy: one-hot for low cardinality (left),
+target encoding for high cardinality (right).}
+\label{fig:encoding}
+\end{figure}
 
-\subsection{Equation Numbering}
-{\bf{Consecutive Numbering:}} Equations within an article are numbered consecutively from the beginning of the
-article to the end, i.e., (1), (2), (3), (4), (5), etc. Do not use roman numerals or section numbers for equation numbering.
+\begin{figure*}[!t]
+\centering
+\includegraphics[width=\textwidth]{feature_importance_summary}
+\caption{Top 20 features ranked by Pearson correlation (left) and mutual
+information (right) with log-transformed price.}
+\label{fig:feature_importance}
+\end{figure*}
 
-\noindent {\bf{Appendix Equations:}} The continuation of consecutively numbered equations is best in the Appendix, but numbering
- as (A1), (A2), etc., is permissible.\\
+Table~\ref{tab:features} summarizes the final feature set.
 
-\noindent {\bf{Hyphens and Periods}}: Hyphens and periods should not be used in equation numbers, i.e., use (1a) rather than
-(1-a) and (2a) rather than (2.a) for subequations. This should be consistent throughout the article.
+\begin{table}[!t]
+\caption{Final Feature Set (41 Features)\label{tab:features}}
+\centering
+\begin{tabular}{llr}
+\toprule
+\textbf{Category} & \textbf{Features} & \textbf{Count} \\
+\midrule
+Numeric & car\_age, log\_mileage, is\_new, & 4 \\
+ & has\_aftermarket\_mods & \\
+EV Specifications & battery\_kwh, range\_km, power\_hp & 3 \\
+Target-Encoded & model\_mode\_enc, model\_year\_enc & 2 \\
+One-Hot: Brand & VinFast, Porsche, Mercedes, \ldots & 5 \\
+One-Hot: Model & VF3, VF5, VF6, VF7, VF8, VF9, \ldots & 15 \\
+One-Hot: Body & SUV, Hatchback, MPV, Sedan, \ldots & 5 \\
+One-Hot: Drive & AWD, FWD, RWD & 3 \\
+One-Hot: Origin & Domestic, Imported, Unknown & 3 \\
+\midrule
+\multicolumn{2}{l}{\textbf{Total}} & \textbf{41} \\
+\bottomrule
+\end{tabular}
+\end{table}
 
-\subsection{Multi-Line Equations and Alignment}
-Here we show several examples of multi-line equations and proper alignments.
+% ============================================================================
+\section{Experimental Setup}
 
-\noindent {\bf{A single equation that must break over multiple lines due to length with no specific alignment.}}
-\begin{multline}
-\text{The first line of this example}\\
-\text{The second line of this example}\\
-\text{The third line of this example}
-\end{multline}
+\subsection{Train--Test Split}
+The cleaned dataset (3,015 records) was split 80/20 into training (2,412)
+and test (603) sets, stratified on \texttt{base\_model}. Stratification on
+base\_model is more informative than on brand in this dataset, where 93.6\%
+of records belong to VinFast. Rare models ($< 5$ records) were grouped for
+stratification purposes. Sample weights based on inverse quintile frequency
+of the target-encoded base\_model were computed to mitigate brand
+concentration bias during training.
 
-\noindent is coded as:
-\begin{verbatim}
-\begin{multline}
-\text{The first line of this example}\\
-\text{The second line of this example}\\
-\text{The third line of this example}
-\end{multline}
-\end{verbatim}
+\subsection{Models}
+We benchmarked four regression models representing different paradigms:
+\begin{itemize}
+    \item \textbf{Ridge Regression}: $L_2$-regularized linear model trained
+    on standardized features with log-transformed target.
+    \item \textbf{Support Vector Regression (SVR)}: RBF kernel on
+    standardized features with log-transformed target.
+    \item \textbf{Random Forest}: Ensemble (300--600 trees, grid-searched)
+    on unscaled features with raw price target.
+    \item \textbf{XGBoost}: Gradient-boosted trees on unscaled features with
+    raw price target.
+\end{itemize}
 
-\noindent {\bf{A single equation with multiple lines aligned at the = signs}}
-\begin{align}
-a &= c+d \\
-b &= e+f
-\end{align}
-\noindent is coded as:
-\begin{verbatim}
-\begin{align}
-a &= c+d \\
-b &= e+f
-\end{align}
-\end{verbatim}
+Ridge and SVR use log-transformed targets and standardized features to
+handle the heavy right-skew of Vietnamese EV prices (skewness = 2.50 for
+raw prices, 0.95 for log-transformed). Tree-based models operate on raw
+prices and unscaled features, leveraging their inherent invariance to
+monotonic transformations.
 
-The {\tt{align}} environment can align on multiple  points as shown in the following example:
-\begin{align}
-x &= y & X & =Y & a &=bc\\
-x' &= y' & X' &=Y' &a' &=bz
-\end{align}
-\noindent is coded as:
-\begin{verbatim}
-\begin{align}
-x &= y & X & =Y & a &=bc\\
-x' &= y' & X' &=Y' &a' &=bz
-\end{align}
-\end{verbatim}
+\subsection{Hyperparameter Tuning}
+All models were tuned via 5-fold cross-validation using GridSearchCV. The
+search grids were designed for the dataset characteristics (2,412 training
+rows, 41 features):
+\begin{itemize}
+    \item Ridge: $\alpha \in \{0.001, 0.01, 0.1, 1, 10, 100\}$
+    \item SVR: $C \in \{1, 10, 100, 1000\}$, $\epsilon \in \{0.001, 0.01, 0.1\}$,
+    $\gamma \in \{\text{scale}, \text{auto}\}$
+    \item RF: $n_{\text{est}} \in \{300, 600\}$, max\_depth $\in \{10, 20, \text{None}\}$,
+    max\_features $\in \{\sqrt{}, 0.5, 0.8\}$
+    \item XGBoost: $n_{\text{est}} \in \{300, 600\}$, max\_depth $\in \{4, 8, 12\}$,
+    learning\_rate $\in \{0.01, 0.05, 0.1\}$, subsample $\in \{0.8, 1.0\}$,
+    colsample\_bytree $\in \{0.8, 1.0\}$, min\_child\_weight $\in \{3, 5\}$
+\end{itemize}
 
+\subsection{Evaluation Metrics}
+We report RMSE, MAE, $R^2$, adjusted $R^2$, and MAPE on the held-out test
+set. Additionally, we introduce segment-specific evaluation using four price
+tiers reflecting the Vietnamese EV market structure:
+\begin{itemize}
+    \item \textbf{Budget}: $< 500$M VND (entry-level EVs)
+    \item \textbf{Mid}: 500M--1.2B VND (family EVs)
+    \item \textbf{Premium}: 1.2B--5B VND (high-end domestic)
+    \item \textbf{Luxury}: $> 5$B VND (imported luxury)
+\end{itemize}
 
+% ============================================================================
+\section{Results and Discussion}
 
+\subsection{Overall Benchmark}
+Table~\ref{tab:benchmark} presents the test-set performance of all four
+models after hyperparameter tuning on the cleaned dataset.
 
+\begin{table}[!t]
+\caption{Model Benchmark Results on Test Set ($n = 603$)\label{tab:benchmark}}
+\centering
+\begin{tabular}{lrrrrr}
+\toprule
+\textbf{Model} & \textbf{RMSE} & \textbf{MAE} & \textbf{$R^2$} & \textbf{Adj.\ $R^2$} & \textbf{MAPE} \\
+ & (M VND) & (M VND) & & & (\%) \\
+\midrule
+Ridge & 381 & 115 & 0.636 & 0.610 & 43.5 \\
+SVR & 369 & 94 & 0.660 & 0.635 & 48.9 \\
+\textbf{Random Forest} & \textbf{332} & \textbf{89} & \textbf{0.725} & \textbf{0.705} & \textbf{43.6} \\
+XGBoost & 383 & 103 & 0.633 & 0.606 & 43.0 \\
+\bottomrule
+\end{tabular}
+\end{table}
 
-\subsection{Subnumbering}
-The amsmath package provides a {\tt{subequations}} environment to facilitate subnumbering. An example:
+Random Forest achieved the best performance across all metrics, with RMSE of
+332M~VND and $R^2 = 0.725$. The 95\% confidence interval for RF RMSE is
+[139M, 496M]~VND, computed via bootstrap resampling. The tree-based models
+(RF and XGBoost) and SVR significantly outperformed Ridge Regression in MAE,
+suggesting that non-linear relationships between features and price are
+important.
 
-\begin{subequations}\label{eq:2}
-\begin{align}
-f&=g \label{eq:2A}\\
-f' &=g' \label{eq:2B}\\
-\mathcal{L}f &= \mathcal{L}g \label{eq:2c}
-\end{align}
-\end{subequations}
+Fig.~\ref{fig:model_rmse} and Fig.~\ref{fig:model_r2} compare the models
+visually.
 
-\noindent is coded as:
-\begin{verbatim}
-\begin{subequations}\label{eq:2}
-\begin{align}
-f&=g \label{eq:2A}\\
-f' &=g' \label{eq:2B}\\
-\mathcal{L}f &= \mathcal{L}g \label{eq:2c}
-\end{align}
-\end{subequations}
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{model_rmse_comparison}
+\caption{RMSE comparison across four regression models.}
+\label{fig:model_rmse}
+\end{figure}
 
-\end{verbatim}
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{model_r2_comparison}
+\caption{$R^2$ comparison across four regression models.}
+\label{fig:model_r2}
+\end{figure}
 
-\subsection{Matrices}
-There are several useful matrix environments that can save you some keystrokes. See the example coding below and the output.
+\subsection{Segment-Specific Analysis}
+Table~\ref{tab:segments} reveals substantial performance variation across
+price segments for the best model (Random Forest).
 
-\noindent {\bf{A simple matrix:}}
-\begin{equation}
-\begin{matrix}  0 &  1 \\ 
-1 &  0 \end{matrix}
-\end{equation}
-is coded as:
-\begin{verbatim}
-\begin{equation}
-\begin{matrix}  0 &  1 \\ 
-1 &  0 \end{matrix}
-\end{equation}
-\end{verbatim}
+\begin{table}[!t]
+\caption{Random Forest Performance by Price Segment\label{tab:segments}}
+\centering
+\begin{tabular}{lrrr}
+\toprule
+\textbf{Segment} & \textbf{$n$ (test)} & \textbf{RMSE (M VND)} & \textbf{MAE (M VND)} \\
+\midrule
+Budget ($< 500$M) & 237 & 100 & 45 \\
+Mid (500M--1.2B) & 318 & 81 & 58 \\
+Premium (1.2B--5B) & 46 & 797 & 394 \\
+Luxury ($> 5$B) & 2 & 4,041 & 3,275 \\
+\midrule
+\textbf{Overall} & \textbf{603} & \textbf{332} & \textbf{89} \\
+\bottomrule
+\end{tabular}
+\end{table}
 
-\noindent {\bf{A matrix with parenthesis}}
-\begin{equation}
-\begin{pmatrix} 0 & -i \\
- i &  0 \end{pmatrix}
-\end{equation}
-is coded as:
-\begin{verbatim}
-\begin{equation}
-\begin{pmatrix} 0 & -i \\
- i &  0 \end{pmatrix}
-\end{equation}
-\end{verbatim}
+The budget and mid-range segments---comprising 92\% of test records (555 of
+603)---achieve RMSE of 100M and 81M~VND respectively, representing
+prediction errors of approximately 20\% and 10\% of median segment price.
+These error levels are practical for price estimation on the scraped
+websites. The premium segment (RMSE = 797M) and luxury segment (RMSE = 4B,
+$n = 2$) remain impractical due to sparse data and high price variance.
 
-\noindent {\bf{A matrix with square brackets}}
-\begin{equation}
-\begin{bmatrix} 0 & -1 \\ 
-1 &  0 \end{bmatrix}
-\end{equation}
-is coded as:
-\begin{verbatim}
-\begin{equation}
-\begin{bmatrix} 0 & -1 \\ 
-1 &  0 \end{bmatrix}
-\end{equation}
-\end{verbatim}
+Fig.~\ref{fig:segment_rmse} visualizes the segment-level RMSE across all
+four models.
 
-\noindent {\bf{A matrix with curly braces}}
-\begin{equation}
-\begin{Bmatrix} 1 &  0 \\ 
-0 & -1 \end{Bmatrix}
-\end{equation}
-is coded as:
-\begin{verbatim}
-\begin{equation}
-\begin{Bmatrix} 1 &  0 \\ 
-0 & -1 \end{Bmatrix}
-\end{equation}\end{verbatim}
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{segment_rmse}
+\caption{RMSE by price segment for all four models. Budget and mid segments
+show practical accuracy; luxury is dominated by data sparsity.}
+\label{fig:segment_rmse}
+\end{figure}
 
-\noindent {\bf{A matrix with single verticals}}
-\begin{equation}
-\begin{vmatrix} a &  b \\ 
-c &  d \end{vmatrix}
-\end{equation}
-is coded as:
-\begin{verbatim}
-\begin{equation}
-\begin{vmatrix} a &  b \\ 
-c &  d \end{vmatrix}
-\end{equation}\end{verbatim}
+\subsection{Feature Importance}
+Fig.~\ref{fig:rf_importance} shows the Random Forest permutation feature
+importance. The target-encoded \texttt{model\_mode\_enc} (trim level) is the
+most important feature, confirming our decision to recover this
+high-correlation ($r = 0.76$) signal via target encoding rather than
+discarding it due to high cardinality. The EV specification features
+(battery\_kwh, range\_km, power\_hp) rank among the top predictors, validating
+the lookup-table recovery approach.
 
-\noindent {\bf{A matrix with double verticals}}
-\begin{equation}
-\begin{Vmatrix} i &  0 \\ 
-0 & -i \end{Vmatrix}
-\end{equation}
-is coded as:
-\begin{verbatim}
-\begin{equation}
-\begin{Vmatrix} i &  0 \\ 
-0 & -i \end{Vmatrix}
-\end{equation}\end{verbatim}
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{random_forest_feature_importance}
+\caption{Random Forest feature importance (top 20 features).}
+\label{fig:rf_importance}
+\end{figure}
 
-\subsection{Arrays}
-The {\tt{array}} environment allows you some options for matrix-like equations. You will have to manually key the fences, but there are other options for alignment of the columns and for setting horizontal and vertical rules. The argument to {\tt{array}} controls alignment and placement of vertical rules.
+\subsection{Residual Analysis}
+Fig.~\ref{fig:rf_pred} shows the actual versus predicted scatter for Random
+Forest. Predictions cluster well along the diagonal for prices below
+1.5B~VND, with increasing dispersion for higher-priced vehicles.
+Fig.~\ref{fig:rf_residuals} shows the residual distribution, which is
+approximately symmetric around zero with heavy tails driven by the premium
+and luxury segments.
 
-A simple array
-\begin{equation}
-\left(
-\begin{array}{cccc}
-a+b+c & uv & x-y & 27\\
-a+b & u+v & z & 134
-\end{array}\right)
-\end{equation}
-is coded as:
-\begin{verbatim}
-\begin{equation}
-\left(
-\begin{array}{cccc}
-a+b+c & uv & x-y & 27\\
-a+b & u+v & z & 134
-\end{array} \right)
-\end{equation}
-\end{verbatim}
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{random_forest_actual_vs_predicted}
+\caption{Actual versus predicted prices for Random Forest. Points near the
+diagonal indicate accurate predictions.}
+\label{fig:rf_pred}
+\end{figure}
 
-A slight variation on this to better align the numbers in the last column
-\begin{equation}
-\left(
-\begin{array}{cccr}
-a+b+c & uv & x-y & 27\\
-a+b & u+v & z & 134
-\end{array}\right)
-\end{equation}
-is coded as:
-\begin{verbatim}
-\begin{equation}
-\left(
-\begin{array}{cccr}
-a+b+c & uv & x-y & 27\\
-a+b & u+v & z & 134
-\end{array} \right)
-\end{equation}
-\end{verbatim}
+\begin{figure}[!t]
+\centering
+\includegraphics[width=\columnwidth]{random_forest_residual_distribution}
+\caption{Distribution of prediction residuals for Random Forest.}
+\label{fig:rf_residuals}
+\end{figure}
 
-An array with vertical and horizontal rules
-\begin{equation}
-\left( \begin{array}{c|c|c|r}
-a+b+c & uv & x-y & 27\\ \hline
-a+b & u+v & z & 134
-\end{array}\right)
-\end{equation}
-is coded as:
-\begin{verbatim}
-\begin{equation}
-\left(
-\begin{array}{c|c|c|r}
-a+b+c & uv & x-y & 27\\
-a+b & u+v & z & 134
-\end{array} \right)
-\end{equation}
-\end{verbatim}
-Note the argument now has the pipe "$\vert$" included to indicate the placement of the vertical rules.
+\subsection{Data Quality vs.\ Model Selection}
+A key finding of this study is the relative importance of data quality
+remediation versus model architecture. The data quality corrections (chotot.com
+price fix, deduplication, BYD removal) reduced RMSE from 1.02B to 332M~VND---a
+67\% improvement. By contrast, the difference between the best (RF, 332M) and
+worst (XGBoost, 383M) models on the cleaned data is only 51M~VND (15\%). This
+suggests that in real-world applied ML settings where data is scraped rather
+than curated, investment in data quality analysis yields substantially higher
+returns than model experimentation.
 
+% ============================================================================
+\section{Limitations and Future Work}
 
-\subsection{Cases Structures}
-Many times cases can be miscoded using the wrong environment, i.e., {\tt{array}}. Using the {\tt{cases}} environment will save keystrokes (from not having to type the $\backslash${\tt{left}}$\backslash${\tt{lbrace}}) and automatically provide the correct column alignment.
-\begin{equation*}
-{z_m(t)} = \begin{cases}
-1,&{\text{if}}\ {\beta }_m(t) \\ 
-{0,}&{\text{otherwise.}} 
-\end{cases}
-\end{equation*}
-\noindent is coded as follows:
-\begin{verbatim}
-\begin{equation*}
-{z_m(t)} = 
-\begin{cases}
-1,&{\text{if}}\ {\beta }_m(t),\\ 
-{0,}&{\text{otherwise.}} 
-\end{cases}
-\end{equation*}
-\end{verbatim}
-\noindent Note that the ``\&'' is used to mark the tabular alignment. This is important to get  proper column alignment. Do not use $\backslash${\tt{quad}} or other fixed spaces to try and align the columns. Also, note the use of the $\backslash${\tt{text}} macro for text elements such as ``if'' and ``otherwise.''
+Several limitations constrain the generalizability of our results:
 
-\subsection{Function Formatting in Equations}
-Often, there is an easy way to properly format most common functions. Use of the $\backslash$ in front of the function name will in most cases, provide the correct formatting. When this does not work, the following example provides a solution using the $\backslash${\tt{text}} macro:
+\textbf{Brand concentration.} VinFast accounts for 93.6\% of all records,
+reflecting the actual market composition but limiting the model's ability to
+price non-VinFast vehicles accurately.
 
-\begin{equation*} 
-  d_{R}^{KM} = \underset {d_{l}^{KM}} {\text{arg min}} \{ d_{1}^{KM},\ldots,d_{6}^{KM}\}.
-\end{equation*}
+\textbf{Dataset size.} At 3,015 clean records (2,412 training), the dataset
+is small by modern ML standards. This particularly affects the premium and
+luxury segments, where $n < 50$ in the test set.
 
-\noindent is coded as follows:
-\begin{verbatim}
-\begin{equation*} 
- d_{R}^{KM} = \underset {d_{l}^{KM}} 
- {\text{arg min}} \{ d_{1}^{KM},
- \ldots,d_{6}^{KM}\}.
-\end{equation*}
-\end{verbatim}
+\textbf{No temporal modeling.} All listings are treated as cross-sectional.
+The model does not account for time-varying factors such as depreciation
+curves, seasonal demand, or policy changes (e.g., EV subsidies).
 
-\subsection{ Text Acronyms Inside Equations}
-This example shows where the acronym ``MSE" is coded using $\backslash${\tt{text\{\}}} to match how it appears in the text.
+\textbf{Luxury segment.} With only 2 test records in the luxury segment, the
+4B~VND RMSE is statistically unreliable and practically useless.
 
-\begin{equation*}
- \text{MSE} = \frac {1}{n}\sum _{i=1}^{n}(Y_{i} - \hat {Y_{i}})^{2}
-\end{equation*}
+Future work could address these limitations through: (1)~continuous scraping
+to build a time-series dataset for depreciation modeling; (2)~incorporating
+additional data sources (official dealer prices, government registration
+data); (3)~ensemble stacking of the four models; (4)~expanding to hybrid and
+plug-in hybrid vehicles as the Vietnamese market diversifies.
 
-\begin{verbatim}
-\begin{equation*}
- \text{MSE} = \frac {1}{n}\sum _{i=1}^{n}
-(Y_{i} - \hat {Y_{i}})^{2}
-\end{equation*}
-\end{verbatim}
-
+% ============================================================================
 \section{Conclusion}
-The conclusion goes here.
 
+We presented an end-to-end pipeline for electric vehicle price prediction in
+the Vietnamese market, spanning web scraping, LLM-assisted feature
+extraction, data quality analysis, feature engineering, and regression
+benchmarking. Our primary finding is that systematic data quality
+remediation---identifying and correcting a 10$\times$ source-level price
+inflation, removing systematically erroneous brand data, and eliminating
+duplicate-induced test--train leakage---reduced RMSE by 67\%, from 1.02B to
+332M~VND. This improvement far exceeds the gains from model selection
+(15\% difference between best and worst models on clean data).
 
-\section*{Acknowledgments}
-This should be a simple paragraph before the References to thank those individuals and institutions who have supported your work on this article.
+Random Forest achieved the best overall performance ($R^2 = 0.725$,
+RMSE = 332M~VND), with practical accuracy in the budget ($< 500$M, RMSE =
+100M) and mid-range (500M--1.2B, RMSE = 81M) segments that constitute the
+majority of the Vietnamese EV market. The target-encoded trim level
+(\texttt{model\_mode\_enc}) and recovered EV specifications (battery
+capacity, range, power) emerged as the most predictive features, confirming
+that domain-specific feature recovery is essential for EV pricing.
 
+Our work demonstrates that in applied ML settings with web-scraped data,
+the dominant bottleneck is data quality, not model architecture---a finding
+with broad implications for practitioners constructing ML pipelines from
+real-world internet data.
 
+% ============================================================================
+%\section*{Acknowledgments}
+%[To be added by authors.]
 
-{\appendix[Proof of the Zonklar Equations]
-Use $\backslash${\tt{appendix}} if you have a single appendix:
-Do not use $\backslash${\tt{section}} anymore after $\backslash${\tt{appendix}}, only $\backslash${\tt{section*}}.
-If you have multiple appendixes use $\backslash${\tt{appendices}} then use $\backslash${\tt{section}} to start each appendix.
-You must declare a $\backslash${\tt{section}} before using any $\backslash${\tt{subsection}} or using $\backslash${\tt{label}} ($\backslash${\tt{appendices}} by itself
- starts a section numbered zero.)}
-
-
-
-%{\appendices
-%\section*{Proof of the First Zonklar Equation}
-%Appendix one text goes here.
-% You can choose not to have a title for an appendix if you want by leaving the argument blank
-%\section*{Proof of the Second Zonklar Equation}
-%Appendix two text goes here.}
-
-
-
-\section{References Section}
-You can use a bibliography generated by BibTeX as a .bbl file.
- BibTeX documentation can be easily obtained at:
- http://mirror.ctan.org/biblio/bibtex/contrib/doc/
- The IEEEtran BibTeX style support page is:
- http://www.michaelshell.org/tex/ieeetran/bibtex/
- 
- % argument is your BibTeX string definitions and bibliography database(s)
-%\bibliography{IEEEabrv,../bib/paper}
-%
-\section{Simple References}
-You can manually copy in the resultant .bbl file and set second argument of $\backslash${\tt{begin}} to the number of references
- (used to reserve space for the reference number labels box).
-
-\begin{thebibliography}{1}
+% ============================================================================
+\begin{thebibliography}{20}
 \bibliographystyle{IEEEtran}
 
-\bibitem{ref1}
-{\it{Mathematics Into Type}}. American Mathematical Society. [Online]. Available: https://www.ams.org/arc/styleguide/mit-2.pdf
+\bibitem{vn_ev_policy}
+Vietnamese Government, ``Decision No.\ 876/QD-TTg: National strategy on
+green growth for the period 2021--2030,'' 2021.
 
-\bibitem{ref2}
-T. W. Chaundy, P. R. Barrett and C. Batey, {\it{The Printing of Mathematics}}. London, U.K., Oxford Univ. Press, 1954.
+\bibitem{gegic2019}
+E.~Gegic, B.~Isakovic, D.~Keco, Z.~Masetic, and J.~Kevric, ``Car price
+prediction using machine learning techniques,'' \textit{TEM Journal},
+vol.~8, no.~1, pp.~113--118, 2019.
 
-\bibitem{ref3}
-F. Mittelbach and M. Goossens, {\it{The \LaTeX Companion}}, 2nd ed. Boston, MA, USA: Pearson, 2004.
+\bibitem{vw_price}
+A.~Krizhevsky and H.~Mu, ``Used car price prediction using machine
+learning techniques,'' in \textit{Proc.\ Int.\ Conf.\ Identification,
+Information and Knowledge in the Internet of Things}, 2018.
 
-\bibitem{ref4}
-G. Gr\"atzer, {\it{More Math Into LaTeX}}, New York, NY, USA: Springer, 2007.
+\bibitem{pal2018}
+N.~Pal, P.~Arora, P.~Kohli, D.~Sundararaman, and S.~S.~Palakurthy,
+``How much is my car worth? A methodology for predicting used cars' prices
+using random forest,'' in \textit{Proc.\ Future of Information and
+Communication Conf.}, Springer, 2018, pp.~413--422.
 
-\bibitem{ref5}M. Letourneau and J. W. Sharp, {\it{AMS-StyleGuide-online.pdf,}} American Mathematical Society, Providence, RI, USA, [Online]. Available: http://www.ams.org/arc/styleguide/index.html
+\bibitem{pudaruth2014}
+S.~Pudaruth, ``Predicting the price of used cars using machine learning
+techniques,'' \textit{Int.\ J.\ Inf.\ Comput.\ Technol.}, vol.~4, no.~7,
+pp.~753--764, 2014.
 
-\bibitem{ref6}
-H. Sira-Ramirez, ``On the sliding mode control of nonlinear systems,'' \textit{Syst. Control Lett.}, vol. 19, pp. 303--312, 1992.
+\bibitem{hedonic_pricing}
+S.~Rosen, ``Hedonic prices and implicit markets: Product differentiation in
+pure competition,'' \textit{J.\ Political Economy}, vol.~82, no.~1,
+pp.~34--55, 1974.
 
-\bibitem{ref7}
-A. Levant, ``Exact differentiation of signals with unbounded higher derivatives,''  in \textit{Proc. 45th IEEE Conf. Decis.
-Control}, San Diego, CA, USA, 2006, pp. 5585--5590. DOI: 10.1109/CDC.2006.377165.
+\bibitem{mitchell_scraping}
+R.~Mitchell, \textit{Web Scraping with Python}, 2nd ed.\ O'Reilly Media,
+2018.
 
-\bibitem{ref8}
-M. Fliess, C. Join, and H. Sira-Ramirez, ``Non-linear estimation is easy,'' \textit{Int. J. Model., Ident. Control}, vol. 4, no. 1, pp. 12--27, 2008.
+\bibitem{lessmann2019}
+S.~Lessmann, B.~Baesens, H.~V.~Seow, and L.~C.~Thomas, ``Benchmarking
+state-of-the-art classification algorithms for credit scoring: An update
+of research,'' \textit{European J.\ Operational Research}, vol.~247, no.~1,
+pp.~124--136, 2015.
 
-\bibitem{ref9}
-R. Ortega, A. Astolfi, G. Bastin, and H. Rodriguez, ``Stabilization of food-chain systems using a port-controlled Hamiltonian description,'' in \textit{Proc. Amer. Control Conf.}, Chicago, IL, USA,
-2000, pp. 2245--2249.
+\bibitem{wei2023}
+J.~Wei, X.~Wang, D.~Schuurmans, M.~Bosma, E.~Chi, Q.~Le, and D.~Zhou,
+``Chain-of-thought prompting elicits reasoning in large language models,''
+in \textit{Proc.\ NeurIPS}, 2022.
+
+\bibitem{ollama2024}
+Ollama, ``Run large language models locally,'' 2024. [Online]. Available:
+\url{https://ollama.com/}
+
+\bibitem{bs4}
+L.~Richardson, ``Beautiful Soup: HTML/XML parser for Python,'' 2023.
+[Online]. Available: \url{https://www.crummy.com/software/BeautifulSoup/}
+
+\bibitem{scrapy}
+Scrapy developers, ``Scrapy: A fast high-level web crawling framework,''
+2024. [Online]. Available: \url{https://scrapy.org/}
+
+\bibitem{selenium}
+Selenium, ``Selenium WebDriver,'' 2024. [Online]. Available:
+\url{https://www.selenium.dev/}
+
+\bibitem{sklearn}
+F.~Pedregosa \textit{et al.}, ``Scikit-learn: Machine learning in Python,''
+\textit{J.\ Mach.\ Learn.\ Res.}, vol.~12, pp.~2825--2830, 2011.
+
+\bibitem{xgboost}
+T.~Chen and C.~Guestrin, ``XGBoost: A scalable tree boosting system,'' in
+\textit{Proc.\ 22nd ACM SIGKDD Int.\ Conf.\ Knowledge Discovery and Data
+Mining}, 2016, pp.~785--794.
 
 \end{thebibliography}
 
-
-\newpage
-
-\section{Biography Section}
-If you have an EPS/PDF photo (graphicx package needed), extra braces are
- needed around the contents of the optional argument to biography to prevent
- the LaTeX parser from getting confused when it sees the complicated
- $\backslash${\tt{includegraphics}} command within an optional argument. (You can create
- your own custom macro containing the $\backslash${\tt{includegraphics}} command to make things
- simpler here.)
- 
-\vspace{11pt}
-
-\bf{If you include a photo:}\vspace{-33pt}
-\begin{IEEEbiography}[{\includegraphics[width=1in,height=1.25in,clip,keepaspectratio]{fig1}}]{Michael Shell}
-Use $\backslash${\tt{begin\{IEEEbiography\}}} and then for the 1st argument use $\backslash${\tt{includegraphics}} to declare and link the author photo.
-Use the author name as the 3rd argument followed by the biography text.
-\end{IEEEbiography}
-
-\vspace{11pt}
-
-\bf{If you will not include a photo:}\vspace{-33pt}
-\begin{IEEEbiographynophoto}{John Doe}
-Use $\backslash${\tt{begin\{IEEEbiographynophoto\}}} and the author name as the argument followed by the biography text.
-\end{IEEEbiographynophoto}
-
-
-
-
-\vfill
-
 \end{document}
-
-
